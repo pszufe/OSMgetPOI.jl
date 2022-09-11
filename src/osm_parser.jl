@@ -37,8 +37,6 @@ function generate_temporary_file(filename::String, metadata::Dict{String, Dict{S
     output_filepath = get(file_metadata, "output_filepath", missing)
     input_filepath = get(file_metadata, "input_filepath", missing)
     generate_file = pipeline(`osmfilter $input_filepath $osm_query`, stdout = output_filepath)
-    print(osm_query)
-    print("\n")
     run(generate_file)
     return output_filepath
 end
