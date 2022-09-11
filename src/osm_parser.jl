@@ -51,7 +51,7 @@ and dictionary value is a vector of all osm objects from the file. A single obje
 * lat - latitude
 * lon - longitude
 * object_id - object type (node / way / relation)
-* id - object id from osm file
+* node_id - object id from osm file
 * [optional] tags - osm tags describing the object (type of this k-v pair is Dict{String, Dict{String, String}})
 * [optional] nodes - vector of nodes included in the way 
 * [optional] members - vector of members of the relation (type of this k-v pair is Dict{String, Vector{Dict{String, String}}})
