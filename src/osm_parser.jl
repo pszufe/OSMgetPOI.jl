@@ -50,10 +50,10 @@ High level function - parses .osm file and into a dictionary where the dictionar
 and dictionary value is a vector of all osm objects from the file. A single object is represented as a dictionary with following keys:
 * lat - latitude
 * lon - longitude
-* object - object type (node / way / relation)
+* object_id - object type (node / way / relation)
 * id - object id from osm file
 * [optional] tags - osm tags describing the object (type of this k-v pair is Dict{String, Dict{String, String}})
-* [optional] tags - vector of nodes included in the way 
+* [optional] nodes - vector of nodes included in the way 
 * [optional] members - vector of members of the relation (type of this k-v pair is Dict{String, Vector{Dict{String, String}}})
 """
 
