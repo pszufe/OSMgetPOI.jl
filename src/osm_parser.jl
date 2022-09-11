@@ -1,5 +1,8 @@
 using LightXML
 
+########################
+###Parsing .osm file ###
+########################
 
 function delete_version_tags!(dict::Dict{AbstractString, AbstractString})::Dict{String, Any}
     if haskey(dict, "version") delete!(dict, "version") end
@@ -51,7 +54,7 @@ and dictionary value is a vector of all osm objects from the file. A single obje
 * object - object type (node / way / relation)
 * id - object id from osm file
 * [optional] tags - osm tags describing the object (type of this k-v pair is Dict{String, Dict{String, String}})
-* [optional] nodes - vector of nodes included in the way 
+* [optional] nd - vector of nodes included in the way 
 * [optional] members - vector of members of the relation (type of this k-v pair is Dict{String, Vector{Dict{String, String}}})
 """
 
@@ -89,7 +92,7 @@ function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, Strin
                     if !(haskey(attr, "nd"))
                         attr["nd"] = Vector{String}()
                     end
-                    push!(attr["nd"], attributes["ref"])
+                    push!(attr["nd"], get(attributes, "ref", missing))
 
                 elseif cmp(LightXML.name(c2), "member") == 0
                     if !(haskey(attr, "members"))

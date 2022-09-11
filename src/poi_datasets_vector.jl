@@ -78,12 +78,12 @@ function get_poi_types(metadata::Dict{String, Dict{String, String}})::Tuple{Vect
 end
 
 
-###One should think if they want to take the first node to obrain lat-lon or maybe calculate an average
+###One should think if they want to take the first node to obrain lat-lon (current solution) or maybe calculate an average
 
 """
     create_poi_dataset(object_data::Dict{String, Vector{Dict{String, Any}}}, primary_type::String, subtype::String)::Vector{Dict{String, Any}}
 
-Auxilary function - it takes one raw dataset as an argument and returns a processed dataset with the POIs.
+Auxilary function - it takes one raw dataset (output of osm_to_dict) as an argument and returns a processed dataset with the POIs.
 The processed dataset is a vector of POIs. Each POI is represented by a dictionary with the following keys:
 * primaty_type - extracted from using a function get_poi_types
 * subtype - extracted from using a function get_poi_types
