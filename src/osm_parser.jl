@@ -1,22 +1,33 @@
 using LightXML
+include("types.jl")
 
 ########################
 ###Parsing .osm file ###
 ########################
 
-function delete_version_tags!(dict::Dict{AbstractString, AbstractString})::Dict{String, Any}
+"""
+    delete_version_tags!(dict::Dict{AbstractString, AbstractString})::Dict{String, String}
+    dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name(c))::Dict{String, String}
+    process_attributes(dict::Dict{String, String})::Dict{String, Union{Int, String}}
+    assign_attr_to_poi_object!(poi::POIObject, attr::Dict{String, String})
+
+Auxilary functions used in osm_to_dict to parse .osm file.
+
+"""
+
+function delete_version_tags!(dict::Dict{AbstractString, AbstractString})::Dict{String, String}
     if haskey(dict, "version") delete!(dict, "version") end
     return dict
 end
 
-function dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name(c))::Dict{String, Any}
+function dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name(c))::Dict{String, String}
     attr = LightXML.attributes_dict(c)
     delete_version_tags!(attr)
     attr["object"] = name
     return attr
 end
 
-function process_attributes(dict::Dict{String, Any})::Dict{String, Any}
+function process_attributes(dict::Dict{String, String})::Dict{String, Union{Int, String}}
     if cmp(get(dict, "object", missing), "tag") == 0
         key = get(dict, "k", missing)
         value = get(dict, "v", missing)
@@ -24,15 +35,37 @@ function process_attributes(dict::Dict{String, Any})::Dict{String, Any}
     
     elseif cmp(get(dict, "object", missing), "nd") == 0
         key = "ref"
-        value = get(dict, "ref", missing)
+        value = parse(Int, get(dict, "ref", missing))
         res = Dict(key => value)
 
     elseif cmp(get(dict, "object", missing), "member") == 0
         res = delete!(dict, "object")
     end
-
+    
     return res
 end
+
+function assign_attr_to_poi_object!(poi::POIObject, attr::Dict{String, String})
+    poi.object_id = parse(Int, get(attr, "id", missing))
+    poi.object_type = get(attr, "object", missing)
+    if cmp(poi.object_type, "node") == 0
+        poi.lat = parse(Float64, get(attr, "lat", 0))
+        poi.lon = parse(Float64, get(attr, "lon", 0))
+    end
+    return poi
+end
+
+
+"""
+    generate_temporary_file(filename::String, metadata::Dict{String, Dict{String, String}})
+
+Auxilary function - it generates a temporary file for further processing and returns a filepath of this file
+Arguments:
+- filename - name of the temporary file thich is to be generated
+- metadata - a metadata generated from function create_poi_metadata from src/poi_metadata.jl 
+
+"""
+
 
 function generate_temporary_file(filename::String, metadata::Dict{String, Dict{String, String}})
     file_metadata = get(metadata, filename, missing)
@@ -47,20 +80,18 @@ end
 """
     osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}}, excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{Dict{String, Any}}}
 
-High level function - parses .osm file and into a dictionary where the dictionary key is a name of a temporary file,
-and dictionary value is a vector of all osm objects from the file. A single object is represented as a dictionary with following keys:
-* lat - latitude
-* lon - longitude
-* object - object type (node / way / relation)
-* id - object id from osm file
-* [optional] tags - osm tags describing the object (type of this k-v pair is Dict{String, Dict{String, String}})
-* [optional] nd - vector of nodes included in the way 
-* [optional] members - vector of members of the relation (type of this k-v pair is Dict{String, Vector{Dict{String, String}}})
+Auxilary function - parses .osm file and returns a dictionary whose key is a name of a parsed temporary file,
+and value is a vector of parsed POIs. A single POI is represented as a POIObject type which is a mutable struct
+with fields defined in src/types.jl.
+Arguments:
+- filename - the name of the .osm file that the function parses (e.g. beijing.osm)
+- metadata - a metadata generated from function create_poi_metadata from src/poi_metadata.jl 
+- excluded_keywords - keywords excluded from parsing 
 """
 
 
 function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}},
-                    excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{Dict{String, Any}}}
+                    excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{POIObject}}
     
     #generate temporary file
     output_filepath = generate_temporary_file(filename, metadata)
@@ -68,40 +99,36 @@ function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, Strin
     #processing of .osm file
     osm = LightXML.parse_file(output_filepath)
     rootnode = LightXML.root(osm)
-    res = Vector{Dict{String, Any}}()
+    res = Vector{POIObject}()
+
     for c in child_elements(rootnode)
         name = LightXML.name(c)
         attr = dict_of_attributes(c)
-        
+        poi = POIObject()
+
         if name ∉ excluded_keywords && !has_children(c)
-            push!(res, attr)
+            assign_attr_to_poi_object!(poi, attr)
+            push!(res, poi)
 
         elseif name ∉ excluded_keywords && has_children(c)
+            assign_attr_to_poi_object!(poi, attr)
             
             for c2 in child_elements(c)
                 raw_attributes = dict_of_attributes(c2)
                 attributes = process_attributes(raw_attributes)
 
                 if cmp(LightXML.name(c2), "tag") == 0
-                    if !(haskey(attr, "tags"))
-                        attr["tags"] = Dict{String, Any}()
-                    end
-                    merge!(attr["tags"], attributes)
+                    poi.has_tags = true
+                    merge!(poi.tags, attributes)
 
                 elseif cmp(LightXML.name(c2), "nd") == 0
-                    if !(haskey(attr, "nd"))
-                        attr["nd"] = Vector{String}()
-                    end
-                    push!(attr["nd"], get(attributes, "ref", missing))
+                    push!(poi.nodes, get(attributes, "ref", missing))
 
                 elseif cmp(LightXML.name(c2), "member") == 0
-                    if !(haskey(attr, "members"))
-                        attr["members"] = Vector{Dict{String, Any}}()
-                    end
-                    push!(attr["members"], attributes)
+                    push!(poi.members, attributes)
                 end
             end
-            push!(res, attr)
+            push!(res, poi)
             
         end
     end
@@ -109,6 +136,6 @@ function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, Strin
     #deleting the temporary file
     run(`rm -f $output_filepath`) 
     
-    return Dict{String, Vector{Dict{String, Any}}}(filename => res)
-    
+    return Dict{String, Vector{POIObject}}(filename => res)
+
 end

@@ -1,1 +1,3 @@
 *.osm
+debug.jl
+test.ipynb

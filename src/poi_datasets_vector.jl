@@ -6,63 +6,99 @@ include("poi_metadata.jl")
 ##Creating vector of processed POIs for a selected city##
 #########################################################
 
+"""
+    get_coordinates_of_way(object_data::Vector{POIObject}, way::POIObject)::Dict{String, Float64}
 
-function get_coordinates(object_data::Vector{Dict{String, Any}}, node_id::String)::Dict{String, Any}
-    res = Dict{String, Any}()
-    for node in object_data
-        if cmp(get(node, "id", missing), node_id) == 0
-            res["lat"] = get(node, "lat", missing)
-            res["lon"] = get(node, "lon", missing)
-            break
+Auxilary function used inside get_coordinates function.
+"""
+
+function get_coordinates_of_way(object_data::Vector{POIObject}, way::POIObject)::Dict{String, Float64}
+    res = Dict{String, Float64}()
+    if !isempty(way.nodes)
+        for node_id in way.nodes
+            for node in object_data
+                if node.object_id == node_id
+                    res["lat"] = node.lat
+                    res["lon"] = node.lon
+                    return res
+                end
+            end
+        end
+    else
+        res["lat"] = 0
+        res["lon"] = 0
+        return res
+    end
+end
+
+"""
+    get_coordinates(object_data::Vector{POIObject}, element::POIObject)::Dict{String, Float64}
+
+Auxilary function - it returns lat and lon coordinates of a POI object. If not found, then they are 0.
+Arguments: 
+- object_data - a vector of POI objects in which an element is located
+- element - a POI object for which the coordinates are to be found
+"""
+
+function get_coordinates(object_data::Vector{POIObject}, element::POIObject)::Dict{String, Float64}
+    res = Dict{String, Float64}()
+    
+    if cmp(element.object_type, "node") == 0
+        res["lat"] = element.lat
+        res["lon"] = element.lon
+        return res
+    
+    elseif cmp(element.object_type, "way") == 0
+        res = get_coordinates_of_way(object_data, element)
+        return res
+
+    elseif cmp(element.object_type, "relation") == 0 
+        if isempty(element.members)
+            res["lat"] = 0
+            res["lon"] = 0
+            return res
         else
-            res["lat"] = "NA"
-            res["lon"] = "NA"
+            for member in element.members
+                member_id = parse(Int, get(member, "ref", missing))
+                for member_element in object_data
+                    if member_element.object_id == member_id
+                        if cmp(member_element.object_type, "node") == 0
+                            res["lat"] = element.lat
+                            res["lon"] = element.lon
+                            return res
+                        elseif cmp(member_element.object_type, "way") == 0
+                            res = get_coordinates_of_way(object_data, element)
+                            return res
+                        end
+                    end
+                end
+            end
         end
     end
     return res
 end
 
+"""
+    get_data_vector(metadata::Dict{String, Dict{String, String}})::Vector{Dict{String, Vector{POIObject}}}
+Auxilary function - it returns a vector of dictionaries - each of them being generated 
+using osm_to_dict function from src/osm_parser.jl. The number of elements of dictionary depends on the metadata.
+Arguments:
+- metadata - metadata dictionary generated using function create_poi_metadata from src/poi_metadata.jl
+"""
 
-function id_of_first_node(way::Dict{String, Any})::String
-    if haskey(way, "nd")
-        nodes = get(way, "nd", missing)
-        node_id = nodes[1]
-        return node_id
-    else
-        return "NA"
-    end
-end
-
-
-function get_node_id(object_data::Vector{Dict{String, Any}}, element::Dict{String, Any})::String
-    
-    if cmp(get(element, "object", missing), "way") == 0 
-        node_id = id_of_first_node(element)
-
-    elseif cmp(get(element, "object", missing), "relation") == 0 
-        if haskey(element, "members")
-            members = get(element, "members", missing)
-            member = members[1]
-            way_id = get(member, "ref", missing)
-            local node_id
-            for way in object_data
-                if cmp(get(way, "id", missing), way_id) == 0
-                    node_id = id_of_first_node(way)
-                    break
-                end
-            end
-        end
-    end
-    return node_id
-end
-
-
-function get_data_vector(metadata::Dict{String, Dict{String, String}})::Vector{Dict{String, Vector{Dict{String, Any}}}}
+function get_data_vector(metadata::Dict{String, Dict{String, String}})::Vector{Dict{String, Vector{POIObject}}}
     datasets = collect(keys(metadata))
     res = map(x -> osm_to_dict(x, metadata), datasets)
     return res
 end
 
+"""
+    get_poi_types(metadata::Dict{String, Dict{String, String}})::Tuple{Vector{String}, Vector{String}}
+
+Auxilary funtion - it returns a tuple of vectors - each vector representing primary_types or subtypes extrcted from a metadata dictionary.
+Arguments:
+- metadata - metadata dictionary generated using function create_poi_metadata from src/poi_metadata.jl
+"""
 
 function get_poi_types(metadata::Dict{String, Dict{String, String}})::Tuple{Vector{String}, Vector{String}}
     
@@ -81,38 +117,39 @@ end
 ###One should think if they want to take the first node to obrain lat-lon (current solution) or maybe calculate an average
 
 """
-    create_poi_dataset(object_data::Dict{String, Vector{Dict{String, Any}}}, primary_type::String, subtype::String)::Vector{Dict{String, Any}}
+    create_poi_dataset(object_data::Dict{String, Vector{POIObject}}, primary_type::String, subtype::String)::Vector{ProcessedPOI}
 
-Auxilary function - it takes one raw dataset (output of osm_to_dict) as an argument and returns a processed dataset with the POIs.
-The processed dataset is a vector of POIs. Each POI is represented by a dictionary with the following keys:
-* primaty_type - extracted from using a function get_poi_types
-* subtype - extracted from using a function get_poi_types
-* object_id - id of an object
-* node_id - it is an id of the node, for which lat-lon coordinates are taken
-* tags - additional tags that describe the POI
-* lat - latitude
-* lon - longitude
+Auxilary function - it returns a processed dataset (vector of elements of type ProcessedPOI) 
+with the POIs of one type (primary_type and subtype).
+Arguments:
+- object_data - it is a raw parsed set of POI objects (output of osm_to_dict)
+- primary_type - this is a primary type that will be assigned to the processed POIs
+- subtype - this is a subtype that will be assigned to the processed POIs
 
 """
 
 
-function create_poi_dataset(object_data::Dict{String, Vector{Dict{String, Any}}}, primary_type::String, subtype::String)::Vector{Dict{String, Any}}
-    
+function create_poi_dataset(object_data::Dict{String, Vector{POIObject}}, primary_type::String, subtype::String)::Vector{ProcessedPOI}
+
+    #get the Vector{ProcessedPOI} generated from osm_to_dict
     data = get(object_data, collect(keys(object_data))[1], missing)
     
-    res = Dict{String, Any}[]
-    for element in data
+    res = Vector{ProcessedPOI}()
+    for poi in data
+
         #if the element (object) has tags and it is either a way or a relation
-        if haskey(element, "tags") && (cmp(get(element, "object", missing), "way") == 0 || cmp(get(element, "object", missing), "relation") == 0)
-            
-            object_id = get(element, "id", missing)
-            tags = get(element, "tags", missing)
-            node_id = get_node_id(data, element)
-            object = Dict{String, Any}("primary_type" => primary_type, "subtype" => subtype, "object_id" => object_id, "node_id" => node_id, "tags" => tags)
-            coordinates = get_coordinates(data, node_id)
-            merge!(object, coordinates)
-            push!(res, object)
-            
+        if poi.has_tags == true
+            processed_poi = ProcessedPOI()
+            processed_poi.object_id = poi.object_id
+            processed_poi.tags = poi.tags
+            processed_poi.primary_type = primary_type
+            processed_poi.subtype = subtype
+            coordinates = get_coordinates(data, poi)
+            processed_poi.lat = get(coordinates, "lat", 0)
+            processed_poi.lon = get(coordinates, "lon", 0)
+            if processed_poi.lat != 0 && processed_poi.lon != 0
+                push!(res, processed_poi)
+            end
         end
     end
     return res
@@ -120,19 +157,25 @@ end
 
 
 """
-    generate_poi_vectors(city::String, metadata::Dict{String, Dict{String, String}} = poidict)::Vector{Vector{Dict{String, Any}}}
+generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")::Vector{Vector{ProcessedPOI}}
 
-High level function - it takes a city as an argument and returns the vector of processed poi datasets
-(each dataset is a separate element of the vector). The function works in the following way step by step:
+High level function - returns the vector of processed poi datasets. 
+Each dataset is from a different type and subtype and is represented by a vector of processed POIs.
+Arguments:
+- osm_filename - name of .osm file from which the POIs are processed and generated
+- poi_config - a JSON file with configuration of the POIs that are to be generated.
+
+The function works in the following way step by step:
 1. It creates the metadata for a desired .osm file, based on JSON dictionary with config.
-2. It creates a vector of raw datasets for each of the files from metadata. 
+2. It creates a vector of raw datasets for each of the files from metadata.
 The datasets are generated using the osm_to_dict function from `src/osm_parser.jl`.
-3. It transforms each raw dataset (each element of the vector) to the processed dataset with POis using a function generate_poi_dataset.
+3. It creates vectors of primary_types and subtypes based on the metadata.
+4. It transforms each raw dataset (each element of the vector) to the processed dataset with POis using a function generate_poi_dataset.
 
 """
 
 
-function generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")::Vector{Vector{Dict{String, Any}}}
+function generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")::Vector{Vector{ProcessedPOI}}
 
     metadata = create_poi_metadata(osm_filename, poi_config)
     object_data_vector = get_data_vector(metadata)

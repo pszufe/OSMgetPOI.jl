@@ -4,6 +4,7 @@ include("poi_metadata.jl")
 include("osm_parser.jl")
 include("poi_datasets_vector.jl")
 include("dataframe.jl")
+include("types.jl")
 
 
 using DataFrames

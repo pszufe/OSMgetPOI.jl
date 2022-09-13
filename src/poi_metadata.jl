@@ -7,8 +7,12 @@ using JSON3
 """
     create_poi_metadata(json_filename::String, dir::String = "datasets")::Dict{String, Dict{String, String}}
 
-Auxilary function - the arguments are a .osm filename, .json filename and a directory where the json and .osm files are located.
-The function returns a dictionary with metadata which is used in other functions. 
+Auxilary function - it returns a dictionary of metadata which is used as an argument in several other functions.
+Arguments:
+- json_filename - a JSON file where the types and subtypes of POIs are configured (check datasets/POI_config.json as an example)
+- dir - a directory where the the JSON file is located and where the .osm files are located.
+
+Description of returned metadata dictionary:
 The keys of the dictionary are the names of temporary files which are used to obtain POIs using function osm_to_dict from src/osm_parser.
 The values are dictionaries of metadata for each of the temporary files, in the following form:
 Dict("primary_type" => primary_type, "subtype" => subtype, "city" => city, "input_filepath" => input_filepath, "osm_query" => osm_query, "output_filepath" => output_filepath)
