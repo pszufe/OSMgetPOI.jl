@@ -1,20 +1,16 @@
-include("poi_datasets_vector.jl")
 using DataFrames
-
 
 #################################################################################
 #Creating dataframe from one vector of processed POIs (only one type)############
 #################################################################################
 
-
 """
-    columns(processed_objects::Vector{ProcessedPOI)::Vector{String}
+    columns(processed_objects::Vector{ProcessedPOI})::Vector{String}
 
 Auxilary function - it returns a vector of all distinct osm tag keys whichare used as colnames of the df.
 Arguments:
 - processed_objects - vector of processed POIs of one type (output of create_poi_dataset function)
 """
-
 function columns(processed_objects::Vector{ProcessedPOI})::Vector{String}
     column_list = String[]
     for element in processed_objects
@@ -37,7 +33,6 @@ Arguments:
 - processed_objects - vector of processed pois of one type (output of create_poi_dataset)
 - df_columns - vector of column names for the dataframe (output of columns function) 
 """
-
 function create_df(processed_objects::Vector{ProcessedPOI}, df_columns::Vector{String} = String[])::DataFrame
     if length(df_columns) == 0
         column_list = columns(processed_objects)
@@ -66,19 +61,17 @@ function create_df(processed_objects::Vector{ProcessedPOI}, df_columns::Vector{S
 end
 
 
-
 ###########################################################################################
 #Creating a dataframe from all vectors of POIs (output of generate_poi_vectors function)###
 ###########################################################################################
 
 """
-columns_in_poi_vector(processed_objects_vector::Vector{Vector{ProcessedPOI}})::Vector{String}
+    columns_in_poi_vector(processed_objects_vector::Vector{Vector{ProcessedPOI}})::Vector{String}
 
 Auxilary function - it returns a vector of all distinct osm tag keys which are used as column names of the df.
 Arguments:
 - processed_objects_vector - vector of processed pois of all types (output of generate_poi_vectors)
 """
-
 function columns_in_poi_vector(processed_objects_vector::Vector{Vector{ProcessedPOI}})::Vector{String}
     all_columns = String[]
     for element in processed_objects_vector
@@ -96,6 +89,7 @@ function columns_in_poi_vector(processed_objects_vector::Vector{Vector{Processed
     return all_columns
 end
 
+
 """
     create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}})::DataFrame
 
@@ -103,7 +97,6 @@ Main function - it returns the dataframe of all POIs of all primary_types and su
 Arguments:
 - processed_objects_vector - the vector of processed pois of all types (output of generate_poi_vectors)
 """
-
 function create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}})::DataFrame
     res_df = DataFrame()
     for element in processed_objects_vector
@@ -128,7 +121,6 @@ Arguments:
 - dframe - a DataFrame with POIs
 - threshold - a minimal fraction of non-missing values in a column 
 """
-
 function filter_columns(dframe::DataFrame, threshold::Float64 = 0.5)
     df = dframe
     for n in names(df)

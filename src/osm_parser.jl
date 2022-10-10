@@ -1,5 +1,4 @@
 using LightXML
-include("types.jl")
 
 ########################
 ###Parsing .osm file ###
@@ -7,19 +6,20 @@ include("types.jl")
 
 """
     delete_version_tags!(dict::Dict{AbstractString, AbstractString})::Dict{String, String}
-    dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name(c))::Dict{String, String}
-    process_attributes(dict::Dict{String, String})::Dict{String, Union{Int, String}}
-    assign_attr_to_poi_object!(poi::POIObject, attr::Dict{String, String})
 
-Auxilary functions used in osm_to_dict to parse .osm file.
-
+Auxilary function used in osm_to_dict to parse .osm file.
 """
-
 function delete_version_tags!(dict::Dict{AbstractString, AbstractString})::Dict{String, String}
     if haskey(dict, "version") delete!(dict, "version") end
     return dict
 end
 
+
+"""
+    dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name(c))::Dict{String, String}
+
+Auxilary function used in osm_to_dict to parse .osm file.
+"""
 function dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name(c))::Dict{String, String}
     attr = LightXML.attributes_dict(c)
     delete_version_tags!(attr)
@@ -27,6 +27,12 @@ function dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name
     return attr
 end
 
+
+"""
+    process_attributes(dict::Dict{String, String})::Dict{String, Union{Int, String}}
+
+Auxilary function used in osm_to_dict to parse .osm file.
+"""
 function process_attributes(dict::Dict{String, String})::Dict{String, Union{Int, String}}
     if cmp(get(dict, "object", missing), "tag") == 0
         key = get(dict, "k", missing)
@@ -45,6 +51,12 @@ function process_attributes(dict::Dict{String, String})::Dict{String, Union{Int,
     return res
 end
 
+
+"""
+    assign_attr_to_poi_object!(poi::POIObject, attr::Dict{String, String})
+
+Auxilary function used in osm_to_dict to parse .osm file.
+"""
 function assign_attr_to_poi_object!(poi::POIObject, attr::Dict{String, String})
     poi.object_id = parse(Int, get(attr, "id", missing))
     poi.object_type = get(attr, "object", missing)
@@ -65,8 +77,6 @@ Arguments:
 - metadata - a metadata generated from function create_poi_metadata from src/poi_metadata.jl 
 
 """
-
-
 function generate_temporary_file(filename::String, metadata::Dict{String, Dict{String, String}})
     file_metadata = get(metadata, filename, missing)
     osm_query = get(file_metadata, "osm_query", missing)
@@ -76,6 +86,7 @@ function generate_temporary_file(filename::String, metadata::Dict{String, Dict{S
     run(generate_file)
     return output_filepath
 end
+
 
 """
     osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}}, excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{Dict{String, Any}}}
@@ -88,8 +99,6 @@ Arguments:
 - metadata - a metadata generated from function create_poi_metadata from src/poi_metadata.jl 
 - excluded_keywords - keywords excluded from parsing 
 """
-
-
 function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}},
                     excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{POIObject}}
     

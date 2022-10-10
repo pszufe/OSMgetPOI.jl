@@ -1,7 +1,3 @@
-include("osm_parser.jl")
-include("poi_metadata.jl")
-
-
 #########################################################
 ##Creating vector of processed POIs for a selected city##
 #########################################################
@@ -11,7 +7,6 @@ include("poi_metadata.jl")
 
 Auxilary function used inside get_coordinates function.
 """
-
 function get_coordinates_of_way(object_data::Vector{POIObject}, way::POIObject)::Dict{String, Float64}
     res = Dict{String, Float64}()
     if !isempty(way.nodes)
@@ -31,6 +26,7 @@ function get_coordinates_of_way(object_data::Vector{POIObject}, way::POIObject):
     end
 end
 
+
 """
     get_coordinates(object_data::Vector{POIObject}, element::POIObject)::Dict{String, Float64}
 
@@ -39,7 +35,6 @@ Arguments:
 - object_data - a vector of POI objects in which an element is located
 - element - a POI object for which the coordinates are to be found
 """
-
 function get_coordinates(object_data::Vector{POIObject}, element::POIObject)::Dict{String, Float64}
     res = Dict{String, Float64}()
     
@@ -78,19 +73,21 @@ function get_coordinates(object_data::Vector{POIObject}, element::POIObject)::Di
     return res
 end
 
+
 """
     get_data_vector(metadata::Dict{String, Dict{String, String}})::Vector{Dict{String, Vector{POIObject}}}
+    
 Auxilary function - it returns a vector of dictionaries - each of them being generated 
 using osm_to_dict function from src/osm_parser.jl. The number of elements of dictionary depends on the metadata.
 Arguments:
 - metadata - metadata dictionary generated using function create_poi_metadata from src/poi_metadata.jl
 """
-
 function get_data_vector(metadata::Dict{String, Dict{String, String}})::Vector{Dict{String, Vector{POIObject}}}
     datasets = collect(keys(metadata))
     res = map(x -> osm_to_dict(x, metadata), datasets)
     return res
 end
+
 
 """
     get_poi_types(metadata::Dict{String, Dict{String, String}})::Tuple{Vector{String}, Vector{String}}
@@ -99,7 +96,6 @@ Auxilary funtion - it returns a tuple of vectors - each vector representing prim
 Arguments:
 - metadata - metadata dictionary generated using function create_poi_metadata from src/poi_metadata.jl
 """
-
 function get_poi_types(metadata::Dict{String, Dict{String, String}})::Tuple{Vector{String}, Vector{String}}
     
     primary_type_vector = String[]
@@ -115,7 +111,6 @@ end
 
 
 ###One should think if they want to take the first node to obrain lat-lon (current solution) or maybe calculate an average
-
 """
     create_poi_dataset(object_data::Dict{String, Vector{POIObject}}, primary_type::String, subtype::String)::Vector{ProcessedPOI}
 
@@ -127,8 +122,6 @@ Arguments:
 - subtype - this is a subtype that will be assigned to the processed POIs
 
 """
-
-
 function create_poi_dataset(object_data::Dict{String, Vector{POIObject}}, primary_type::String, subtype::String)::Vector{ProcessedPOI}
 
     #get the Vector{ProcessedPOI} generated from osm_to_dict
@@ -157,7 +150,7 @@ end
 
 
 """
-generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")::Vector{Vector{ProcessedPOI}}
+    generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")
 
 High level function - returns the vector of processed poi datasets. 
 Each dataset is from a different type and subtype and is represented by a vector of processed POIs.
@@ -171,10 +164,7 @@ The function works in the following way step by step:
 The datasets are generated using the osm_to_dict function from `src/osm_parser.jl`.
 3. It creates vectors of primary_types and subtypes based on the metadata.
 4. It transforms each raw dataset (each element of the vector) to the processed dataset with POis using a function generate_poi_dataset.
-
 """
-
-
 function generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")::Vector{Vector{ProcessedPOI}}
 
     metadata = create_poi_metadata(osm_filename, poi_config)
