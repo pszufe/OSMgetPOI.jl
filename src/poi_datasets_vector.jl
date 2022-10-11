@@ -130,7 +130,7 @@ function create_poi_dataset(object_data::Dict{String, Vector{POIObject}}, primar
     res = Vector{ProcessedPOI}()
     for poi in data
 
-        #if the element (object) has tags and it is either a way or a relation
+        #if the element (object) has tags 
         if poi.has_tags == true
             processed_poi = ProcessedPOI()
             processed_poi.object_id = poi.object_id
