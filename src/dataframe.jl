@@ -113,7 +113,7 @@ end
 #######################################################################################################
 
 """
-    filter_columns(dframe::DataFrame, threshold::Float64 = 0.5)::DataFrame
+    filter_columns_by_threshold(dframe::DataFrame, threshold::Float64 = 0.5)::DataFrame
 
 Main function - it filters columns of the poi dataframe and returns a dataframe with those columns,
 whose fraction of non-missing values exceeds the threshold value
@@ -121,7 +121,7 @@ Arguments:
 - `dframe` - a DataFrame with POIs
 - `threshold` - a minimum fraction of non-missing values in a column 
 """
-function filter_columns(dframe::DataFrame, threshold::Float64 = 0.5)
+function filter_columns_by_threshold(dframe::DataFrame, threshold::Float64 = 0.5)
     df = dframe
     for n in names(df)
         count_of_non_missing = length(collect(dropmissing(df, n)[!, n]))
@@ -131,3 +131,29 @@ function filter_columns(dframe::DataFrame, threshold::Float64 = 0.5)
     end
     return df
 end
+
+"""
+    filter_columns_by_colnames(dframe::DataFrame, colnames::Vector{String} = String[])::DataFrame
+
+Main function - it filters columns of the poi dataframe and returns dataframe with defined colnames
+Arguments:
+- `dframe` - a DataFrame with POIs
+- `colnames` - vector of columns in output dataframe
+"""
+function filter_columns_by_colnames(dframe::DataFrame, colnames::Vector{String} = String[])
+    df = DataFrame()
+    column_names = ["primary_type", "subtype", "lat", "lon"]
+    for name in colnames
+        if !(name in column_names)
+            push!(column_names, name)
+        end
+    end
+    for column in column_names
+        if column in names(dframe)
+            df."new_col" = dframe[!, "$column"]
+            rename!(df, "new_col" => "$column")
+        end
+    end
+    return df
+end
+

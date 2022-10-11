@@ -54,5 +54,6 @@ create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}})
 Filtering dataframe columns
 ---------------------------
 ```@docs
-filter_columns(dframe::DataFrame, threshold::Float64 = 0.5)
+filter_columns_by_threshold(dframe::DataFrame, threshold::Float64 = 0.5)
+filter_columns_by_colnames(dframe::DataFrame, colnames::Vector{String} = String[])
 ```

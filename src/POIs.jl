@@ -3,7 +3,7 @@ module POIs
 using DataFrames
 using LightXML
 using JSON3
-export filter_columns, create_poi_df, generate_poi_vectors #functions
+export filter_columns_by_colnames, filter_columns_by_threshold, create_poi_df, generate_poi_vectors #functions
 
 include("types.jl")
 include("osm_parser.jl")
