@@ -1,3 +1,10 @@
+## Documentation
+To check Documenter.jl documentation, please open the POIs directory and run the following shell commands:
+```
+cd docs
+julia make.jl
+julia -e 'using LiveServer; serve(dir="build")'
+```
 
 ## Basic description of the repository
 The project consists of 3 main parts:

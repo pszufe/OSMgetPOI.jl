@@ -5,24 +5,27 @@ using JSON3
 ######################################################
 
 """
-    create_poi_metadata(osm_filename::String, json_filename::String, dir::String = "datasets")
+    create_poi_metadata(osm_filename::String, json_filename::String, dir::String = "datasets")::Dict{String, Dict{String, String}}
 
 Auxilary function - it returns a dictionary of metadata which is used as an argument in several other functions.
 Arguments:
-- json_filename - a JSON file where the types and subtypes of POIs are configured (check datasets/POI_config.json as an example)
-- dir - a directory where the the JSON file is located and where the .osm files are located.
+- `osm_filename` - an .osm filename located in `dir` directory
+- `json_filename` - a JSON file where the types and subtypes of POIs are configured (check `datasets/POI_config.json` as an example)
+- `dir` - a directory where the the JSON file is located and where the .osm files are located.
 
-Description of returned metadata dictionary:
-The keys of the dictionary are the names of temporary files which are used to obtain POIs using function osm_to_dict from src/osm_parser.
-The values are dictionaries of metadata for each of the temporary files, in the following form:
-Dict("primary_type" => primary_type, "subtype" => subtype, "city" => city, "input_filepath" => input_filepath, "osm_query" => osm_query, "output_filepath" => output_filepath)
+Description of the returned metadata dictionary:
+- The keys of the dictionary are the names of temporary files which are used to obtain POIs using function `osm_to_dict` from `src/osm_parser`.
+- The values are dictionaries of metadata for each of the temporary files, in the following form:
+```
+`Dict("primary_type" => primary_type, "subtype" => subtype, "city" => city, "input_filepath" => input_filepath, "osm_query" => osm_query, "output_filepath" => output_filepath)`
+```
 The dictionary keys have the following meanings:
-- primary_type - primary_type taken from the JSON file
-- subrype - subtype taken from the JSON file
-- city - city name extracted from the name of the .osm file located in the 'dir' directory (e.g. if the file name is 'Beijing.osm', then the city is 'beijing')
-- input_filepath - it is used in osm_to_dict to locate the .osm file, which is processed with osm_filter
-- osm_query - this is a query to obtain the temporary file (e.g. --keep=amenity=school) from which POIs are extracted using function osm_to_dict from src/osm_parser.
-- output_filepath - this is the path to the temporary file which is created to extract the POIs from .osm file
+- `primary_type` - primary_type taken from the JSON file
+- `subtype` - subtype taken from the JSON file
+- `city` - city name extracted from the name of the .osm file located in the 'dir' directory (e.g. if the file name is 'Beijing.osm', then the city is 'beijing')
+- `input_filepath` - it is used in `osm_to_dict` to locate the .osm file, which is processed with osm_filter
+- `osm_query` - this is a query to obtain the temporary file (e.g. `--keep=amenity=school`) from which POIs are extracted using function `osm_to_dict` from `src/osm_parser`.
+- `output_filepath` - this is the path to the temporary file which is created to extract the POIs from .osm file
 """
 function create_poi_metadata(osm_filename::String, json_filename::String, dir::String = "datasets")::Dict{String, Dict{String, String}}
 

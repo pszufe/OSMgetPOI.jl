@@ -5,7 +5,7 @@
 """
     get_coordinates_of_way(object_data::Vector{POIObject}, way::POIObject)::Dict{String, Float64}
 
-Auxilary function used inside get_coordinates function.
+Auxilary function used inside `get_coordinates` function.
 """
 function get_coordinates_of_way(object_data::Vector{POIObject}, way::POIObject)::Dict{String, Float64}
     res = Dict{String, Float64}()
@@ -32,8 +32,8 @@ end
 
 Auxilary function - it returns lat and lon coordinates of a POI object. If not found, then they are 0.
 Arguments: 
-- object_data - a vector of POI objects in which an element is located
-- element - a POI object for which the coordinates are to be found
+- `object_data` - a vector of POI objects in which an element is located
+- `element` - a POI object for which the coordinates are to be found
 """
 function get_coordinates(object_data::Vector{POIObject}, element::POIObject)::Dict{String, Float64}
     res = Dict{String, Float64}()
@@ -78,9 +78,9 @@ end
     get_data_vector(metadata::Dict{String, Dict{String, String}})::Vector{Dict{String, Vector{POIObject}}}
     
 Auxilary function - it returns a vector of dictionaries - each of them being generated 
-using osm_to_dict function from src/osm_parser.jl. The number of elements of dictionary depends on the metadata.
+using `osm_to_dict` function from `src/osm_parser.jl`. The number of elements of dictionary depends on the metadata.
 Arguments:
-- metadata - metadata dictionary generated using function create_poi_metadata from src/poi_metadata.jl
+- `metadata` - metadata dictionary generated using function `create_poi_metadata` from `src/poi_metadata.jl`
 """
 function get_data_vector(metadata::Dict{String, Dict{String, String}})::Vector{Dict{String, Vector{POIObject}}}
     datasets = collect(keys(metadata))
@@ -94,7 +94,7 @@ end
 
 Auxilary funtion - it returns a tuple of vectors - each vector representing primary_types or subtypes extrcted from a metadata dictionary.
 Arguments:
-- metadata - metadata dictionary generated using function create_poi_metadata from src/poi_metadata.jl
+- `metadata` - metadata dictionary generated using function create_poi_metadata from `src/poi_metadata.jl`
 """
 function get_poi_types(metadata::Dict{String, Dict{String, String}})::Tuple{Vector{String}, Vector{String}}
     
@@ -114,12 +114,12 @@ end
 """
     create_poi_dataset(object_data::Dict{String, Vector{POIObject}}, primary_type::String, subtype::String)::Vector{ProcessedPOI}
 
-Auxilary function - it returns a processed dataset (vector of elements of type ProcessedPOI) 
-with the POIs of one type (primary_type and subtype).
+Auxilary function - it returns a processed dataset (vector of elements of type `ProcessedPOI`) 
+with the POIs of one type (`primary_type` and `subtype`).
 Arguments:
-- object_data - it is a raw parsed set of POI objects (output of osm_to_dict)
-- primary_type - this is a primary type that will be assigned to the processed POIs
-- subtype - this is a subtype that will be assigned to the processed POIs
+- `object_data` - it is a raw parsed set of POI objects (output of `osm_to_dict`)
+- `primary_type` - this is a primary type that will be assigned to the processed POIs
+- `subtype` - this is a subtype that will be assigned to the processed POIs
 
 """
 function create_poi_dataset(object_data::Dict{String, Vector{POIObject}}, primary_type::String, subtype::String)::Vector{ProcessedPOI}
@@ -155,15 +155,14 @@ end
 High level function - returns the vector of processed poi datasets. 
 Each dataset is from a different type and subtype and is represented by a vector of processed POIs.
 Arguments:
-- osm_filename - name of .osm file from which the POIs are processed and generated
-- poi_config - a JSON file with configuration of the POIs that are to be generated.
+- `osm_filename` - name of .osm file from which the POIs are processed and generated
+- `poi_config` - a JSON file with configuration of the POIs that are to be generated.
 
 The function works in the following way step by step:
 1. It creates the metadata for a desired .osm file, based on JSON dictionary with config.
-2. It creates a vector of raw datasets for each of the files from metadata.
-The datasets are generated using the osm_to_dict function from `src/osm_parser.jl`.
-3. It creates vectors of primary_types and subtypes based on the metadata.
-4. It transforms each raw dataset (each element of the vector) to the processed dataset with POis using a function generate_poi_dataset.
+2. It creates a vector of raw datasets for each of the files from metadata. The datasets are generated using the `osm_to_dict` function from `src/osm_parser.jl`.
+3. It creates vectors of `primary_types` and `subtypes` based on the metadata.
+4. It transforms each raw dataset (each element of the vector) to the processed dataset with POis using a function `generate_poi_dataset`.
 """
 function generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")::Vector{Vector{ProcessedPOI}}
 

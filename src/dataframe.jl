@@ -7,9 +7,9 @@ using DataFrames
 """
     columns(processed_objects::Vector{ProcessedPOI})::Vector{String}
 
-Auxilary function - it returns a vector of all distinct osm tag keys whichare used as colnames of the df.
+Auxilary function - it returns a vector of all distinct osm tag keys which are used as colnames of the df.
 Arguments:
-- processed_objects - vector of processed POIs of one type (output of create_poi_dataset function)
+- `processed_objects` - vector of processed POIs of one type (output of `create_poi_dataset` function)
 """
 function columns(processed_objects::Vector{ProcessedPOI})::Vector{String}
     column_list = String[]
@@ -28,10 +28,10 @@ end
 """
     create_df(processed_objects::Vector{ProcessedPOI}, df_columns::Vector{String} = String[])::DataFrame
 
-Auxilary function - it returns the dataframe with processed POIs of one primary_type and one subtype
+Auxilary function - it returns the dataframe with processed POIs of one `primary_type` and one `subtype`
 Arguments:
-- processed_objects - vector of processed pois of one type (output of create_poi_dataset)
-- df_columns - vector of column names for the dataframe (output of columns function) 
+- `processed_objects` - vector of processed pois of one type (output of `create_poi_dataset`)
+- `df_columns` - vector of column names for the dataframe (output of `columns` function) 
 """
 function create_df(processed_objects::Vector{ProcessedPOI}, df_columns::Vector{String} = String[])::DataFrame
     if length(df_columns) == 0
@@ -70,7 +70,7 @@ end
 
 Auxilary function - it returns a vector of all distinct osm tag keys which are used as column names of the df.
 Arguments:
-- processed_objects_vector - vector of processed pois of all types (output of generate_poi_vectors)
+- `processed_objects_vector` - vector of processed pois of all types (output of generate_poi_vectors)
 """
 function columns_in_poi_vector(processed_objects_vector::Vector{Vector{ProcessedPOI}})::Vector{String}
     all_columns = String[]
@@ -93,14 +93,14 @@ end
 """
     create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}})::DataFrame
 
-Main function - it returns the dataframe of all POIs of all primary_types and subtypes 
+Main function - it returns the dataframe of all POIs of all configured `primary_types` and `subtypes`
 Arguments:
-- processed_objects_vector - the vector of processed pois of all types (output of generate_poi_vectors)
+- `processed_objects_vector` - the vector of processed pois of all types (output of `generate_poi_vectors`)
 """
 function create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}})::DataFrame
     res_df = DataFrame()
+    all_columns = columns_in_poi_vector(processed_objects_vector)
     for element in processed_objects_vector
-        all_columns = columns_in_poi_vector(processed_objects_vector)
         df = create_df(element, all_columns)
         append!(res_df, df)
     end
@@ -118,8 +118,8 @@ end
 Main function - it filters columns of the poi dataframe and returns a dataframe with those columns,
 whose fraction of non-missing values exceeds the threshold value
 Arguments:
-- dframe - a DataFrame with POIs
-- threshold - a minimal fraction of non-missing values in a column 
+- `dframe` - a DataFrame with POIs
+- `threshold` - a minimum fraction of non-missing values in a column 
 """
 function filter_columns(dframe::DataFrame, threshold::Float64 = 0.5)
     df = dframe

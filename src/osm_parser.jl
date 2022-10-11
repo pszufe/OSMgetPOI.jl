@@ -7,7 +7,7 @@ using LightXML
 """
     delete_version_tags!(dict::Dict{AbstractString, AbstractString})::Dict{String, String}
 
-Auxilary function used in osm_to_dict to parse .osm file.
+Auxilary function used in `osm_to_dict` to parse .osm file.
 """
 function delete_version_tags!(dict::Dict{AbstractString, AbstractString})::Dict{String, String}
     if haskey(dict, "version") delete!(dict, "version") end
@@ -18,7 +18,7 @@ end
 """
     dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name(c))::Dict{String, String}
 
-Auxilary function used in osm_to_dict to parse .osm file.
+Auxilary function used in `osm_to_dict` to parse .osm file.
 """
 function dict_of_attributes(c::LightXML.XMLElement, name::String = LightXML.name(c))::Dict{String, String}
     attr = LightXML.attributes_dict(c)
@@ -31,7 +31,7 @@ end
 """
     process_attributes(dict::Dict{String, String})::Dict{String, Union{Int, String}}
 
-Auxilary function used in osm_to_dict to parse .osm file.
+Auxilary function used in `osm_to_dict` to parse .osm file.
 """
 function process_attributes(dict::Dict{String, String})::Dict{String, Union{Int, String}}
     if cmp(get(dict, "object", missing), "tag") == 0
@@ -55,7 +55,7 @@ end
 """
     assign_attr_to_poi_object!(poi::POIObject, attr::Dict{String, String})
 
-Auxilary function used in osm_to_dict to parse .osm file.
+Auxilary function used in `osm_to_dict` to parse .osm file.
 """
 function assign_attr_to_poi_object!(poi::POIObject, attr::Dict{String, String})
     poi.object_id = parse(Int, get(attr, "id", missing))
@@ -73,8 +73,8 @@ end
 
 Auxilary function - it generates a temporary file for further processing and returns a filepath of this file
 Arguments:
-- filename - name of the temporary file thich is to be generated
-- metadata - a metadata generated from function create_poi_metadata from src/poi_metadata.jl 
+- `filename` - name of the temporary file thich is to be generated
+- `metadata` - a metadata generated from function `create_poi_metadata` from `src/poi_metadata.jl` 
 
 """
 function generate_temporary_file(filename::String, metadata::Dict{String, Dict{String, String}})
@@ -89,15 +89,15 @@ end
 
 
 """
-    osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}}, excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{Dict{String, Any}}}
+    osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}}, excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{POIObject}}
 
 Auxilary function - parses .osm file and returns a dictionary whose key is a name of a parsed temporary file,
-and value is a vector of parsed POIs. A single POI is represented as a POIObject type which is a mutable struct
-with fields defined in src/types.jl.
+and value is a vector of parsed POIs. A single POI is represented as a `POIObject` type which is a mutable struct
+with fields defined in `src/types.jl`.
 Arguments:
-- filename - the name of the .osm file that the function parses (e.g. beijing.osm)
-- metadata - a metadata generated from function create_poi_metadata from src/poi_metadata.jl 
-- excluded_keywords - keywords excluded from parsing 
+- `filename` - the name of the .osm file that the function parses (e.g. beijing.osm)
+- `metadata` - a metadata generated from function create_poi_metadata from `src/poi_metadata.jl`
+- `excluded_keywords` - keywords excluded from parsing 
 """
 function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}},
                     excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{POIObject}}
