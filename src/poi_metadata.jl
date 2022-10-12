@@ -27,7 +27,7 @@ The dictionary keys have the following meanings:
 - `osm_query` - this is a query to obtain the temporary file (e.g. `--keep=amenity=school`) from which POIs are extracted using function `osm_to_dict` from `src/osm_parser`.
 - `output_filepath` - this is the path to the temporary file which is created to extract the POIs from .osm file
 """
-function create_poi_metadata(osm_filename::String, json_filename::String, dir::String = "datasets")::Dict{String, Dict{String, String}}
+function create_poi_metadata(osm_filename::String, dir::String, json_filename::String)::Dict{String, Dict{String, String}}
 
     city = lowercase(chop(osm_filename, tail = 4))
     input_file = osm_filename

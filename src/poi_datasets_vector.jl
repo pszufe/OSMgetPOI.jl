@@ -156,6 +156,7 @@ High level function - returns the vector of processed poi datasets.
 Each dataset is from a different type and subtype and is represented by a vector of processed POIs.
 Arguments:
 - `osm_filename` - name of .osm file from which the POIs are processed and generated
+- `directory` - directory where the .osm file is located
 - `poi_config` - a JSON file with configuration of the POIs that are to be generated.
 
 The function works in the following way step by step:
@@ -164,9 +165,9 @@ The function works in the following way step by step:
 3. It creates vectors of `primary_types` and `subtypes` based on the metadata.
 4. It transforms each raw dataset (each element of the vector) to the processed dataset with POis using a function `generate_poi_dataset`.
 """
-function generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")::Vector{Vector{ProcessedPOI}}
+function generate_poi_vectors(osm_filename::String, directory = "datasets", poi_config::String = "POI_config.json")::Vector{Vector{ProcessedPOI}}
 
-    metadata = create_poi_metadata(osm_filename, poi_config)
+    metadata = create_poi_metadata(osm_filename, directory, poi_config)
     object_data_vector = get_data_vector(metadata)
     (primary_type_vector, subtype_vector) = get_poi_types(metadata)
     
