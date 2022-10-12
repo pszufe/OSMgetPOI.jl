@@ -1,4 +1,4 @@
-## Documentation
+### Documentation
 To check Documenter.jl documentation, please open the POIs directory and run the following shell commands:
 ```
 cd docs
@@ -6,7 +6,7 @@ julia make.jl
 julia -e 'using LiveServer; serve(dir="build")'
 ```
 
-## Basic description of the repository
+### Basic description of the repository
 The project consists of 3 main parts:
 - `/datasets` directory:
     - you can download and save there .osm files from https://download.bbbike.org/osm/bbbike/ for further processing
@@ -18,17 +18,21 @@ The project consists of 3 main parts:
  - `tutorial.ipynb` - a jupyter notebook which executes these function and saves CSV files with POIs in `/output.csv` directory.
 
 
-## Generating .csv with POIs for Beijing and for Warsaw
+### Generating .csv with POIs for Beijing and for Warsaw
 1. Download .osm files for Warsaw and Beijing from https://download.bbbike.org/osm/bbbike/ and save into `/datasets`.
 2. Open jupyter notebook `tutorial.ipynb` and run all of the cells.
 3. The .csv with POIs will be generated in `/output_csv` directory.
 
-## Generating POIs for cities other than Beijing and Warsaw
+
+### Generating POIs for cities other than Beijing and Warsaw
 1. Download .osm file for a selected city from https://download.bbbike.org/osm/bbbike/ and save in `/datasets` directory.
 2. Go to `tutorial.ipynb` and run function `generate_poi_vectors("city_name.osm")` where city_name.osm is the name of your .osm file.
 3. Run the rest of cells from Jupyter Notebook (change variable names). The POIs will be generated in `/output_csv` directory.
 
-## Adding new types and subtypes of POIs for a selected city (e.g. Beijing)
+### Adding new types and subtypes of POIs for a selected city (e.g. Beijing)
 1. Update the file `POI_config.json` with new POI types. 
 4. Run jupyter notebook `tutorial.ipynb.`
 
+
+## Remarks
+This research was funded in whole or in part by [National Science Centre,  Poland][2021/41/B/HS4/03349]. For the software’s  documentation for the purpose of Open Access, the author has applied a CC-BY public copyright licence to any Author Accepted Manuscript (AAM) version arising from this submission.
