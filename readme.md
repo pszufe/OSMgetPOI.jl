@@ -14,7 +14,7 @@ The project consists of 3 main parts:
 - `/src` directory where the source code is located. The source code contains the following key functions:
     - `generate_poi_vectors` - it parses the .osm file from function argument and creates a vector of processed POI objects for each POI category (type and subtype) specified in `POI_config.json`. The functions returns a vector of datasets - each dataset representing POIs of different category.
     - `create_poi_df` - it takes an output of `generate_poi_vectors` as an argument and returns a Julia DataFrame with all the processed POIs. The dataframe may be used for further analysis or easily exported into CSV file.
-    - `filter_columns` - it filters the columns of a dataframe and returns a dataframe with those columns, whose fraction of non-missing values exceeds a certain threshold (50% by default).
+    - `filter_columns_by_colnames` and `filter_columns_by_threshold` - it filters the columns of a dataframe and returns a dataframe with those columns, whose fraction of non-missing values exceeds a certain threshold (50% by default).
  - `tutorial.ipynb` - a jupyter notebook which executes these function and saves CSV files with POIs in `/output.csv` directory.
 
 
