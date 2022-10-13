@@ -1,9 +1,9 @@
-# POIs
+# OSMgetPOI
 
 ```@meta
-CurrentModule = POIs
+CurrentModule = OSMgetPOI
 DocTestSetup = quote
-    using POIs
+    using OSMgetPOI
 end
 ```
 

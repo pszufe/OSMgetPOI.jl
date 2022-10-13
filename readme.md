@@ -1,5 +1,5 @@
 ### Documentation
-To run Documenter.jl documentation locally, please open the POIs directory and run the following shell commands:
+To run Documenter.jl documentation locally, please open the OSMgetPOI directory and run the following shell commands:
 ```
 cd docs
 julia make.jl

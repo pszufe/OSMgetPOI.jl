@@ -1,4 +1,4 @@
-module POIs
+module OSMgetPOI
 
 using DataFrames
 using LightXML

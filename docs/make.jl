@@ -1,4 +1,4 @@
 push!(LOAD_PATH,"../src/")
-using Documenter, POIs
+using Documenter, OSMgetPOI
 
-makedocs(sitename="My Documentation", modules = [POIs])
+makedocs(sitename="My Documentation", modules = [OSMgetPOI])
