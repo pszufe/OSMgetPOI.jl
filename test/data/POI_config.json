@@ -1,0 +1,152 @@
+[
+    {
+        "primary_type": "education",
+        "subtypes": [
+            {
+                "subtype": "kindergarden",
+                "query": "--keep= \" amenity=kindergarten \""
+            },
+            {
+                "subtype": "school",
+                "query": "--keep= \" amenity=school =music_school =language_school \""
+            },
+            {
+                "subtype": "university",
+                "query": "--keep= \" amenity=university =college \""
+            },
+            {
+                "subtype": "library",
+                "query": "--keep= \" amenity=library \""
+            }
+        ]
+    },
+    {
+        "primary_type": "cuisine",
+        "subtypes":[
+            {
+                "subtype": "restaurant",
+                "query": "--keep= \" amenity=restaurant =fast_food =food_court \""
+            },
+            {
+                "subtype": "pub",
+                "query": "--keep= \" amenity=pub =bar \""
+            },
+            {
+                "subtype": "cafe",
+                "query": "--keep= \" amenity=cafe =ice_cream \""
+            }
+        ]
+    },
+    {
+        "primary_type": "finance",
+        "subtypes":[
+            {
+                "subtype": "finance",
+                "query": "--keep= \" amenity=bank =atm \""
+            }
+        ]
+    },
+    {
+        "primary_type": "transport",
+        "subtypes":[
+            {
+                "subtype": "parking",
+                "query": "--keep= \" amenity=parking parking=* \""
+            },
+            {
+                "subtype": "gas_station",
+                "query": "--keep= \" amenity=fuel \""
+            },
+            {
+                "subtype": "bus_stop",
+                "query": "--keep= \" amenity=bus_station public_transport=station \""
+            },
+            {
+                "subtype": "railway_station",
+                "query": "--keep= \" railway=station \""
+            },
+            {
+                "subtype": "airport",
+                "query": "--keep= \" aeroway=aerodrome =terminal \""
+            }
+        ]
+    },
+    {
+        "primary_type": "healthcare",
+        "subtypes":[
+            {
+                "subtype": "doctor",
+                "query": "--keep= \" amenity=clinic =doctors =dentist healthcare=* \""
+            },
+            {
+                "subtype": "pharmacy",
+                "query": "--keep= \" amenity=pharmacy \""
+            },
+            {
+                "subtype": "hospital",
+                "query": "--keep= \" amenity=hospital \""
+            }
+        ]
+    },
+    {
+        "primary_type": "entertainment",
+        "subtypes":[
+            {
+                "subtype": "culture",
+                "query": "--keep= \" amenity=cinema =theatre =arts_centre \""
+            },
+            {
+                "subtype": "club",
+                "query": "--keep= \" amenity=nightclub \""
+            }
+        ]
+    },
+    {
+        "primary_type": "shopping",
+        "subtypes":[
+            {
+                "subtype": "shop",
+                "query": "--keep= \" shop=* \""
+            },
+            {
+                "subtype": "marketplace",
+                "query": "--keep= \" amenity=marketplace \""
+            }
+        ]
+    },
+    {
+        "primary_type": "leisure",
+        "subtypes":[
+            {
+                "subtype": "park",
+                "query": "--keep= \" leisure=garden =park =dog_park \""
+            },
+            {
+                "subtype": "sports_ground",
+                "query": "--keep= \" leisure=sports_centre =sports_hall =stadium =track =pitch =horse_riding =swimming_pool =fitness_centre =fitness_station sport=fitness landuse=recreation_ground =winter_sports \""
+            },
+            {
+                "subtype": "tourism",
+                "query": "--keep= \" tourism=* \""
+            }
+        ]
+    },
+    {
+        "primary_type": "religion",
+        "subtypes":[
+            {
+                "subtype": "religion",
+                "query": "--keep= \" amenity=place_of_worship \""
+            }
+        ]
+    },
+    {
+        "primary_type": "work",
+        "subtypes":[
+            {
+                "subtype": "work",
+                "query": "--keep= \" office=* industrial=* landuse=industrial \""
+            }
+        ]
+    }
+]

@@ -1,6 +1,6 @@
-*.osm
+Beijing.osm
+Warsaw.osm
 debug.jl
 test.ipynb
 notatki.txt
-/test
 test_notebook.ipynb
