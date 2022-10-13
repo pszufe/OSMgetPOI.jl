@@ -1,0 +1,11 @@
+name = "OSMgetPOI"
+uuid = "be2d54de-a486-46ac-b530-074f57b774b3"
+authors = ["Marcin Zurek <mz.mzurek@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

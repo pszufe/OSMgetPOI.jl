@@ -4,7 +4,7 @@ using .OSMgetPOI
 
 @testset "general" begin
     #get variables
-    poi_vector = generate_poi_vectors("UlanBator.osm", "test/data", "POI_config.json")
+    poi_vector = generate_poi_vectors("UlanBator.osm", "data", "POI_config.json")
     df = create_poi_df(poi_vector)
     df_filtered_by_colnames = filter_columns_by_colnames(df, String[])
     df_filtered_by_threshold = filter_columns_by_threshold(df, 0.1)
