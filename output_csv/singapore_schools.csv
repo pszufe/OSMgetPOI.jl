@@ -1,748 +1,760 @@
-primary_type,subtype,lat,lon,name,amenity,addr:housenumber,school,addr:city,addr:street,addr:postcode,addr:country,name:zh
-education,school,1.3027978,103.8403767,ACC EduHub,school,51,,,,,,
-education,school,1.34844,103.9511787,,,,entrance,,,,,
-education,school,1.3481086,103.9519021,,,,entrance,,,,,
-education,school,1.303544,103.7982942,,school,,,,,,,
-education,school,1.3421529,103.6881378,,,,,,,,,
-education,school,1.3461092,103.8465071,,,,,,,,,
-education,school,1.387266,103.8696897,Hua Language Centre,school,,,,,,,
-education,school,1.3872695,103.8696218,Jan & Elly English Language School,school,,,,,,,
-education,school,1.2976133,103.7936335,Gate B,,,,,,,,
-education,school,1.3021415,103.7731983,,parking,,,,,,,
-education,school,1.3023683,103.7732731,,parking,,,,,,,
-education,school,1.3386291,103.8379257,,school,,,,,,,
-education,school,1.3800986,103.8490994,Nanyang Polytechnic,school,180,,Singapore,Ang Mo Kio Avenue 8,569830,,
-education,school,1.3775869,103.8563216,ITE College Central,school,2,,,Ang Mo Kio Drive,567720,,
-education,school,1.4781817,103.6500299,,school,,,,,,,
-education,school,1.3304504,103.6834422,SAFTI Military Institute,school,,,,,,,
-education,school,1.406648,103.8204181,Madrasah At-Tahzibiah Al-Islamiah,school,,,,,,,
-education,school,1.3037337,103.7761324,,,,,,,,,
-education,school,1.3461973,103.8601054,Gate No. 1,,,,,,,,
-education,school,1.2822628,103.8180784,Eager Beaver Schoolhouse @ Bukit Merah Central,school,3500A,,Singapore,Bukit Merah Central,159838,SG,
-education,school,1.2817516,103.8474726,Citikids Academy,school,105,,Singapore,Amoy Street,069925,SG,
-education,school,1.3528711,103.8354127,French Toast Pte Ltd,school,220A,,Singapore,Upper Thomson Road,574352,,
-education,school,1.3729795,103.7690856,,,,,,,,,
-education,school,1.3111407,103.8917376,Chin Lien Bible Seminary,school,,,,,,,
-education,school,1.3473411,103.6823534,Air Traffic Management Research Institute,school,65,,,Nanyang Drive,637460,,
-education,school,1.3176739,103.8460419,SJIJ,school,,,,Essex Road,,,
-education,school,1.3092529,103.9278615,,school,,,,,,,
-education,school,1.3113151,103.8868615,,,,,,,,,
-education,school,1.4723463,103.6725664,Sekolah Kebangsaan Taman Perling,school,,,,,,,
-education,school,1.3048653,103.7979765,Big Bubble Dive Centre,school,,,,,,,
-education,school,1.3035327,103.8593653,The Dive Company,school,,,,,,,
-education,school,1.3155564,103.8815789,Sunny Cove LLP Dive School,school,,,,Ajunied Road,,,
-education,school,1.3016693,103.7934627,MindChamps PreSchool @ Biopolis,school,3,,Singapore,Biopolis Drive,138623,,
-education,school,1.4782093,103.7763103,Pusat Tuisyen Redang Bestari,school,,,,,,,
-education,school,1.3061702,103.9055252,Hess Education Centre,school,,,,East Coast Road,,,
-education,school,1.3805495,103.7692512,,,,,,,,,
-education,school,1.3616086,103.885969,Shine Music School,music_school,,,,Simon Road,,,
-education,school,1.3021185,103.8114617,Little Mandaríns,language_school,,,,Loewen Road,,,
-education,school,1.301911,103.8599433,Maranatha,music_school,,,,Kandahar Street,,,
-education,school,1.2849937,103.8293522,CMA Mental Arithmetic Centre,language_school,,,,Kim Tian Road,,,
-education,school,1.3170267,103.7677923,,,,,,,,,
-education,school,1.3500698,103.875052,SparkleTots Pre-school,school,417,,,Serangoon Central,550417,,
-education,school,1.3131754,103.7597575,Thit Sar Parami,school,60,,,West Coast Lane,127790,,
-education,school,1.3077267,103.8318682,General Assembly,school,8,,Singapore,Claymore Hill,,,
-education,school,1.2849333,103.8293543,LCentral English Enrichment,language_school,,,,Kim Tian Road,,,
-education,school,1.3373631,103.719728,Pro-Teach Education,school,,,,,,,
-education,school,1.4352254,103.9025614,MSTS Training Centre,school,,,,,,,
-education,school,1.3376515,103.8694361,,,,,,,,,
-education,school,1.3602038,103.8326121,,,,,,,,,
-education,school,1.3599781,103.833158,,,,,,,,,
-education,school,1.3598897,103.8333729,,,,,,,,,
-education,school,1.3061535,103.9049886,Raymond Studio,school,,,,,,,
-education,school,1.3063117,103.9052421,People's Up,school,143,,Singapore,East Coast Road,428833,,
-education,school,1.3075331,103.9070331,Staccato Music School,school,,,,,,,
-education,school,1.2964558,103.7941745,Centre Stage School of the Arts,school,,,,,,,
-education,school,1.362731,103.7443171,,,,,,,,,
-education,school,1.3023266,103.8768746,Yamaha,music_school,,,,,,,
-education,school,1.3373271,103.8484435,PSB Academy STEM Campus,school,,,,,,,
-education,school,1.3535902,103.9408267,Cristofori,music_school,,,,,,,
-education,school,1.4332012,103.8416396,iMatter Learning Centre,school,iMatter Learning Centre,,Singapore,18 Yishun Avenue 9 #02-48,768897,,
-education,school,1.2957549,103.7836142,Faculty of Dentistry,school,,,,,,,
-education,school,1.3505389,103.8728256,The Ballet & Music Company,music_school,,,,,,,
-education,school,1.3507286,103.8489202,Cristofori Music School,music_school,,,,,,,歌德音乐学校
-education,school,1.3361757,103.9204619,,,,,,,,,
-education,school,1.3362715,103.9205383,,,,,,,,,
-education,school,1.2814207,103.8048862,,,,,,,,,
-education,school,1.3010033,103.8357575,MADDspace,school,,,,,,,
-education,school,1.3009534,103.8355687,Beat'Abox Group,music_school,,,,,,,
-education,school,1.3008362,103.8357407,O School,music_school,,,,,,,
-education,school,1.3421391,103.8690631,Singapore Power Training Institute,school,,,,,,,
-education,school,1.3801195,103.9422514,,,,,,,,,
-education,school,1.2908107,103.8572061,The Music Platform,music_school,,,,,,,
-education,school,1.2914127,103.8569843,SOMA School of Music and the Arts,music_school,,,,,,,
-education,school,1.2650858,103.8204705,I Can Read,school,,,,,,,
-education,school,1.2642476,103.8201144,Cristofori Music School,music_school,,,,,,,
-education,school,1.2649537,103.8204957,Heguru Method Learning Centre,school,,,,,,,
-education,school,1.2803337,103.8414605,Focus Music,school,41,,Singapore,Keong Saik Road,089146,SG,
-education,school,1.2913092,103.8496044,Drumstruck Studios,music_school,,,,,,,
-education,school,1.2910768,103.8500286,Cristofori,music_school,,,,,,,
-education,school,1.4059677,103.9021496,Beijing Language School,language_school,,,,,,,北京语文学校
-education,school,1.406257,103.9017928,Edvox Music School,music_school,,,,,,,
-education,school,1.4062209,103.9018483,Heguru Education Centre,school,,,,,,,
-education,school,1.3821113,103.7547987,,,,,,,,,
-education,school,1.3927372,103.7504815,,,,,,,,,
-education,school,1.3928661,103.8937999,Cristofori,music_school,,,,,,,
-education,school,1.3927492,103.8941737,Beijing Language School,language_school,,,,,,,北京语文学校
-education,school,1.289267,103.8471267,3dsense Media School,school,,,,,,,
-education,school,1.2891677,103.8470814,Music Lifestyle,music_school,,,,,,,
-education,school,1.2988328,103.7877822,Future Ready Academy,school,,,,,,,
-education,school,1.3252259,103.9191042,LTA Rail Academy,school,,,,,,,
-education,school,1.3916874,103.8949888,Sonare Music School,music_school,,,,,,,
+primary_type,subtype,lat,lon,amenity,name,addr:country,addr:city,addr:street,addr:postcode,name:zh,school,addr:housenumber
+education,school,1.2885004,103.8092476,school,,,,,,,,
+education,school,1.3580664,103.8633567,school,CHIJ (Our Lady of Good Counsel) Primary School,SG,Singapore,Burghley Drive,558979,圣婴女子小学(良言),primary,2C
+education,school,1.3478553,103.7177736,school,,,,,,,,
+education,school,1.362766,103.88727,school,Pat's Schoolhouse,,,Lim Ah Pin Road,,,,2C
+education,school,1.2891677,103.8470814,music_school,Music Lifestyle,,,,,,,
+education,school,1.3733424,103.9564183,school,Casuarina Primary School,SG,Singapore,Pasir Ris Street 41,518935,康岭小学,primary,30
+education,school,1.2756954,103.8274594,school,CHIJ (Kellock) Primary School,SG,Singapore,Bukit Teresa Road,099757,圣婴女校(客洛),primary,1
+education,school,1.3085317,103.8953375,school,Tanjong Katong Girls' School,SG,Singapore,Dunman Road,439272,丹绒加东女校,secondary,20
+education,school,1.3168586,103.918292,school,Bethesda Kindergarten,,,Frankel Avenue,,,,
+education,school,1.4352254,103.9025614,school,MSTS Training Centre,,,,,,,
+education,school,1.3090335,103.8365876,school,Ministry Of Education Language Centre (Newton),,,,,,,
+education,school,1.3507286,103.8489202,music_school,Cristofori Music School,,,,,歌德音乐学校,,
+education,school,1.4666112,103.7382987,school,Sekolah Rendah Islam Al-Akhyar,,,,,,,
+education,school,1.4455188,103.8200485,school,Sembawang Primary School,SG,Singapore,Sembawang Drive,757715,胜宝旺小学,primary,10
+education,school,1.3282466,103.9026574,school,Manjusri Secondary School,SG,Singapore,Ubi Avenue 1,408940,文殊中学,secondary,20
 education,school,1.3476733,103.717794,,,,,,,,,
-education,school,1.2470486,103.8423226,Quayside Isle Preparatory School,school,,,,,,,
-education,school,1.2466333,103.8421784,Invictus International School,school,,,,,,,
-education,school,1.2475148,103.842284,The Music Suite,music_school,,,,,,,
-education,school,1.4681791,103.7800421,,,,,,,,,
-education,school,1.4677117,103.7795006,,,,,,,,,
-education,school,1.3404633,103.7739275,D* Capo Music Academy,music_school,64,,,Jalan Jurong Kechil,,,
-education,school,1.3097274,103.8374915,MOE Language Centre (Newton),language_school,136,,Singapore,Cairnhill Road,229722,,
-education,school,1.3530131,103.8338711,Ensemble Music,music_school,,,,,,,
-education,school,1.3445941,103.7267865,,,,,,,,,
-education,school,1.3203737,103.9127015,Daehan Korean Language Center,language_school,,,,,,,
-education,school,1.333487,103.9316165,,,,,,,,,
+education,school,1.3686157,103.9621542,school,Greenview Secondary School,SG,Singapore,Pasir Ris Street 21,518969,青景中学,secondary,15
+education,school,1.3430617,103.7590131,school,Former Yusof Ishak Secondary School,SG,Singapore,Bukit Batok Street 25,658712,尤索夫依萨中学,secondary,11
+education,school,1.3805495,103.7692512,,,,,,,,,
+education,school,1.4282174,103.8479231,school,North View Primary School,SG,Singapore,Yishun Avenue 6,545088,德贤小学,primary,210
+education,school,1.3931066,103.8963174,school,Dyslexia Association Of Singapore Sengkang Learning Centre,,,,,,,
+education,school,1.3458868,103.7217267,school,Yuhua Secondary School,SG,Singapore,Jurong West Street 41,649410,,,5
+education,school,1.3738523,103.9543722,school,Hai Sing Catholic School,SG,Singapore,Pasir Ris Drive 6,519421,海星天主教中学,secondary,9
+education,school,1.4043278,103.9101673,school,Oasis Primary School,,Singapore,Edgefield Plains,828716,,,71
+education,school,1.4294059,103.795937,school,Woodgrove Secondary School,SG,Singapore,Woodlands Avenue 6,738990,林景中學,secondary,3
+education,school,1.3154101,103.8902928,school,Madrasah Al-Ma'arif Al-Islamiah,,,,,,,
+education,school,1.3872695,103.8696218,school,Jan & Elly English Language School,,,,,,,
+education,school,1.3499422,103.9430612,school,Tampines Secondary School,SG,Singapore,Tampines Street 12,529427,淡滨尼中学,secondary,252
 education,school,1.3337951,103.9315541,,,,,,,,,
-education,school,1.2966043,103.7936084,Gate A,,,,,,,,
-education,school,1.2963281,103.792939,Gate D,,,,,,,,
-education,school,1.2983169,103.793158,,,,,,,,,
-education,school,1.2983254,103.7929814,,,,,,,,,
-education,school,1.2980022,103.7918918,Gate C,,,,,,,,
-education,school,1.340225,103.7045236,Yamaha Music School,music_school,,,,,,,
-education,school,1.3855285,103.9018267,Beijing Language School,language_school,,,,,,,北京语文学校
-education,school,1.3854236,103.901937,Christofori Music School,music_school,,,,,,,歌德音乐学校
-education,school,1.2862969,103.8281161,Star River Language School,language_school,,,,,,,星河语文学校
-education,school,1.2864237,103.8266078,HiArt,school,,,,,,,
-education,school,1.2862383,103.8279807,Confucius Mandarin Institute,school,,,,,,,孔子书院
-education,school,1.2863194,103.8279814,Stalford Learning Centre,school,,,,,,,
-education,school,1.2862248,103.828089,Kent Ridge Education,school,,,,,,,
-education,school,1.2860824,103.8292773,HCL Education Centre,language_school,,,,,,,
-education,school,1.286091,103.8290983,AGrader Learning Centre,school,,,,,,,
-education,school,1.3944545,103.9129587,Beijing Language School,language_school,,,,,,,北京语文学校
-education,school,1.3943826,103.9128077,Cristofori Music School,music_school,,,,,,,歌德乐学校
-education,school,1.348775,103.87399,Dyslexia Association of Singapore Serangoon Learning Centre,school,,,,,,,
-education,school,1.3202171,103.9033503,Jack Singing Training & Musical Centre,music_school,,,,,,,杰奇歌唱培训音乐中心
-education,school,1.3499524,103.85074,Tien Hsiah Language School,language_school,,,,,,,天下语文学校
-education,school,1.29134,103.8513796,The Voice Whisperer,music_school,,,,,,,
-education,school,1.3701753,103.8838696,Drum Prodigy Singapore,music_school,,,,,,,
-education,school,1.3692395,103.8488935,Aureus Academy,music_school,,,,,,,
-education,school,1.3693659,103.8486967,Cristofori Music School,music_school,,,,,,,
-education,school,1.3718056,103.8479615,My Drum School,music_school,,,,,,,
-education,school,1.3717566,103.847908,Artlette,school,,art,,,,,
-education,school,1.3718124,103.8479264,Wang Learning Centre Pte Ltd,language_school,,,,,,,汪老师学园
-education,school,1.371872,103.847616,Guitar Emerge,music_school,,,,,,,
-education,school,1.3932174,103.6370986,,,,,,,,,
+education,school,1.3471722,103.7671475,school,,,,Jalan Jurong Kechil,598668,,,300
+education,school,1.286091,103.8290983,school,AGrader Learning Centre,,,,,,,
+education,school,1.3317754,103.9114552,school,Telok Kurau Primary School,SG,Singapore,Bedok Reservoir Road,479239,德乐小学,primary,50
+education,school,1.3722675,103.9588055,school,Pasir Ris Crest Secondary School,SG,Singapore,Pasir Ris Street 41,518934,励志中学,secondary,11
+education,school,1.3290687,103.8483752,music_school,Dance Theatre Arts,,,,,,,
+education,school,1.3159522,103.7833539,school,Henry Park Primary School,SG,Singapore,Holland Grove Road,278790,恒力小学,primary,1
+education,school,1.3391554,103.7929744,music_school,The Music Room @ Bukit Timah,,,,,,,
+education,school,1.3806636,103.9405945,school,Overseas Family School,,,Pasir Ris Drive 3,,,,
+education,school,1.420676,103.8456719,school,Northbrooks Secondary School,SG,Singapore,Yishun Ring Road,768692,思源中学,secondary,585
+education,school,1.3045674,103.81195,school,St. James Kindergarten,,,Harding Road,,,,19
+education,school,1.3498845,103.9359601,school,St. Hilda's Primary School,,Singapore,Tampines Avenue 3,529706,圣希尔达小学,primary,2
+education,school,1.4728236,103.7511053,school,Sekolah Menengah Kebangsaan (P) Sultan Ibrahim,,,,,,,
+education,school,1.3311975,103.8644527,school,St. Andrew's Village,,,,,,,
+education,school,1.284887,103.8254231,school,Zhangde Primary School,SG,Singapore,Jalan Membina,169485,彰德小学,primary,51
+education,school,1.3651998,103.7495481,school,Swiss Cottage Secondary School,SG,Singapore,Bukit Batok Street 34,659322,瑞士村中学,secondary,3
+education,school,1.4438437,103.8007279,school,Admiralty Primary School,SG,Singapore,Woodlands Circle,738907,美雅小学,primary,11
+education,school,1.3715076,103.8768186,school,Bowen Secondary School,SG,Singapore,Lorong Napiri,547529,博文中学,secondary,2
+education,school,1.3973024,103.7501971,,,,,,,,,
+education,school,1.3169024,103.7674564,,Gate B,,,,,,,
+education,school,1.387266,103.8696897,school,Hua Language Centre,,,,,,,
+education,school,1.3183224,103.8822087,school,Geylang Methodist School,SG,Singapore,Geylang East Central,389705,芽笼美以美中学,secondary,2
+education,school,1.4598435,103.6446574,school,"SJK (C) Ming Chih , Horizons Hills 浩然山庄明智华小",,,Horizon Hills,,浩然山庄明智华小,,
+education,school,1.3061314,103.8285577,music_school,Aureus Academy,,,,,,,
+education,school,1.4484009,103.6432171,school,Invictus International School,MY,Puteri Johor,Jalan Persiaran Selatan,79100,,,3
+education,school,1.3730884,103.8823612,school,,,,,,,,
+education,school,1.2839739,103.787579,school,National Community Leadership Institute,,Singapore,South Buona Vista Road,,,,70
+education,school,1.2862248,103.828089,school,Kent Ridge Education,,,,,,,
+education,school,1.3341878,103.9320972,school,Yu Neng Primary School,SG,Singapore,Bedok North Street 3,469623,育能小学,primary,56
+education,school,1.3550502,103.9556993,school,Ngee Ann Secondary School,SG,Singapore,Tampines Street 32,529283,義安中学,secondary,1
+education,school,1.3026001,103.8391299,school,,,,,,,,
+education,school,1.3727736,103.8516192,school,Jing Shan Primary School,,,Ang Mo Kio Street 52,569228,静山小学,primary,5
+education,school,1.3253175,103.9038476,school,Eunos Primary School,SG,Singapore,Jalan Eunos,419529,友诺小学,primary,95
+education,school,1.3317779,103.8657385,school,St. Andrew's Junior School,SG,Singapore,Francis Thomas Drive,359337,圣安德烈小学,primary,2
+education,school,1.3554213,103.8438341,school,Catholic High School,SG,Singapore,Bishan Street 22,579767,,,9
+education,school,1.3162542,103.937887,school,Singapore Hokkien Huay Kuan,,Singapore,Sennett Road,466781,,,5
+education,school,1.3693787,103.8365763,school,Mayflower Secondary School,SG,Singapore,Ang Mo Kio Street 21,569384,美华中学,secondary,2
+education,school,1.3685489,103.8417081,school,Ang Mo Kio Secondary School,SG,Singapore,Ang Mo Kio Street 22,569362,茂桥中学,secondary,6
+education,school,1.39343,103.903738,school,Rivervale Primary School,SG,Singapore,Rivervale Drive,545092,立伟小学,primary,80
+education,school,1.4374555,103.7923211,school,Woodlands Primary School,SG,Singapore,Woodlands Drive 50,738853,辅仁小学,primary,10
+education,school,1.3092529,103.9278615,school,,,,,,,,
+education,school,1.3788871,103.8807268,school,Hougang Primary School,,Singapore,Hougang Street 93,534238,,,1
+education,school,1.4785404,103.7428665,school,Sekolah Menengah Kebangsaan Mohd Khalid,,Johor Bahru,Jalan Abdul Samad,80100,,,
+education,school,1.31607,103.9462642,school,Temasek Secondary School,SG,Singapore,Upper East Coast Road,465561,淡马锡中学,secondary,600
+education,school,1.3920931,103.9103224,school,Global Indian International School,,Singapore,Punggol Field Walk,828649,,,27
+education,school,1.371872,103.847616,music_school,Guitar Emerge,,,,,,,
+education,school,1.384544,103.7743748,school,Beacon Primary School,SG,Singapore,Bukit Panjang Ring Road,679944,崇辉小学,primary,36
+education,school,1.4657934,103.7398303,school,SKPK Princess Elizabeth,,Johor Bahru,Jalan Sri Mahligai,80100,,,
+education,school,1.3341953,103.94148,school,St Anthony's Canossian Secondary School,SG,Singapore,Bedok North Avenue 4,469700,圣安东尼女校(中学),secondary,1600
+education,school,1.4239213,103.6418653,school,SK Medini,,,,,,,
+education,school,1.3879992,103.9896586,school,Singapore Aviation Academy,,,,,,,
+education,school,1.3119406,103.9294315,school,St Andrew's Autism School,,,,,,,
+education,school,1.4659248,103.7551591,school,SK & SMK Infant Jesus Convent,,Johor Bahru,Jalan Yahya Awal,80100,,,
+education,school,1.2757518,103.8233212,school,Radin Mas Primary School,SG,Singapore,Bukit Purmei Avenue,099840,拉丁马士小学,primary,1
+education,school,1.3659772,103.8324747,school,,SG,Singapore,Sin Ming Walk,575565,,,2
 education,school,1.393155,103.6371782,,,,,,,,,
-education,school,1.3920133,103.6382757,,,,,,,,,
-education,school,1.4025358,103.9134046,Cristofori Music School,music_school,,,,,,,
-education,school,1.3061314,103.8285577,Aureus Academy,music_school,,,,,,,
-education,school,1.3062686,103.8285461,Julia Gabriel Centre,school,,,,,,,
-education,school,1.357694,103.8841642,Yamaha Music School,music_school,,,,,,,
-education,school,1.3176044,103.8926759,Finger Waltz Music,music_school,,,,,,,
-education,school,1.3163788,103.8942658,Ink Learning,school,,,,,,,
-education,school,1.3145201,103.8948727,Fine Momentum,music_school,,,,,,,
-education,school,1.3144933,103.8949479,Aureus Academy,music_school,,,,,,,
-education,school,1.3150168,103.8945663,Drum Tutor,music_school,,,,,,,
-education,school,1.3916211,103.8758799,Vienna Music School,music_school,,,,,,,
-education,school,1.333447,103.8502117,Computhink,school,,,,,,,
+education,school,1.2873332,103.8374171,school,Outram Secondary School,SG,Singapore,York Hill,168622,欧南中学,secondary,3
+education,school,1.3192324,103.83607,school,Anglo-Chinese School (Barker),SG,Singapore,Barker Road,309919,英华学校(巴克路),secondary,60
+education,school,1.3047597,103.9041322,language_school,Chinese Wonderland Learning Centre,,,,,,,
+education,school,1.3900977,103.7657286,school,West Spring Primary School,SG,Singapore,Bukit Panjang Ring Road,679946,伟源小学,primary,60
+education,school,1.3751066,103.8341282,school,CHIJ St Nicholas Girls' School,,Singapore,Ang Mo Kio Street 13,569405,,primary;secondary,501
+education,school,1.3495219,103.8688972,school,Yangzheng Primary School,SG,Singapore,Serangoon Avenue 3,556108,养正小学,primary,15
+education,school,1.3386291,103.8379257,school,,,,,,,,
+education,school,1.3036791,103.8359398,music_school,Edvox,,,,,,,
+education,school,1.3380088,103.8475363,school,Kheng Cheng School,,,Lorong 3 Toa Payoh,319580,擎青学校,primary,15
+education,school,1.2750509,103.8210952,school,CHIJ St. Theresa's Convent,SG,Singapore,Lower Delta Road,099138,圣婴德兰女校,secondary,160
+education,school,1.3528711,103.8354127,school,French Toast Pte Ltd,,Singapore,Upper Thomson Road,574352,,,220A
+education,school,1.2967626,103.8086711,school,Rainbow Centre-Margaret Drive School,,,,,,,
+education,school,1.2987861,103.8157671,school,Avondale Grammar School,,,,,,,
+education,school,1.3367248,103.8955716,school,,SG,Singapore,Ubi Avenue 4,408805,,,205
+education,school,1.4312932,103.7778243,school,Fuchun Primary School,SG,Singapore,Woodlands Avenue 1,739063,福春小学,primary,23
+education,school,1.3953797,103.900423,school,Compassvale Secondary School,SG,Singapore,Compassvale Crescent,545083,康柏中学,secondary,51
+education,school,1.3855285,103.9018267,language_school,Beijing Language School,,,,,北京语文学校,,
+education,school,1.295431,103.8129092,school,,,,,,,,
+education,school,1.3467485,103.9480443,school,Qiaonan Primary School,SG,Singapore,Tampines Street 11,529454,侨南小学,primary,15
+education,school,1.4401457,103.7886797,school,Riverside Secondary School,SG,Singapore,Woodlands Street 81,738524,立德中学,secondary,3
+education,school,1.3041484,103.9015544,music_school,Artz Platform,,,,,,,
+education,school,1.3854693,103.7672509,school,Greenridge Primary School,SG,Singapore,Jelapang Road,677744,群立小学,primary,11
+education,school,1.4387788,103.6155528,school,SMK Medini,,Iskandar Puteri,Persiaran Kampus,79200,美迪尼国中,,
+education,school,1.2642476,103.8201144,music_school,Cristofori Music School,,,,,,,
+education,school,1.3461885,103.6816202,school,,,,,,,,
+education,school,1.3165855,103.8737802,school,The Winstedt School,SG,Singapore,Upper Boon Keng Road,387312,,,1208
+education,school,1.3790448,103.8430007,school,Yio Chu Kang Secondary School,SG,Singapore,Ang Mo Kio Avenue 5,569868,永康中学,secondary,3063
+education,school,1.2886445,103.8254351,school,Tiong Bahru Examinations Centre,,Singapore,Lower Delta Road,,,,8
+education,school,1.4681791,103.7800421,,,,,,,,,
+education,school,1.4312549,103.6645722,school,SK Sikijang,,,,,,,
+education,school,1.3077213,103.879188,school,,,,,,,,
+education,school,1.4172571,103.8380782,school,Naval Base Primary School,SG,,Yishun Avenue 4,769028,军港小学,primary,7
+education,school,1.3789694,103.881554,school,Hougang Secondary School,SG,Singapore,Hougang Street 93,534256,后港中学,secondary,2
+education,school,1.3386744,103.7932241,school,Bricks 4 Kidz,,,,,,,
+education,school,1.4262185,103.7762701,school,Singapore American School,,,,,,,
+education,school,1.3770992,103.8424831,school,Mayflower Primary School,SG,Singapore,Ang Mo Kio Avenue 5,569878,美华小学,primary,200
+education,school,1.345189,103.7903109,school,Institition of Engineers,,,Bukit Tinggi Road,,,,
+education,school,1.4577466,103.8143369,school,Northoarks Primary School,SG,Singapore,Sembawang Drive,757622,德林小学,primary,61
+education,school,1.3341953,103.94148,school,St Anthony's Canossian Primary School,SG,Singapore,Bedok North Avenue 4,469701,圣安东尼女校(小学),primary,1602
+education,school,1.3824063,103.7462475,school,South View Primary School,,,,,,,
+education,school,1.3457543,103.7910952,school,Chatsworth International School Singapore (Bukit Timah Campus)),,Singapore,Bukit Tinggi Road,289760,,,72
+education,school,1.3243367,103.8595216,school,Bendemeer Secondary badminton court,,,,,,,
+education,school,1.3546624,103.8303808,music_school,Aureus Academy,,,,,,,
+education,school,1.3455699,103.6991484,school,West Grove Primary School,SG,Singapore,Jurong West Street 72,649223,伟群小学,primary,1
+education,school,1.349035,103.9302614,school,Springfield Secondary School,SG,Singapore,Tampines Avenue 8,529593,泉原中学,secondary,30
+education,school,1.2988328,103.7877822,school,Future Ready Academy,,,,,,,
+education,school,1.4746842,103.7504807,school,Sekolah Kebangsaan (P) Sultan Ibrahim,,,,,,,
+education,school,1.4551562,103.8176435,school,Endeavour Primary School,SG,Singapore,Admiralty Link,757521,毅勤小学,primary,10
+education,school,1.3511194,103.8844031,school,Paya Lebar Methodist Girls' Primary School,SG,Singapore,Lorong Ah Soo,536741,巴耶利峇美以美女子小学,primary,298
+education,school,1.3329599,103.9213412,school,Bedok Town Secondary School,SG,Singapore,Bedok North Street 3,469626,务乐中学,secondary,232
 education,school,1.307,103.7981593,,,,,,,,,
-education,school,1.3723396,103.9496487,Music Delight School,music_school,,,,,,,
-education,school,1.3724008,103.949724,Beijing Language School,language_school,,,,,,,
+education,school,1.3131754,103.7597575,school,Thit Sar Parami,,,West Coast Lane,127790,,,60
+education,school,1.3087571,103.7679446,school,Nan Hua High School,SG,Singapore,Clementi Avenue 1,129956,南华中学,secondary,41
+education,school,1.4066372,103.9049129,school,my first skool EYC,,Singapore,Punggol Drive,,,,2
+education,school,1.3496671,103.8539728,school,Kuo Chuan Presybterian Secondary School,SG,Singapore,Bishan Street 13,579795,国专长老会中学,secondary,10
+education,school,1.3743473,103.7501329,school,Delta Senior School,,,,,,,
+education,school,1.3074408,103.7654589,school,International Community School,,,,,,,
+education,school,1.3370151,103.7357445,school,Fuhua Primary School,SG,Singapore,Jurong East Street 13,609647,辅华小学,primary,65
+education,school,1.3246438,103.8616106,school,Bendemeer Secondary School,SG,Singapore,St Wilfred Road,327919,明智中学,secondary,1
 education,school,1.3074496,103.7987517,,,,,,,,,
-education,school,1.3115624,103.7948984,Academy of Rock,music_school,24C,,Singapore,Lorong Mambong,277683,,
-education,school,1.3286488,103.8022703,Hwa Chong International School,school,663,,Singapore,Bukit Timah Road,269783,,
+education,school,1.3466805,103.725955,school,Canadian International School,,,,,,,
+education,school,1.2817516,103.8474726,school,Citikids Academy,SG,Singapore,Amoy Street,069925,,,105
+education,school,1.2860824,103.8292773,language_school,HCL Education Centre,,,,,,,
+education,school,1.3934437,103.7519974,school,Regent Secondary School,SG,Singapore,Choa Chu Kang North 5,689621,励正中学,secondary,50
+education,school,1.3396856,103.6869679,school,Juying Secondary School,,,,,,,
+education,school,1.3422852,103.8512494,school,Beatty Secondary School,SG,Singapore,Toa Payoh North,318990,培德中学,secondary,1
+education,school,1.3182571,103.8453859,school,Saint Joseph's Institution Junior,SG,Singapore,Essex Road,309331,圣若瑟书院附小,primary,3
+education,school,1.3317779,103.8657385,school,St. Andrew's Secondary School,SG,Singapore,Francis Thomas Drive,359342,圣安德烈中学,secondary,15
+education,school,1.3062686,103.8285461,school,Julia Gabriel Centre,,,,,,,
+education,school,1.3048916,103.8613827,school,,,,,,,,
+education,school,1.3016971,103.7641077,school,Kent Ridge Secondary School,SG,Singapore,West Coast Road,127368,岗丽中学,secondary,147
+education,school,1.3176044,103.8926759,music_school,Finger Waltz Music,,,,,,,
+education,school,1.3404633,103.7739275,music_school,D* Capo Music Academy,,,Jalan Jurong Kechil,,,,64
+education,school,1.4699881,103.9410624,school,Sekolah Agama Taman Pasir Putih,,Pasir Gudang,,81700,,,
+education,school,1.3122627,103.9016518,school,Haig Girl's School,SG,Singapore,Koon Seng Road,427072,海格女校,primary,51
+education,school,1.4012253,103.9104864,school,PCF Sparkletots Preschool @ Punggol North,,Singapore,Edgefield Plains,828717,,,50
+education,school,1.2893337,103.855673,music_school,LWS School Of Music,,,,,李伟菘音乐学校,,
+education,school,1.3574898,103.8898244,school,Yuying Secondary School,SG,Singapore,Hougang Avenue 1,538884,育英中学,secondary,47
+education,school,1.3479844,103.7000734,school,Westwood Primary School,SG,Singapore,Jurong West Street 73,649188,维林小学,primary,1
+education,school,1.3816058,103.7747022,school,Greenridge Secondary School,SG,Singapore,Bukit Panjang Ring Road,679938,群立中学,secondary,32
+education,school,1.3461102,103.7899422,school,Hollandse School Singapore,,,,,,,
+education,school,1.2475148,103.842284,music_school,The Music Suite,,,,,,,
+education,school,1.3234288,103.9383904,school,Bedok Green Primary School,SG,Singapore,Bedok South Avenue 2,469317,育青小学,primary,1
+education,school,1.4752957,103.9367444,school,SK Taman Pasir Puteh,,,,,,,
+education,school,1.4275013,103.792691,school,Christ Church Secondary School,SG,Singapore,Woodlands Drive 17,737924,基督堂中学,secondary,20
+education,school,1.3666728,103.892935,school,Holy Innocents' Primary School,SG,Singapore,Lorong Low Koon,536451,圣婴小学,primary,5
 education,school,1.3682789,103.8665525,,,,,,,,,
-education,school,1.3170589,103.7678866,Gate A,,,,,,,,
-education,school,1.3169024,103.7674564,Gate B,,,,,,,,
-education,school,1.316038,103.7673291,Gate D,,,,,,,,
-education,school,1.4169341,103.9020743,Tree Art,school,,,,,,,
-education,school,1.4167637,103.902145,Play Facto School,school,,,,,,,
-education,school,1.4168878,103.9021706,Joy Waltz Academy,music_school,,,,,,,
-education,school,1.3527203,103.8366724,Fisherman Music School,music_school,,,,,,,
-education,school,1.352923,103.8361818,J Carter Centre,school,,,,,,,
-education,school,1.3543916,103.8358569,The Tiny Music Academy,music_school,,,,,,,
-education,school,1.3545823,103.8310871,Yamaha,music_school,,,,,,,
-education,school,1.3546624,103.8303808,Aureus Academy,music_school,,,,,,,
-education,school,1.3367404,103.7835473,LCentral English,language_school,,,,,,,
-education,school,1.336727,103.7836366,Happy Art Loft,school,,,,,,,
-education,school,1.3036791,103.8359398,Edvox,music_school,,,,,,,
-education,school,1.3020214,103.8623508,Teacher Ping School Of Music,music_school,,,,,,,
-education,school,1.3024208,103.862368,Code Bright,school,,,,,,,
-education,school,1.3294921,103.8029473,,,,,,,,,
-education,school,1.3290687,103.8483752,Dance Theatre Arts,music_school,,,,,,,
-education,school,1.2842802,103.816058,Acetek baking school,school,,,,,,,
-education,school,1.3039904,103.9014773,Finger Waltz Music & Dance,music_school,,,,,,,
-education,school,1.3040734,103.9014087,J Music,music_school,,,,,,,
-education,school,1.3041484,103.9015544,Artz Platform,music_school,,,,,,,
-education,school,1.3041935,103.9017324,@Libitum,music_school,,,,,,,
-education,school,1.3040597,103.9016351,Chess Academy (Singapore),school,,,,,,,
-education,school,1.3045753,103.9036103,Dandelion School of Music,music_school,,,,,,,
-education,school,1.3047597,103.9041322,Chinese Wonderland Learning Centre,language_school,,,,,,,
-education,school,1.3048454,103.9040924,Art Zillions,school,,,,,,,
-education,school,1.3037821,103.9029959,Art Zone,school,,,,,,,
-education,school,1.3051958,103.9048856,Kindermusik,music_school,,,,,,,
-education,school,1.3386744,103.7932241,Bricks 4 Kidz,school,,,,,,,
-education,school,1.3391554,103.7929744,The Music Room @ Bukit Timah,music_school,,,,,,,
-education,school,1.3387528,103.7930804,Drum Tutor,music_school,,,,,,,
-education,school,1.338505,103.7931568,The LPN Art School,school,,,,,,,
-education,school,1.3958481,103.8922107,Kindermusik,music_school,,,,,,,
-education,school,1.342551,103.9531612,Cristofori Music School,music_school,,,,,,,
-education,school,1.3427176,103.9532054,Hua Cheng,language_school,,,,,,,
-education,school,1.2871356,103.8450001,Sho Music Studio,music_school,,,,,,,
-education,school,1.3946055,103.8973326,Gate 5,,,,,,,,
-education,school,1.3931066,103.8963174,Dyslexia Association Of Singapore Sengkang Learning Centre,school,,,,,,,
-education,school,1.3913608,103.8901381,HCL Education Centre,language_school,,,,,,,
-education,school,1.3850465,103.9024054,Hua Cheng,language_school,,,,,,,
-education,school,1.326154,103.8438591,,,,,,,,,
-education,school,1.2818761,103.8094273,,,,,,,,,
-education,school,1.2815483,103.8052548,,,,,,,,,
-education,school,1.3461885,103.6816202,,school,,,,,,,
-education,school,1.3003699,103.8372966,Kumon,school,,,,,,,
-education,school,1.3866719,103.897869,,,,,,,,,
-education,school,1.3031305,103.8732806,The Musical Fairy,music_school,,,,,,,
-education,school,1.2893337,103.855673,LWS School Of Music,music_school,,,,,,,李伟菘音乐学校
-education,school,1.2899202,103.855961,Hiart,school,,,,,,,
-education,school,1.2844339,103.788732,,,,,,,,,
-education,school,1.4103038,103.9059916,Yamaha,music_school,,,,,,,
-education,school,1.4101881,103.9059789,LCentral English,language_school,,,,,,,
-education,school,1.4105342,103.9059666,Tien Hsia Language School,language_school,,,,,,,天下语文学校
-education,school,1.4103158,103.9059361,Artary Academy of Children's Art,school,,,,,,,
-education,school,1.3790448,103.8430007,Yio Chu Kang Secondary School,school,3063,secondary,Singapore,Ang Mo Kio Avenue 5,569868,SG,永康中学
-education,school,1.3770992,103.8424831,Mayflower Primary School,school,200,primary,Singapore,Ang Mo Kio Avenue 5,569878,SG,美华小学
-education,school,1.3913895,103.8865811,Anchor Green Primary School,school,31,primary,Singapore,Anchorvale Drive,544969,SG,安泰小学
-education,school,1.3889987,103.8890204,Nan Chiau High School,school,20,secondary,Singapore,Anchorvale Link,545079,SG,南侨中学
-education,school,1.3918731,103.8901311,Nan Chiau Primary School,school,50,primary,Singapore,Anchorvale Link,545080,SG,南侨小学
-education,school,1.3724574,103.8978605,CHIJ (Our Lady of the Nativity) Primary School,school,1257,primary,Singapore,Upper Serangoon Road,534793,SG,圣婴女校(圣母圣诞)
-education,school,1.376948,103.8941881,Punggol Primary School,school,61,primary,Singapore,Hougang Avenue 8,538787,SG,榜鹅小学
-education,school,1.3899089,103.8774803,Pei Hwa Secondary School,school,21,secondary,Singapore,Fernvale Link,797702,SG,培华中学
-education,school,1.3905546,103.8748439,MINDS Fernvale Gardens School,school,7,,Singapore,Fernvale Road,797635,SG,
-education,school,1.3906548,103.873823,Fernvale Primary School,school,1,primary,Singapore,Fernvale Lane,797701,SG,丰伟小学
-education,school,1.3953797,103.900423,Compassvale Secondary School,school,51,secondary,Singapore,Compassvale Crescent,545083,SG,康柏中学
-education,school,1.3937494,103.8984918,Compassvale Primary School,school,21,primary,Singapore,Compassvale Street,545091,SG,康柏小学
-education,school,1.39343,103.903738,Rivervale Primary School,school,80,primary,Singapore,Rivervale Drive,545092,SG,立伟小学
-education,school,1.3893219,103.8985862,Seng Kang Primary School,school,21,primary,Singapore,Compassvale Walk,545166,SG,成康小学
-education,school,1.3858296,103.8978909,Seng Kang Secondary School,school,10,secondary,Singapore,Compassvale Lane,545090,SG,成康中学
-education,school,1.3911671,103.9021142,CHIJ St Joseph's Convent,school,62,secondary,Singapore,Seng Kang East Way,548595,SG,圣婴女中(圣若瑟)
-education,school,1.3866588,103.9037599,North Spring Primary School,school,1,primary,Singapore,Rivervale Street,545088,SG,北源小学
-education,school,1.4012821,103.9091404,Punggol Secondary School,school,51,secondary,Singapore,Edgefield Plains,828870,SG,培道中学
-education,school,1.3994811,103.9078702,Edgefield Primary School,school,41,primary,Singapore,Edgefield Plains,828869,SG,育德小学
-education,school,1.3964928,103.9115737,Greendale Secondary School,school,51,secondary,Singapore,Edgedale Plains,828866,SG,绿苑中学
-education,school,1.3963104,103.9118083,Greendale Primary School,school,50,primary,Singapore,Edgedale Plains,828848,SG,绿苑小学
-education,school,1.3939901,103.9089626,Mee Toh School,school,21,primary,Singapore,Edgedale Plains,828867,SG,弥陀学校
-education,school,1.3718639,103.8946934,Holy Innocents' High School,school,1191,secondary,Singapore,Upper Serangoon Road,534786,SG,圣婴中学
-education,school,1.3783567,103.8847207,Yio Chu Kang Primary School,school,1,primary,Singapore,Hougang Street 51,538720,SG,
-education,school,1.3789694,103.881554,Hougang Secondary School,school,2,secondary,Singapore,Hougang Street 93,534256,SG,后港中学
-education,school,1.3749851,103.8888354,Montfort Junior School,school,52,primary,Singapore,Hougang Avenue 8,538786,SG,蒙福小学
-education,school,1.3729402,103.8884078,Monfort Secondary School,school,50,secondary,Singapore,Hougang Avenue 8,538785,SG,蒙福中学
-education,school,1.3953254,103.89058,Springdale Primary School,school,71,primary,Singapore,Anchorvale Link,544799,SG,康德小学
-education,school,1.3263558,103.8809261,Canossa Convent Primary School,school,,,,,,,
-education,school,1.3236949,103.8813826,MacPherson Primary School,school,2,primary,Singapore,Mattar Road,387724,SG,柏盛小学
-education,school,1.3545302,103.9640777,The Japanese Primary School,school,11,,Singapore,Upper Changi Road North,507657,,
-education,school,1.3934437,103.7519974,Regent Secondary School,school,50,secondary,Singapore,Choa Chu Kang North 5,689621,SG,励正中学
-education,school,1.383993,103.8422034,Anderson Primary School,school,,,,,,,
-education,school,1.3317754,103.9114552,Telok Kurau Primary School,school,50,primary,Singapore,Bedok Reservoir Road,479239,SG,德乐小学
-education,school,1.3347215,103.9109741,,school,20,,Singapore,Jalan Damai,419612,SG,
-education,school,1.3026001,103.8391299,,school,,,,,,,
-education,school,1.3700602,103.7706073,,school,58,secondary,Singapore,Chestnut Drive,679301,SG,
-education,school,1.3069999,103.9167732,CHIJ Katong Convent School,school,346,secondary,Singapore,Marine Terrace,449150,SG,加东修道院女校
-education,school,1.3769397,103.9352461,Meridian Primary School,school,20,primary,Singapore,Pasir Ris Street 71,518798,SG,美廉小学
-education,school,1.3281745,103.9207485,Ping Yi Secondary School,school,61,secondary,Singapore,Chai Chee Street,468980,SG,平仪中学
-education,school,1.3299048,103.9189995,NPS International School,school,10 & 12,,Singapore,Chai Chee Lane,469021,,
-education,school,1.3054129,103.9103187,Tao Nan School,school,,,,,,,
-education,school,1.3053932,103.8995628,Tanjong Katong Primary School,school,10,primary,Singapore,Seraya Road,437259,SG,丹绒加东小学
-education,school,1.3063152,103.8907693,Chung Cheng High School (Main),school,50,secondary,Singapore,Goodman Road,439012,SG,中正中学(总校)
-education,school,1.3085317,103.8953375,Tanjong Katong Girls' School,school,20,secondary,Singapore,Dunman Road,439272,SG,丹绒加东女校
-education,school,1.300019,103.8822605,Dunman High School,school,,,,,,,
-education,school,1.3113018,103.8868058,Kong Hwa School,school,350,primary,Singapore,Guillemard Road,399772,SG,光华学校
-education,school,1.3095933,103.9156858,Saint Patrick's School,school,490,secondary,Singapore,East Coast Road,429058,SG,圣伯特理中学
-education,school,1.3122627,103.9016518,Haig Girl's School,school,51,primary,Singapore,Koon Seng Road,427072,SG,海格女校
-education,school,1.3122262,103.8282597,,school,20,,Singapore,Anderson Road,259978,SG,
-education,school,1.2795681,103.8007944,SP Jain Center of Management,school,,,,,,,
-education,school,1.2839739,103.787579,National Community Leadership Institute,school,70,,Singapore,South Buona Vista Road,,,
-education,school,1.2757518,103.8233212,Radin Mas Primary School,school,1,primary,Singapore,Bukit Purmei Avenue,099840,SG,拉丁马士小学
-education,school,1.334161,103.9339499,Red Swastika School,school,350,primary,Singapore,Bedok North Avenue 3,469719,SG,卍慈学校
-education,school,1.3361628,103.9204516,AWWA School @ Bedok,school,50,primary,Singapore,Bedok Reservoir Crescent,479225,SG,
-education,school,1.3383655,103.9260587,Damai Secondary School,school,4800,secondary,Singapore,Bedok Reservoir Road,479229,SG,康柏中学
-education,school,1.3341878,103.9320972,Yu Neng Primary School,school,56,primary,Singapore,Bedok North Street 3,469623,SG,育能小学
-education,school,1.3345342,103.9338827,Bedok Green Secondary School,school,360,secondary,Singapore,Bedok North Avenue 3,469722,SG,育青中学
-education,school,1.3305972,103.9313527,Fengshan Primary School,school,307,primary,Singapore,Bedok North Road,469680,SG,凤山小学
-education,school,1.3409804,103.9522563,Changkat Primary School,school,11,primary,Singapore,Simei Street 3,529896,SG,尚育小学
-education,school,1.3409804,103.9522563,Changkat Changi Secondary School,school,23,secondary,Singapore,Simei Street 3,529894,SG,尚育中学
-education,school,1.3314458,103.9417233,Anglican High School,school,600,secondary,Singapore,Upper Changi Road,487012,SG,圣公会中学
-education,school,1.3183224,103.8822087,Geylang Methodist School,school,2,secondary,Singapore,Geylang East Central,389705,SG,芽笼美以美中学
-education,school,1.3162542,103.937887,Singapore Hokkien Huay Kuan,school,5,,Singapore,Sennett Road,466781,,
-education,school,1.3179926,103.9450451,Temasek Primary School,school,501,primary,Singapore,Bedok South Avenue 3,479239,SG,淡马锡小学
-education,school,1.31607,103.9462642,Temasek Secondary School,school,600,secondary,Singapore,Upper East Coast Road,465561,SG,淡马锡中学
-education,school,1.4455188,103.8200485,Sembawang Primary School,school,10,primary,Singapore,Sembawang Drive,757715,SG,胜宝旺小学
-education,school,1.4525374,103.8216446,Wellington Primary School,school,10,primary,Singapore,Wellington Circle,757702,SG,伟林小学
-education,school,1.4466771,103.8161861,Sembawang Secondary School,school,30,secondary,Singapore,Sembawang Crescent,757704,SG,胜宝旺中学
-education,school,1.4512686,103.8148432,Canberra Primary School,school,21,primary,Singapore,Admiralty Drive,757714,SG,康培小学
-education,school,1.2802447,103.8063313,ISS International School,school,21,,Singapore,Preston Road,109355,,
-education,school,1.2774091,103.8030268,Academy of Singapore Teachers,school,2,,Singapore,Malan Road,109433,,
-education,school,1.4542568,103.8132292,Canberra Secondary School,school,51,secondary,Singapore,Sembawang Drive,757699,SG,康培中学
-education,school,1.4395267,103.8397855,Chongfu Primary School,school,170,primary,Singapore,Yishun Avenue 6,768959,SG,崇福学校
-education,school,1.4364947,103.8395164,Northland Secondary School,school,3,secondary,Singapore,Yishun Street 22,768578,SG,德景中学
-education,school,1.4294059,103.795937,Woodgrove Secondary School,school,3,secondary,Singapore,Woodlands Avenue 6,738990,SG,林景中學
-education,school,1.359889,103.7674888,The Learning Boutique,school,,,,,,,
-education,school,1.3592131,103.7675703,Jan & Elly,school,,,,,,,
-education,school,1.3738523,103.9543722,Hai Sing Catholic School,school,9,secondary,Singapore,Pasir Ris Drive 6,519421,SG,海星天主教中学
-education,school,1.370529,103.9555277,Loyang Primary School,school,3,primary,Singapore,Pasir Ris Drive 6,516419,SG,洛阳小学
-education,school,1.3554213,103.8438341,Catholic High School,school,9,,Singapore,Bishan Street 22,579767,SG,
-education,school,1.3208887,103.8096095,St Margaret's Secondary School,school,111,secondary,Singapore,Farrer Road,259240,SG,圣玛格烈中学
-education,school,1.3056166,103.7641323,Grace Orchard School,school,170,primary,Singapore,West Coast Road,127443,SG,
-education,school,1.3211468,103.7602916,,school,,,,,,,
-education,school,1.3012163,103.8017289,Queensway Secondary School,school,2A,secondary,Singapore,Margaret Drive,149295,SG,女皇道中学
-education,school,1.3836353,103.7592492,West View Primary School,school,31,primary,Singapore,Senja Road,677742,SG,维新小学
-education,school,1.3372378,103.7675833,Bukit Timah Primary School,school,111,primary,Singapore,Lorong Kismis,598112,SG,武吉知马小学
-education,school,1.2930954,103.8141091,Queenstown Secondary School,school,1,secondary,Singapore,Strathmore Road,148800,SG,女皇镇中学
-education,school,1.342169,103.7026301,Boon Lay Secondary School,school,11,secondary,Singapore,Jurong West Street 65,648354,SG,文礼中学
-education,school,1.348315,103.9511787,Angsana Primary School,school,3,primary,Singapore,Tampines Street 22,529366,SG,
-education,school,1.3574898,103.8898244,Yuying Secondary School,school,47,secondary,Singapore,Hougang Avenue 1,538884,SG,育英中学
-education,school,1.3168469,103.7673037,Pei Tong Primary School,school,15,primary,Singapore,Clementi Avenue 5,129857,SG,培童小学
-education,school,1.348937,103.8586168,Australian International School Singapore,school,1,,Singapore,Lorong Chuan,556818,SG,
-education,school,1.3518432,103.9512338,Yumin Primary School,school,3,primary,Singapore,Tampines Street 21,529393,SG,育民小学
-education,school,1.3511201,103.9516587,Chongzheng Primary School,school,1,primary,Singapore,Tampines Street 21,529392,SG,崇正小学
-education,school,1.3536531,103.9613589,East Spring Primary School,school,31,primary,Singapore,Tampines Street 33,529258,SG,东源小学
-education,school,1.3564837,103.9596539,East Spring Secondary School,school,30,primary,Singapore,Tampines Street 34,529231,SG,东源中学
-education,school,1.3614398,103.9548789,Dunman Secondary School,school,21,secondary,Singapore,Tampines Street 45,529093,SG,徳明中学
-education,school,1.3551821,103.947774,Pasir Ris Secondary School,school,390,secondary,Singapore,Tampines Street 21,529400,SG,思励中学
-education,school,1.3609208,103.9483365,Tampines North Primary School,school,30,primary,Singapore,Tampines Avenue 9,529565,SG,淡滨尼北小学
-education,school,1.3499713,103.9449659,Tampines Primary School,school,250,primary,Singapore,Tampines Street 12,529426,SG,淡滨尼小学
-education,school,1.3037337,103.7761324,University Town,school,,,,,,,
-education,school,1.3499913,103.8614125,St Gabriel's Primary School,school,220,primary,Singapore,Lorong Chuan,556742,SG,圣加俾尔小学
-education,school,1.3455699,103.6991484,West Grove Primary School,school,1,primary,Singapore,Jurong West Street 72,649223,SG,伟群小学
-education,school,1.3480504,103.7259558,Fuhua Secondary School,school,5,,Singapore,Jurong West Street 41,649410,SG,
-education,school,1.3432342,103.7123028,Boon Lay Garden Primary School,school,20,primary,Singapore,Boon Lay Drive,649930,SG,文园小学
-education,school,1.3479844,103.7000734,Westwood Primary School,school,1,primary,Singapore,Jurong West Street 73,649188,SG,维林小学
-education,school,1.3427489,103.6865962,Xing Nan Primary School,school,5,,Singapore,Jurong West Street 91,649036,SG,醒南小学
-education,school,1.3436255,103.7077286,River Valley High School,school,6,,Singapore,Boon Lay Avenue,649961,,立化中学
-education,school,1.3530305,103.7209334,Hua Yi Secondary School,school,60,secondary,Singapore,Jurong West Street 42,649371,SG,华义中学
-education,school,1.3359002,103.7013421,Jurong West Secondary School,school,61,secondary,Singapore,Jurong West Street 65,648348,SG,裕廊西中学
-education,school,1.313552,103.7724824,"School of Science and Technology, Singapore",school,1,secondary,Singapore,Technology Drive,138572,SG,新科技中学
-education,school,1.3445609,103.7269653,,,,,,,,,
-education,school,1.3373728,103.699187,Frontier Primary School,school,20,primary,,Jurong West Street 61,648200,,先锋小学
-education,school,1.4419554,103.7929442,Evergreen Secondary School,school,11,secondary,Singapore,Woodlands Street 83,738489,SG,永青中学
-education,school,1.3524482,103.7075685,Corporation Primary School,school,31,primary,Singapore,Jurong West Street 24,648347,SG,徳行小学
-education,school,1.3397903,103.6982179,Jurong West Primary School,school,30,primary,Singapore,Jurong West Street 61,609476,SG,裕廊西小学
-education,school,1.3395669,103.687548,Juying Primary School,school,31,,Singapore,Jurong West Street 91,649037,SG,聚英小学
-education,school,1.3104691,103.7742824,New Town Secondary School,school,1020,secondary,Singapore,Dover Road,139657,SG,光伟中学
-education,school,1.353669,103.7270623,Hong Kah Secondary School,school,931,secondary,Singapore,Jurong West Street 42,649370,SG,丰嘉中学
-education,school,1.3458868,103.7217267,Yuhua Secondary School,school,5,,Singapore,Jurong West Street 41,649410,SG,
-education,school,1.3477662,103.7207546,Shuqun Primary School,school,8,primary,Singapore,Jurong West Street 51,649332,SG,树群小学
-education,school,1.3487313,103.6937607,One World International School,school,21,,Singapore,Jurong West Street 81,649075,SG,
-education,school,1.3532309,103.7006913,Westwood Secondary School,school,11,secondary,Singapore,Jurong West Street 25,648350,SG,维林中学
-education,school,1.3495755,103.7330215,Jurong Primary School,school,320,primary,Singapore,Jurong East Street 32,609476,SG,裕廊小学
-education,school,1.3473451,103.7178306,Rulang Primary School,school,6,primary,Singapore,Jurong West Street 52,649295,SG,孺廊小学
-education,school,1.3582443,103.889553,Xinghua Primary School,school,45,primary,Singapore,Hougang Avenue 1,538882,SG,醒华小学
-education,school,1.3433418,103.7410319,Yuhua Primary School,school,158,primary,Singapore,Jurong East Street 24,609558,SG,裕华小学
-education,school,1.3414806,103.7390902,Shuqun Secondary School,school,450,secondary,Singapore,Jurong East Street 21,609604,SG,树群中学
-education,school,1.3242311,103.9512555,Bedok South Secondary School,school,1,secondary,Singapore,Jalan Langgar Bedok,468585,SG,尚义中学
-education,school,1.3077714,103.9263701,Victoria School,school,2,secondary,Singapore,Siglap Link,448880,SG,维多利亚学校
-education,school,1.286545,103.811826,Bukit Merah Secondary School,school,10,secondary,Singapore,Lengkok Bahru,159050,SG,红山中学
-education,school,1.3000677,103.7987907,New Town Primary School,school,300,primary,Singapore,Tanglin Halt Road,148812,SG,光道小学
-education,school,1.3256384,103.9426229,Bedok View Secondary School,school,6,secondary,Singapore,Bedok South Avenue 3,469293,SG,务德中学
-education,school,1.3408339,103.7183786,Yuan Ching Secondary School,school,103,secondary,Singapore,Yuan Ching Road,618654,SG,毅道中学
-education,school,1.3383243,103.7171074,Lakeside Primary School,school,161,primary,Singapore,Corporation Walk,618310,SG,湖滨小学
-education,school,1.3193425,103.7447024,Commonwealth Secondary School,school,698,secondary,Singapore,West Coast Road,608784,SG,立才中学
-education,school,1.3313155,103.7235867,Jurong Secondary School,school,31,secondary,Singapore,Yuan Ching Road,618652,SG,裕廊中学
-education,school,1.3105386,103.7570264,Tanglin Secondary School,school,301,secondary,Singapore,West Coast Road,127391,SG,东林中学
-education,school,1.3301383,103.8009952,Nanyang Girls' High School,school,2,secondary,Singapore,Linden Drive,288683,SG,南洋女子中学校
-education,school,1.3564241,103.8418256,Whitley Secondary School,school,30,secondary,Singapore,Bishan Street 24,579747,SG,惠厉中学
-education,school,1.3024698,103.7719879,Yong Siew Toh Conservatory of Music,music_school,,,,,,,
-education,school,1.3243367,103.8595216,Bendemeer Secondary badminton court,school,,,,,,,
-education,school,1.3234288,103.9383904,Bedok Green Primary School,school,1,primary,Singapore,Bedok South Avenue 2,469317,SG,育青小学
-education,school,1.3659772,103.8324747,,school,2,,Singapore,Sin Ming Walk,575565,SG,
-education,school,1.3670727,103.8284614,Peirce Secondary School,school,10,secondary,Singapore,Sin Ming Walk,575566,SG,培雅中学
-education,school,1.3601317,103.8545309,Townsville Primary School,school,3,primary,Singapore,Ang Mo Kio Avenue 10,569730,SG,城景小学
-education,school,1.3496671,103.8539728,Kuo Chuan Presybterian Secondary School,school,10,secondary,Singapore,Bishan Street 13,579795,SG,国专长老会中学
-education,school,1.3488955,103.8690495,Zhonghua Secondary School,school,13,secondary,Singapore,Serangoon Avenue 3,556123,SG,中华中学
-education,school,1.4172571,103.8380782,Naval Base Primary School,school,7,primary,,Yishun Avenue 4,769028,SG,军港小学
-education,school,1.41712,103.8377564,Orchid Park Secondary School,school,10,secondary,Singapore,Yishun Street 81,768454,SG,兰景中学
-education,school,1.4214063,103.8397078,Northland Primary School,school,15,primary,Singapore,Yishun Avenue 4,769026,SG,新华小学
-education,school,1.419845,103.8366129,Chung Cheng High School (Yishun),school,11,secondary,Singapore,Yishun Street 61,768547,SG,中正中学 (义顺)
-education,school,1.419845,103.8366129,Rainbow Centre - Yishun Park School,school,15,,Singapore,Yishun Street 61,768548,,
-education,school,1.4190418,103.8300267,Peiying Primary School,school,651,primary,,Yishun Ring Road,768687,SG,培英小学
-education,school,1.4192505,103.8300404,Naval Base Secondary School,school,901,secondary,Singapore,Yishun Ring Road,768689,SG,军港中学
-education,school,1.3731823,103.878715,AWWA Sch,school,11,,Singapore,Lor Napiri,547532,SG,
-education,school,1.3471722,103.7671475,,school,300,,,Jalan Jurong Kechil,598668,,
-education,school,1.3125425,103.7552743,The Japanese Secondary School,school,,,,,,,
-education,school,1.335969,103.873885,Cedar Girls' Secondary School,school,1,secondary,Singapore,Cedar Avenue,349692,SG,四德女子中学
-education,school,1.3651998,103.7495481,Swiss Cottage Secondary School,school,3,secondary,Singapore,Bukit Batok Street 34,659322,SG,瑞士村中学
-education,school,1.3094105,103.8962896,Tanjong Katong Secondary School,school,130,secondary,Singapore,Haig Road,438796,SG,丹绒加东中学
-education,school,1.4417767,103.7872193,Qihua Primary School,school,5,primary,Singapore,Woodlands Street 81,738525,SG,启化小学
-education,school,1.3991458,103.9134438,Horizon Primary School,school,61,primary,Singapore,Edgedale Plains,828819,SG,励众小学
-education,school,1.4275118,103.7753801,Singapore American School,school,,,,Woodlands Ave 1,,,
-education,school,1.4449023,103.802665,Admiralty Secondary School,school,31,secondary,Singapore,Woodlands Crescent,737916,SG,美雅中学
-education,school,1.3422852,103.8512494,Beatty Secondary School,school,1,secondary,Singapore,Toa Payoh North,318990,SG,培德中学
-education,school,1.3457543,103.7910952,Chatsworth International School Singapore (Bukit Timah Campus)),school,72,,Singapore,Bukit Tinggi Road,289760,,
-education,school,1.3727736,103.8516192,Jing Shan Primary School,school,5,primary,,Ang Mo Kio Street 52,569228,,静山小学
-education,school,1.3760608,103.8510077,Anderson Secondary School,school,10,secondary,Singapore,Ang Mo Kio Street 53,569206,SG,安德逊中学
-education,school,1.3655034,103.8520981,Deyi Secondary School,school,1,secondary,Singapore,Ang Mo Kio Street 42,569277,SG,德义中学
-education,school,1.4402857,103.8038626,Greenwood Primary School,school,11,primary,Singapore,Woodlands Drive 62,737942,SG,学林小学
-education,school,1.4372852,103.8003812,Woodlands Ring Secondary School,school,10,secondary,Singapore,Woodlands Ring Road,738239,SG,辅廉中学
-education,school,1.4322643,103.7895566,Woodgrove Primary School,school,2,primary,Singapore,Woodlands Drive 14,738079,SG,林景小学
-education,school,1.4333944,103.797101,Woodlands Ring Primary School,school,11,primary,Singapore,Woodlands Ring Road,738240,SG,辅廉小学
-education,school,1.4438437,103.8007279,Admiralty Primary School,school,11,primary,Singapore,Woodlands Circle,738907,SG,美雅小学
-education,school,1.4526074,103.7930829,,school,,,,,,,
-education,school,1.4438892,103.7938877,Evergreen Primary School,school,31,primary,Singapore,Woodlands Circle,738908,SG,永青小学
-education,school,1.4335016,103.7851598,Si Ling Primary School,school,61,primary,Singapore,Woodlands Avenue 1,739067,SG,士林小学
-education,school,1.4312789,103.7767697,Fuchun Secondary School,school,,,,,,,
-education,school,1.4312932,103.7778243,Fuchun Primary School,school,23,primary,Singapore,Woodlands Avenue 1,739063,SG,福春小学
-education,school,1.4290187,103.791704,Innova Primary School,school,80,primary,Singapore,Woodlands Drive 17,737888,SG,星烁小学
-education,school,1.4290777,103.7871711,Singapore Sports School,school,1,sports,Singapore,Champions Way,737913,SG,
-education,school,1.4275013,103.792691,Christ Church Secondary School,school,20,secondary,Singapore,Woodlands Drive 17,737924,SG,基督堂中学
-education,school,1.4456634,103.7741376,Siling Secondary School,school,11,secondary,Singapore,Marsiling Lane,739148,SG,士林中学
-education,school,1.4410037,103.7738395,Woodlands Secondary School,school,11,secondary,Singapore,Marsiling Road,739111,SG,辅仁中学
-education,school,1.4385328,103.7765182,Marsiling Secondary School,school,12,secondary,Singapore,Marsiling Road,739110,SG,马西岭中学
-education,school,1.437803,103.798072,MINDS Woodlands Garden,school,,,,,,,
-education,school,1.4374555,103.7923211,Woodlands Primary School,school,10,primary,Singapore,Woodlands Drive 50,738853,SG,辅仁小学
-education,school,1.4401457,103.7886797,Riverside Secondary School,school,3,secondary,Singapore,Woodlands Street 81,738524,SG,立德中学
-education,school,1.361002,103.8334198,Ai Tong School,school,100,,,Bright Hill Dr,579646,,
-education,school,1.3837361,103.8424146,Presbyterian High School,school,5209,secondary,Singapore,Ang Mo Kio Avenue 6,569845,SG,长老会中学
-education,school,1.2963015,103.7930136,Tanglin Trust School,school,95,,Singapore,Portsdown Road,139299,,
-education,school,1.3430617,103.7590131,Former Yusof Ishak Secondary School,school,11,secondary,Singapore,Bukit Batok Street 25,658712,SG,尤索夫依萨中学
-education,school,1.3461706,103.7566646,Keming Primary School,school,90,primary,Singapore,Bukit Batok East Avenue 6,659762,SG,克明小学
-education,school,1.3464705,103.7529283,Bukit View Primary School,school,18,primary,Singapore,Bukit Batok Street 21,659634,SG,百德小学
-education,school,1.3463881,103.7513818,Bukit View Secondary School,school,16,secondary,Singapore,Bukit Batok Street 21,659633,SG,百德中学
-education,school,1.3475195,103.7680631,Child Development Centre – Bukit Batok,school,21,,,Bukit Batok East Avenue 6,659759,,
-education,school,1.3496567,103.7397711,Bukit Batok Secondary School,school,50,secondary,Singapore,Bukit Batok West Avenue 8,658962,SG,武吉巴督中学
-education,school,1.3486683,103.7415808,Princess Elizabeth Primary School,school,30,primary,,Bukit Batok West Avenue 3,659163,,伊丽沙白公主小学
-education,school,1.3546055,103.7533278,Lian Hua Primary School,school,2,primary,,Bukit Batok Street 52,659243,,联华小学
-education,school,1.3595243,103.746906,Dazhong Primary School,school,35,primary,,Bukit Batok Street 31,659441,,大众小学
-education,school,1.3155295,103.76385,Clementi Primary School,school,8,primary,Singapore,Clementi Avenue 3,129903,SG,锦明小学
-education,school,1.4577466,103.8143369,Northoarks Primary School,school,61,primary,Singapore,Sembawang Drive,757622,SG,德林小学
-education,school,1.4395592,103.8243895,Star Learners Childcare Centre,school,587,,,Sembawang Place,758440,,
-education,school,1.3051448,103.8575694,Madrassah Aljunied Al Islamiah,school,,,,,,,
-education,school,1.3693787,103.8365763,Mayflower Secondary School,school,2,secondary,Singapore,Ang Mo Kio Street 21,569384,SG,美华中学
-education,school,1.3409791,103.8552603,First Toa Payoh Primary School,school,7,primary,Singapore,Lorong 8 Toa Payoh,319252,SG,大智小学
-education,school,1.3379464,103.8556587,Pei Chun Public School,school,16,primary,Singapore,Lorong 7 Toa Payoh,319320,SG,公立培群学校
-education,school,1.3324968,103.8416809,CHIJ (Toa Payoh) Primary School,school,628,primary,Singapore,Lorong 1 Toa Payoh,319765,SG,圣婴女子小学(大巴窑)
-education,school,1.3380088,103.8475363,Kheng Cheng School,school,15,primary,,Lorong 3 Toa Payoh,319580,,擎青学校
-education,school,1.3757526,103.9449656,Elias Park Primary School,school,11,primary,Singapore,Pasir Ris Street 52,828869,SG,伊莱雅园小学
-education,school,1.3691499,103.9506026,Coral Primary School,school,20,primary,Singapore,Pasir Ris Street 51,518902,SG,云海小学
-education,school,1.3685006,103.94875,Meridian Secondary School,school,31,primary,Singapore,Pasir Ris Street 51,518901,SG,雲海中学
-education,school,1.3673838,103.9566813,Loyang View Secondary School,school,12,secondary,Singapore,Pasir Ris Street 11,519073,SG,洛阳中学
-education,school,1.2764731,103.8393182,Cantonment Primary School,school,1,primary,Singapore,Cantonment Close,088256,SG,康达小学
-education,school,1.2873332,103.8374171,Outram Secondary School,school,3,secondary,Singapore,York Hill,168622,SG,欧南中学
-education,school,1.2756954,103.8274594,CHIJ (Kellock) Primary School,school,1,primary,Singapore,Bukit Teresa Road,099757,SG,圣婴女校(客洛)
-education,school,1.2750509,103.8210952,CHIJ St. Theresa's Convent,school,160,secondary,Singapore,Lower Delta Road,099138,SG,圣婴德兰女校
-education,school,1.2859951,103.8143326,Gan Eng Seng Primary School,school,100,primary,Singapore,Redhill Close,158901,SG,颜永成小学
-education,school,1.285989,103.8192834,Henderson Secondary School,school,100,secondary,Singapore,Henderson Road,159544,SG,达善中学
-education,school,1.284887,103.8254231,Zhangde Primary School,school,51,primary,Singapore,Jalan Membina,169485,SG,彰德小学
-education,school,1.4364005,103.828968,Ahmad Ibrahim Secondary School,school,751,secondary,Singapore,Yishun Avenue 6,768928,SG,伊欣中学
-education,school,1.434529,103.8323798,Ahmad Ibrahim Primary School,school,10,primary,Singapore,Yishun Street 11,768643,SG,依布拉欣小学
-education,school,1.4342018,103.8332891,Yishun Primary School,school,500,primary,Singapore,Yishun Ring Road,768679,SG,义顺小学
-education,school,1.4286862,103.8295547,Yishun Secondary School,school,4,secondary,Singapore,Yishun Street 71,768516,SG,义顺中学
-education,school,1.4288873,103.8298505,Jiemin Primary School,school,2,primary,Singapore,Yishun Street 71,737888,SG,介民小学
-education,school,1.2885004,103.8092476,,school,,,,,,,
-education,school,1.2884514,103.8233704,Gan Eng Seng School,school,1,secondary,Singapore,Henderson Road,159561,SG,颜永成学校
-education,school,1.2890293,103.822105,Ascensia Academy,school,106A,,Singapore,Henderson Crescent,151106,SG,爱信国际学院
-education,school,1.289575,103.8200672,Tanglin School,school,143,,Singapore,Alexandra Road,159924,,
-education,school,1.2774613,103.8092779,Blangah Rise Primary School,school,91,primary,Singapore,Telok Blangah Heights,109100,SG,布兰雅坡小学
-education,school,1.301032,103.7840846,Fairfield Methodist Primary School,school,100,primary,Singapore,Dover Road,139648,SG,花菲卫理小学
-education,school,1.3027359,103.7841053,Fairfield Methodist Secondary School,school,102,secondary,Singapore,Dover Road,139649,SG,花菲卫理中学
-education,school,1.3290017,103.8021954,Hwa Chong Institution,school,661,,Singapore,Bukit Timah Road,269734,,
-education,school,1.3342932,103.7827605,Methodist Girls' School,school,11,primary;secondary,Singapore,Blackmore Drive,599986,SG,美以美女校
-education,school,1.3217455,103.8075545,Nanyang Primary School,school,52,primary,Singapore,King's Road,268097,SG,南洋小学
-education,school,1.3327045,103.8050361,National Junior College,school,37,,Singapore,Hillcrest Road,288913,,
-education,school,1.3260246,103.8437024,Balestier Hill Primary School,school,565,primary,Singapore,Balestier Road,329927,SG,博理小学
-education,school,1.3182571,103.8453859,Saint Joseph's Institution Junior,school,3,primary,Singapore,Essex Road,309331,SG,圣若瑟书院附小
-education,school,1.295213,103.8353584,River Valley Primary School,school,2,primary,Singapore,River Valley Green,237993,SG,立化小学
-education,school,1.3058069,103.9170538,Ngee Ann Primary School,school,344,primary,Singapore,Marine Terrace,449149,SG,义安小学
-education,school,1.308493,103.7982149,Anglo-Chinese School (International),school,61,,Singapore,Jalan Hitam Manis,278475,SG,
-education,school,1.3115908,103.786376,,school,,,,,,,
-education,school,1.312715,103.7857683,,school,,,,,,,
-education,school,1.3017791,103.7993728,,school,121,secondary,Singapore,Queensway,149059,SG,
-education,school,1.3156096,103.7625647,Clementi Town Secondary School,school,10,secondary,Singapore,Clementi Avenue 3,129904,SG,锦文中学
-education,school,1.307426,103.7689117,NUS High School of Mathematics and Science,school,,,,,,,
-education,school,1.3087571,103.7679446,Nan Hua High School,school,41,secondary,Singapore,Clementi Avenue 1,129956,SG,南华中学
-education,school,1.3016971,103.7641077,Kent Ridge Secondary School,school,147,secondary,Singapore,West Coast Road,127368,SG,岗丽中学
-education,school,1.3009302,103.7685359,The Japanese Primary School,school,95,,Singapore,Clementi Road,129782,SG,
-education,school,1.2969841,103.7669559,Waseda Shibuya Senior High School,school,,,,,,,
+education,school,1.357694,103.8841642,music_school,Yamaha Music School,,,,,,,
+education,school,1.4728134,103.6634738,school,SMK Bukit Indah 2,,,,,,,
+education,school,1.3252259,103.9191042,school,LTA Rail Academy,,,,,,,
+education,school,1.3756218,103.8560202,school,Holy Innocents' Primary School,SG,Singapore,Ang Mo Kio Avenue 5,569869,爱同学校,primary,4300
+education,school,1.3269927,103.8808065,school,Canossian School,,Singapore,Sallim Road,387621,,,1
 education,school,1.3009802,103.7689729,,,,,,,,,
-education,school,1.3074408,103.7654589,International Community School,school,,,,,,,
-education,school,1.3678315,103.7498303,,school,,,,,,,
-education,school,1.3767595,103.7517167,ITE College West,school,,,,,,,
-education,school,1.3651998,103.7495481,Saint Anthony's Primary School,school,,,,,,,
-education,school,1.4320218,103.8388439,Yishun Town Secondary School,school,6,secondary,Singapore,Yishun Street 21,768610,SG,毅道中学
-education,school,1.4332268,103.8387679,Xishan Primary School,school,8,primary,Singapore,Yishun Street 21,768611,SG,西山小学
-education,school,1.4282894,103.8452278,North View Secondary School,school,530,secondary,Singapore,Yishun Ring Road,768680,SG,德贤中学
-education,school,1.4274168,103.8452563,Huamin Primary School,school,21,primary,Singapore,Yishun Avenue 11,768857,SG,华民小学
-education,school,1.4282174,103.8479231,North View Primary School,school,210,primary,Singapore,Yishun Avenue 6,545088,SG,德贤小学
-education,school,1.420676,103.8456719,Northbrooks Secondary School,school,585,secondary,Singapore,Yishun Ring Road,768692,SG,思源中学
-education,school,1.2964584,103.8073341,Queenstown Primary School,school,310,primary,Singapore,Margaret Drive,149303,SG,女皇镇小学
-education,school,1.2967626,103.8086711,Rainbow Centre-Margaret Drive School,school,,,,,,,
-education,school,1.295431,103.8129092,,school,,,,,,,
-education,school,1.3212434,103.8261795,Singapore Chinese Girls' School,school,190,primary;secondary,Singapore,Dunearn Road,309437,SG,新加坡女子学校
-education,school,1.4348711,103.7741032,Marsiling Primary School,school,31,primary,Singapore,Woodlands Centre Road,738927,SG,马西岭小学
-education,school,1.3287088,103.9006026,Maha Bodhi School,school,10,primary,Singapore,Ubi Avenue 1,408931,SG,菩提学校
-education,school,1.3282466,103.9026574,Manjusri Secondary School,school,20,secondary,Singapore,Ubi Avenue 1,408940,SG,文殊中学
-education,school,1.3584368,103.9347546,Poi Ching School,school,21,primary,Singapore,Tampines Street 71,529067,SG,培青学校
-education,school,1.354193,103.9332771,Junyuan Secondary School,school,11,secondary,Singapore,Tampines Street 84,528933,SG,俊源中学
-education,school,1.349035,103.9302614,Springfield Secondary School,school,30,secondary,Singapore,Tampines Avenue 8,529593,SG,泉原中学
-education,school,1.3498845,103.9359601,St. Hilda's Primary School,school,2,primary,Singapore,Tampines Avenue 3,529706,,圣希尔达小学
-education,school,1.3470464,103.9385251,Junyuan Primary School,school,2,primary,Singapore,Tampines Street 91,528906,SG,俊源小学
-education,school,1.3751066,103.8341282,CHIJ St Nicholas Girls' School,school,501,primary;secondary,Singapore,Ang Mo Kio Street 13,569405,,
-education,school,1.3078858,103.8299243,,school,,,,,,,
-education,school,1.3080574,103.8294697,,school,,,,,,,
-education,school,1.3445444,103.7427043,Crest Secondary School,school,561,secondary,Singapore,Jurong East Street 24,609561,SG,裕峰中学
-education,school,1.3807132,103.8985017,North Vista Secondary School,school,11,secondary,Singapore,Rivervale Link,545081,SG,德新中学
-education,school,1.3048916,103.8613827,,school,,,,,,,
-education,school,1.3041077,103.8564858,Stamford Primary School,school,1,primary,Singapore,Victoria Lane,198423,SG,史丹福小学
-education,school,1.4247985,103.6161513,Raffles American International School,school,,,,Ledang Height,79200,,
-education,school,1.3832582,103.738172,Bukit Panjang Government High School,school,7,secondary,Singapore,Choa Chu Kang Avenue 4,689809,SG,武吉班让政府中学
-education,school,1.3813586,103.7359182,Concord Primary School,school,3,primary,Singapore,Choa Chu Kang Avenue 4,689814,SG,克勤小学
-education,school,1.4387788,103.6155528,SMK Medini,school,,,Iskandar Puteri,Persiaran Kampus,79200,,美迪尼国中
-education,school,1.3246438,103.8616106,Bendemeer Secondary School,school,1,secondary,Singapore,St Wilfred Road,327919,SG,明智中学
-education,school,1.3685489,103.8417081,Ang Mo Kio Secondary School,school,6,secondary,Singapore,Ang Mo Kio Street 22,569362,SG,茂桥中学
-education,school,1.3651491,103.8577532,Pathlight School Campus 2,school,2,,Singapore,Ang Mo Kio Street 44,569250,SG,
-education,school,1.3657901,103.8502341,Teck Ghee Primary School,school,1,primary,Singapore,Ang Mo Kio Street 32,569299,SG,德义小学
-education,school,1.3629641,103.8395468,Eunoia Junior College,school,601,,Singapore,Sin Ming Avenue,575734,,
-education,school,1.3121358,103.8499178,Farrer Park Primary School,school,2,primary,Singapore,Farrer Park Road,217567,SG,华苑小学
-education,school,1.4551562,103.8176435,Endeavour Primary School,school,10,primary,Singapore,Admiralty Link,757521,SG,毅勤小学
-education,school,1.3686157,103.9621542,Greenview Secondary School,school,15,secondary,Singapore,Pasir Ris Street 21,518969,SG,青景中学
-education,school,1.3717988,103.9623145,Pasir Ris Primary School,school,5,primary,Singapore,Pasir Ris Street 21,518968,SG,思励小学
-education,school,1.366422,103.9610821,White Sands Primary School,school,2,primary,Singapore,Pasir Ris Street 11,519075,SG,白沙小学
-education,school,1.3733424,103.9564183,Casuarina Primary School,school,30,primary,Singapore,Pasir Ris Street 41,518935,SG,康岭小学
-education,school,1.3722675,103.9588055,Pasir Ris Crest Secondary School,school,11,secondary,Singapore,Pasir Ris Street 41,518934,SG,励志中学
-education,school,1.3794925,103.9382862,Siglap Secondary School,school,10,secondary,Singapore,Pasir Ris Drive 10,519385,SG,实乞纳中学
-education,school,1.3253175,103.9038476,Eunos Primary School,school,95,primary,Singapore,Jalan Eunos,419529,SG,友诺小学
-education,school,1.4011643,103.9021897,Edgefield Secondary School,school,36,secondary,Singapore,Punggol Field,828814,SG,
-education,school,1.4053105,103.9045015,Punggol View Primary School,school,9,primary,Singapore,Punggol Place,828845,SG,培景小学
-education,school,1.4077057,103.898409,Valour Primary School,school,49,,Singapore,Punggol Central,828728,,
-education,school,1.3451841,103.8511417,Guangyang Secondary School,school,8,secondary,Singapore,Bishan Street 12,579807,SG,光洋中学
-education,school,1.3465371,103.8495946,Guangyang Primary School,school,6,primary,Singapore,Bishan Street 12,579806,SG,光洋小学
-education,school,1.3854693,103.7672509,Greenridge Primary School,school,11,primary,Singapore,Jelapang Road,677744,SG,群立小学
-education,school,1.3806157,103.7692247,Zhenghua Primary School,school,9,primary,Singapore,Fajar Road,679002,SG,正华小学
-education,school,1.3058759,103.9104901,CHIJ (Katong) Primary School,school,17,primary,Singapore,Martia Road,424821,SG,圣婴女校(加东)
-education,school,1.3341953,103.94148,St Anthony's Canossian Primary School,school,1602,primary,Singapore,Bedok North Avenue 4,469701,SG,圣安东尼女校(小学)
-education,school,1.3192324,103.83607,Anglo-Chinese School (Barker),school,60,secondary,Singapore,Barker Road,309919,SG,英华学校(巴克路)
-education,school,1.3881805,103.7645618,Zhenghua Secondary School,school,91,secondary,Singapore,Senja Road,677741,SG,正华中学
-education,school,1.4475751,103.801,Riverside Primary School,school,110,primary,Singapore,Woodlands Crescent,737803,SG,立德小学
-education,school,1.3728954,103.768882,Bukit Panjang Primary School,school,109,primary,Singapore,Cashew Road,679676,SG,武吉班让小学
-education,school,1.3932384,103.8756876,Sengkang Green Primary School,school,15,primary,Singapore,Fernvale Road,797636,SG,康林小学
-education,school,1.3777776,103.74099,Chua Chu Kang Primary School,school,20,primary,Singapore,Choa Chu Kang Avenue 2,689905,SG,蔡厝港小学
-education,school,1.3841899,103.752731,Chua Chu Kang Secondary School,school,3,secondary,Singapore,Teck Whye Crescent,688845,SG,蔡厝港中学
-education,school,1.3824063,103.7462475,South View Primary School,school,,,,,,,
-education,school,1.3846021,103.7529051,Teck Whye Primary School,school,11,primary,Singapore,Teck Whye Walk,688261,SG,德惠小学
-education,school,1.384346,103.7554385,Teck Whye Secondary School,school,31,secondary,Singapore,Teck Whye Crescent,688848,SG,德惠中学
-education,school,1.3943096,103.7435283,De La Salle School,school,11,primary,Singapore,Choa Chu Kang Street 52,689285,SG,德喇撒学校
-education,school,1.3938076,103.7462431,Kranji Primary School,school,11,primary,Singapore,Choa Chu Kang Street 54,689189,SG,格致小学
-education,school,1.3900183,103.7418781,Kranji Secondary School,school,61,secondary,Singapore,Choa Chu Kang Street 51,689333,SG,科兰芝中学
-education,school,1.4034371,103.7475592,Unity Primary School,school,21,primary,Singapore,Choa Chu Kang Cresent,688268,SG,协和小学
-education,school,1.4009174,103.7453516,Unity Secondary School,school,20,secondary,Singapore,Choa Chu Kang Street 62,689143,SG,协和中学
-education,school,1.3973024,103.7501971,,,,,,,,,
-education,school,1.3256084,103.8276425,St. Joseph's Institution,school,38,,Singapore,Malcolm Road,308274,,
-education,school,1.3405811,103.8775934,Maris Stella High School,school,25,,Singapore,Mount Vernon Road,368051,,
-education,school,1.306256,103.9052226,People's Up,school,143,,Singapore,East Coast Road,428833,SG,
-education,school,1.3095774,103.8404043,Anglo-Chinese School (Junior),school,16,primary,Singapore,Winstedt Road,227988,SG,英华学校(附小)
-education,school,1.2970535,103.8149002,Avondale Grammar School,school,304,,,Tanglin Road,247972,,
-education,school,1.4361311,103.8033928,Spectra Secondary School,school,1,secondary,Singapore,Woodlands Drive 64,737758,SG,云锦中学
-education,school,1.3495219,103.8688972,Yangzheng Primary School,school,15,primary,Singapore,Serangoon Avenue 3,556108,SG,养正小学
-education,school,1.3900977,103.7657286,West Spring Primary School,school,60,primary,Singapore,Bukit Panjang Ring Road,679946,SG,伟源小学
-education,school,1.3478553,103.7177736,,school,,,,,,,
-education,school,1.4790386,103.9578269,Sekolah Menengah Kota Masai 2,school,,,,,,,
-education,school,1.4792079,103.7477448,Sekolah Jenis Kebangsaan (T) Jalan Yahya Awal,school,,,,,,,
-education,school,1.4796144,103.7431694,Sekolah Jenis Kebangsaan (C) Foon Yew 2,school,,,,,,,宽柔华小（二）校
-education,school,1.3351041,103.8413355,Saint Joseph's Institution International,school,490,,Singapore,Thomson Road,298191,,
-education,school,1.3771692,103.9383575,ParkView Primary School,school,60,primary,Singapore,Pasir Ris Drive 1,519524,SG,百惠小学
-education,school,1.4723881,103.7663144,Sekolah Menengah Teknik Tanjung Puteri Johor Bahru,school,,,,,,,
-education,school,1.3080627,103.8879061,Broadrick Secondary School,school,61,secondary,Singapore,Dakota Crescent,399935,SG,务立中学
-education,school,1.3756218,103.8560202,Holy Innocents' Primary School,school,4300,primary,Singapore,Ang Mo Kio Avenue 5,569869,SG,爱同学校
-education,school,1.2916943,103.8234911,Alexandra Primary School,school,2A,primary,Singapore,Prince Charles Crescent,159016,SG,雅德小学
-education,school,1.377157,103.8355955,Anderson Primary School,school,6,primary,Singapore,Ang Mo Kio Avenue 2,569948,SG,安德逊小学
-education,school,1.369529,103.8401016,Ang Mo Kio Primary School,school,20,primary,Singapore,Ang Mo Kio Avenue 3,569920,SG,茂乔小学
-education,school,1.3190798,103.835119,Anglo-Chinese School (Primary),school,50,primary,Singapore,Barker Road,309918,SG,英华学校(小学)
-education,school,1.3231682,103.8645559,Bendemeer Primary School,school,91,primary,Singapore,Bendemeer Road,339948,SG,明智小学
-education,school,1.3668406,103.766981,CHIJ (Our Lady Queen of Peace) Primary School,school,4,primary,Singapore,Chestnut Drive,679287,SG,圣婴女校(和平之后)
-education,school,1.3580664,103.8633567,CHIJ (Our Lady of Good Counsel) Primary School,school,2C,primary,Singapore,Burghley Drive,558979,SG,圣婴女子小学(良言)
-education,school,1.32903,103.8887157,,school,107,primary,Singapore,Circuit Road,379481,SG,
-education,school,1.3358135,103.8747024,Cedar Primary School,school,15,primary,Singapore,Cedar Avenue,349700,SG,四德小学
-education,school,1.3728033,103.8581221,Da Qiao Primary School,school,8,primary,Singapore,Ang Mo Kio Street 54,569185,SG,大侨小学
-education,school,1.3361628,103.9204516,Damai Primary School,school,52,primary,Singapore,Bedok Reservoir Crescent,479226,SG,达迈小学
-education,school,1.3646291,103.7440287,Dunearn Secondary School,school,21,secondary,Singapore,Bukit Batok West Avenue 2,659204,SG,德能中学
-education,school,1.3299048,103.9189995,East Coast Primary School,school,8,primary,Singapore,Chai Chee Lane,469031,SG,东岸小学
-education,school,1.3370151,103.7357445,Fuhua Primary School,school,65,primary,Singapore,Jurong East Street 13,609647,SG,辅华小学
-education,school,1.357959,103.9483912,Gongshang Primary School,school,1,primary,Singapore,Tampines Street 42,158901,SG,工商小学
-education,school,1.3159522,103.7833539,Henry Park Primary School,school,1,primary,Singapore,Holland Grove Road,278790,SG,恒力小学
-education,school,1.3666728,103.892935,Holy Innocents' Primary School,school,5,primary,Singapore,Lorong Low Koon,536451,SG,圣婴小学
-education,school,1.3638086,103.7433595,,school,1,primary,Singapore,Bukit Batok West Avenue 2,659203,SG,
-education,school,1.3216532,103.856712,Hong Wen School,school,30,primary,Singapore,Towner Road,327829,SG,宏文学校
-education,school,1.3400891,103.8388411,Marymount Convent School,school,20,primary,Singapore,Marymount Road,297754,SG,玛丽蒙女校
-education,school,1.3835691,103.8952896,North Vista Primary School,school,20,primary,Singapore,Compassvale Link,544974,SG,远景小学
-education,school,1.3195253,103.9243393,Opera Estate Primary School,school,48,primary,Singapore,Fidelio Street,458436,SG,奥匹拉小学
-education,school,1.3850407,103.8910031,Palm View Primary School,school,150,primary,Singapore,Compassvale Bow,544822,SG,
-education,school,1.3601317,103.8545309,Pathlight School Autism Resource Centre (Singapore),school,5,,Singapore,Ang Mo Kio Avenue 10,569739,,
-education,school,1.3511194,103.8844031,Paya Lebar Methodist Girls' Primary School,school,298,primary,Singapore,Lorong Ah Soo,536741,SG,巴耶利峇美以美女子小学
-education,school,1.3491628,103.8860847,Paya Lebar Methodist Girls' Secondary School,school,296,secondary,Singapore,Lor Ah Soo,536742,SG,巴耶礼峇美以美女校(中学)
-education,school,1.3386754,103.7762823,Pei Hwa Presbyterian Primary School,school,7,primary,Singapore,Pei Wah Avenue,597610,SG,培华长老会小学
-education,school,1.3582379,103.8705182,Peicai Secondary School,school,10,secondary,Singapore,Serangoon Avenue 4,556094,SG,培才中学
-education,school,1.4013671,103.8978011,Punggol Green Primary School,school,98,primary,Singapore,Punggol Walk,828772,SG,培林小学
-education,school,1.3467485,103.9480443,Qiaonan Primary School,school,15,primary,Singapore,Tampines Street 11,529454,SG,侨南小学
-education,school,1.3132087,103.7561065,Qifa Primary School,school,50,primary,Singapore,West Coast Avenue,128104,SG,启发小学
-education,school,1.3734431,103.8736707,Rosyth School,school,21,primary,Singapore,Serangoon North Avenue 4,555855,SG,乐赛学校
-education,school,1.3820945,103.7548466,Former South View Primary School,school,38,primary,Singapore,Teck Whye Crescent,688945,SG,南山小学
-education,school,1.3317779,103.8657385,St. Andrew's Junior School,school,2,primary,Singapore,Francis Thomas Drive,359337,SG,圣安德烈小学
-education,school,1.3317779,103.8657385,St. Andrew's Secondary School,school,15,secondary,Singapore,Francis Thomas Drive,359342,SG,圣安德烈中学
-education,school,1.3248179,103.9382695,,school,860,,Singapore,New Upper Changi Road,467353,SG,
-education,school,1.3039642,103.8463239,St. Margaret's Primary School,school,99,primary,Singapore,Wilkie Road,228091,SG,圣玛格烈小学
-education,school,1.3190138,103.9167892,St. Stephen's School,school,20,primary,Singapore,Siglap View,455789,SG,聖斯德望学校
-education,school,1.3499422,103.9430612,Tampines Secondary School,school,252,secondary,Singapore,Tampines Street 12,529427,SG,淡滨尼中学
-education,school,1.3230137,103.9253618,,school,2,primary,Singapore,Bedok South Road,469268,SG,
-education,school,1.3595924,103.8696135,Zhonghua Primary School,school,12,primary,Singapore,Serangoon Avenue 4,556095,SG,中华小学
-education,school,1.3372378,103.7675833,,school,2,,,Toh Tuck Terrace,,,
-education,school,1.3498845,103.9359601,St. Hilda's Secondary School,school,2,secondary,Singapore,Tampines Street 82,528986,SG,圣希尔达中学
-education,school,1.3701122,103.8683186,Lycée Français de Singapour,school,3000,,,Ang Mo Kio Avenue 3,569928,,
-education,school,1.3689261,103.8682856,Serangoon Garden Secondary School,school,21,secondary,Singapore,Serangoon North Avenue 1,555889,SG,实勤中学
-education,school,1.3879992,103.9896586,Singapore Aviation Academy,school,,,,,,,
-education,school,1.3152561,103.9060608,Al-Khairiah Islamic School,school,152,,Singapore,Still Road,423991,SG,
-education,school,1.3703728,103.7673479,Assumption Pathway School,school,30,secondary,Singapore,Cashew Road,679697,SG,圣升明径学校
-education,school,1.3415357,103.8817256,Bartley Secondary School,school,10,secondary,Singapore,Jalan Bunga Rampai,538403,SG,巴特礼中学
-education,school,1.3329599,103.9213412,Bedok Town Secondary School,school,232,secondary,Singapore,Bedok North Street 3,469626,SG,务乐中学
-education,school,1.3715076,103.8768186,Bowen Secondary School,school,2,secondary,Singapore,Lorong Napiri,547529,SG,博文中学
-education,school,1.3324968,103.8416809,CHIJ (Toa Payoh) Secondary School,school,626,secondary,Singapore,Lorong 1 Toa Payoh,319764,SG,圣婴女子中学(大巴窑)
-education,school,1.3757711,103.763208,Fajar Secondary School,school,31,secondary,Singapore,Gangsa Road,678972,SG,励进中学
-education,school,1.3534159,103.7520843,Hillgrove Secondary School,school,10,secondary,Singapore,Bukit Batok Street 52,659250,SG,育林中学
-education,school,1.3496671,103.8539728,Kuo Chuan Presbyterian Primary School,school,8,primary,Singapore,Bishan Street 13,579793,SG,国专长老会小学
-education,school,1.3550502,103.9556993,Ngee Ann Secondary School,school,1,secondary,Singapore,Tampines Street 32,529283,SG,義安中学
-education,school,1.3748811,103.9009564,Serangoon Secondary School,school,11,secondary,Singapore,Upper Serangoon View,534237,SG,实仁中学
-education,school,1.3341953,103.94148,St Anthony's Canossian Secondary School,school,1600,secondary,Singapore,Bedok North Avenue 4,469700,SG,圣安东尼女校(中学)
-education,school,1.3474501,103.8766795,St. Gabriel's Secondary School,school,24,secondary,Singapore,Serangoon Avenue 1,556140,SG,圣加俾尔中学
-education,school,1.3886095,103.7589649,West Spring Secondary School,school,61,secondary,Singapore,Senja Road,677737,SG,伟源中学
-education,school,1.3244793,103.8700178,Singapore Examinations and Assessment Board,school,3,,Singapore,Geylang Bahru Lane,339626,SG,
-education,school,1.3920931,103.9103224,Global Indian International School,school,27,,Singapore,Punggol Field Walk,828649,,
-education,school,1.3548291,103.8844295,DPS International School,school,,,,,,,
-education,school,1.3510904,103.7293981,Jurongville Secondary School,school,202,secondary,Singapore,Jurong East Avenue 1,609790,SG,裕廊景中学
-education,school,1.3367248,103.8955716,,school,205,,Singapore,Ubi Avenue 4,408805,SG,
-education,school,1.3268016,103.9130161,Minds - Towner Gardens School,school,,,,,,,
-education,school,1.3157457,103.9204224,Global Indian International School,school,,,,,,,
-education,school,1.3617405,103.7685058,Methodist School of Music,school,,,,,,,
-education,school,1.3743473,103.7501329,Delta Senior School,school,,,,,,,
-education,school,1.3069435,103.7786507,Dover Court International School,school,301,,Singapore,Dover Road,,,
-education,school,1.2987861,103.8157671,Avondale Grammar School,school,,,,,,,
-education,school,1.3461102,103.7899422,Singapore Korean International School,school,71,,Singapore,Bukit Tinggi Road,289759,SG,
-education,school,1.3461102,103.7899422,Hollandse School Singapore,school,,,,,,,
-education,school,1.3368348,103.8681612,Stamford American International School,school,,,,,,,
-education,school,1.3190663,103.8545403,Northlight School,school,151,,Singapore,Towner Road,327830,,
-education,school,1.3610988,103.9648364,Amar Kids,school,,,,,,,
-education,school,1.3806636,103.9405945,Overseas Family School,school,,,,Pasir Ris Drive 3,,,
-education,school,1.2885059,103.8050912,Kent Ridge Tutors / Global Art,school,B1-38/39,,,,,,
-education,school,1.345189,103.7903109,Institition of Engineers,school,,,,Bukit Tinggi Road,,,
-education,school,1.3526437,103.7390893,Dulwich College,school,71,,Singapore,Bukit Batok West Avenue 8,658966,SG,
-education,school,1.3512594,103.7423295,Eden School,school,101,,Singapore,Bukit Batok West Avenue 3,659168,SG,
-education,school,1.4728134,103.6634738,SMK Bukit Indah 2,school,,,,,,,
-education,school,1.3448621,103.840106,Raffles Institution,school,1,,Singapore,Raffles Institution Lane,575954,,
-education,school,1.3077213,103.879188,,school,,,,,,,
-education,school,1.3773397,103.9579974,Jeet's School,school,,,,,,,
-education,school,1.4153075,103.9055594,St. Francis Xavier Major Seminary,school,199,,,Ponggol Seventeenth Avenue,829645,SG,
-education,school,1.4746842,103.7504807,Sekolah Kebangsaan (P) Sultan Ibrahim,school,,,,,,,
-education,school,1.4728236,103.7511053,Sekolah Menengah Kebangsaan (P) Sultan Ibrahim,school,,,,,,,
-education,school,1.300019,103.8822605,,school,,,,,,,
-education,school,1.3163183,103.8741704,,,,,,,,,
-education,school,1.4043278,103.9101673,Oasis Primary School,school,71,,Singapore,Edgefield Plains,828716,,
-education,school,1.3984962,103.918646,Waterway Primary School,school,70,,Singapore,Punggol Drive,828802,,
-education,school,1.3621947,103.8824986,Dimensions,school,,,,,,,
-education,school,1.3166571,103.9181045,Bethesda Kindergarten,school,,,,Frankel Avenue,,,
-education,school,1.3168586,103.918292,Bethesda Kindergarten,school,,,,Frankel Avenue,,,
-education,school,1.3045674,103.81195,St. James Kindergarten,school,19,,,Harding Road,,,
-education,school,1.2927098,103.7671732,Genesis School,school,,,,West Coast Road,,,
-education,school,1.3145714,103.8588163,Uma Pulavar Tamil Language Centre,language_school,,,,Beatty Road,,,
-education,school,1.362766,103.88727,Pat's Schoolhouse,school,2C,,,Lim Ah Pin Road,,,
-education,school,1.4250196,103.8497614,XCL World Academy,school,2,,Singapore,Yishun Street 42,769039,,
-education,school,1.3939285,103.6361924,Sunway International School,school,,,Medini,Jalan Persiaran Medini 3,79250,,双威国际学校
-education,school,1.3093165,103.9138752,Nafa Arts Kindergarten,school,,,,,,,
-education,school,1.3119406,103.9294315,St Andrew's Autism School,school,,,,,,,
-education,school,1.3073476,103.9091768,Odyssey The Global Preschool,school,,,,Still Road South,,,
-education,school,1.2998775,103.89298,Brighton Montessori,school,,,,Mounbatten Road,,,
-education,school,1.2999457,103.8905833,Montessori for Children,school,,,,Broadrick Road,,,
-education,school,1.3048523,103.8973044,Canadian International School,school,,,,Tanjong Katong Road,,,
-education,school,1.3382442,103.8410278,Lighthouse School,school,51,,Singapore,Toa Payoh Rise,298106,,
-education,school,1.2934283,103.7668945,Eis International Pre-School,school,,,,West Coast Road,,,
-education,school,1.3361832,103.7960278,Blue House International school,school,,,,Turf Club Road,,,
-education,school,1.2886445,103.8254351,Tiong Bahru Examinations Centre,school,8,,Singapore,Lower Delta Road,,,
-education,school,1.4772817,103.7723896,Sekolah Menengah Kebangsaan Taman Pelangi,school,,,Johor Bahru,Jalan Ungu,80400,,
-education,school,1.4692882,103.9053855,Sekolah Menegah Pasir Gudang (1),school,,,,,,,
-education,school,1.4361916,103.9300579,Sekolah Kebangsaan Pasir Putih,school,,,Pasir Gudang,Jalan Pangkalan 13,,,
-education,school,1.4361657,103.9323897,Sekolah Agama Kg Pasir Putih,school,,,,,,,
-education,school,1.4066372,103.9049129,my first skool EYC,school,2,,Singapore,Punggol Drive,,,
-education,school,1.3692654,103.7655765,Assumption English School,school,,,,,,,
-education,school,1.3980961,103.8808523,Fern Green Primary School,school,,,,,,,
-education,school,1.3788871,103.8807268,Hougang Primary School,school,1,,Singapore,Hougang Street 93,534238,,
-education,school,1.4598435,103.6446574,"SJK (C) Ming Chih , Horizons Hills 浩然山庄明智华小",school,,,,Horizon Hills,,,浩然山庄明智华小
-education,school,1.4077256,103.8979307,Yusof Ishak Secondary School,school,8,,Singapore,Sumang Walk,828676,,
-education,school,1.4239213,103.6418653,SK Medini,school,,,,,,,
-education,school,1.3416834,103.8435188,Raffles Girls' School (Secondary),school,2,,Singapore,Braddell Rise,318871,,莱佛士女中
-education,school,1.4186444,103.9055533,Northshore Primary School,school,30,,Singapore,Northshore Drive,828671,,
-education,school,1.3214328,103.8797793,Nexus International School (Singapore),school,1,,Singapore,Aljunied Walk,387293,,
-education,school,1.4012253,103.9104864,PCF Sparkletots Preschool @ Punggol North,school,50,,Singapore,Edgefield Plains,828717,,
-education,school,1.3730884,103.8823612,,school,,,,,,,
-education,school,1.4124481,103.898688,Punggol Cove Primary School,school,52,,Singapore,Sumang Walk,828674,,
-education,school,1.4336038,103.6490616,Raffles American International School,school,,,,Jalan Raffles,79050,MY,
-education,school,1.3217098,103.8411149,,school,299,,Singapore,Thomson Road,,SG,
-education,school,1.3396856,103.6869679,Juying Secondary School,school,,,,,,,
-education,school,1.2863777,103.814669,Class Room 3,school,,,,,,,
-education,school,1.4659583,103.7578574,Sekolah Kebangsaan (P) Bandar Tinggi,school,,,Johor Bahru,Jalan Abdul Rahman Andak,80100,,
-education,school,1.4665374,103.7590134,Sekolah Jenis Kebangsaan (C) St. Joseph dan Sekolah Kebangsaan St. Joseph,school,,,Johor Bahru,Jalan Abdul Rahman Andak,80100,,若瑟华小和若瑟国小
-education,school,1.4659248,103.7551591,SK & SMK Infant Jesus Convent,school,,,Johor Bahru,Jalan Yahya Awal,80100,,
-education,school,1.4659781,103.7565922,Sekolah Sri Johor Bahru,school,,,Johor Bahru,Jalan Abdul Rahman Andak,80100,,
-education,school,1.4665101,103.7571657,Sekolah Sri Johor Bahru,school,,,Johor Bahru,Jalan Abdul Rahman Andak,80100,,
-education,school,1.4675188,103.7377502,Sekolah Kebangsaan Nong Chik,school,,,Johor Bahru,Jalan Nong Chik,80100,,
-education,school,1.4657934,103.7398303,SKPK Princess Elizabeth,school,,,Johor Bahru,Jalan Sri Mahligai,80100,,
-education,school,1.4647611,103.7386313,Maktab Sultan Abu Bakar,school,,,Johor Bahru,Jalan Sungai Chat,80100,,
-education,school,1.4669651,103.7413135,Sekolah Menengah Kebangsaan Sultanah Engku Tun Aminah,school,,,Johor Bahru,Jalan Thompson,80100,,
-education,school,1.4785404,103.7428665,Sekolah Menengah Kebangsaan Mohd Khalid,school,,,Johor Bahru,Jalan Abdul Samad,80100,,
-education,school,1.4766594,103.7449629,Sekolah Menengah Kebangsaan Aminuddin Baki,school,,,Johor Bahru,Jalan Abdul Samad,80100,,
-education,school,1.4798971,103.745935,SMK Sultan Ismail,school,,,Johor Bahru,Jalan Abdul Samad,80100,,
-education,school,1.4728426,103.7649505,Sekolah Menengah Kebangsaan Dato Jaafar,school,,,Johor Bahru,Jalan Yahya Al-Datar,80300,,
-education,school,1.4701217,103.7778003,Sekolah Menengah Foon Yew,school,59,,Johor Bahru,Jalan Ibrahim Sultan,80300,MY,宽柔中学
-education,school,1.3062346,103.8899755,EtonHouse International School,school,,,,,,,
-education,school,1.2864126,103.8146692,Class Room 2,school,,,,,,,
-education,school,1.2864121,103.814743,Class Room 1,school,,,,,,,
-education,school,1.3657096,103.772314,German European School Singapore (Dairy Farm Campus),school,2,,Singapore,Dairy Farm Lane,677621,,
-education,school,1.4592234,103.9373028,SMK Tanjung Puteri Resort,school,,,,,,,
-education,school,1.4699881,103.9410624,Sekolah Agama Taman Pasir Putih,school,,,Pasir Gudang,,81700,,
-education,school,1.4752957,103.9367444,SK Taman Pasir Puteh,school,,,,,,,
-education,school,1.479036,103.9557523,,school,,,,,,,
-education,school,1.33786,103.8547622,Madrasah Al-Arabiah Al-Islamiah,school,,,,,,,
-education,school,1.3154101,103.8902928,Madrasah Al-Ma'arif Al-Islamiah,school,,,,,,,
-education,school,1.3173805,103.8909501,Madrasah Wak Tanjong Al Islamiah,school,,,,,,,
-education,school,1.4740913,103.9364613,SMK Pasir Putih,school,,,Pasir Gudang,Jalan Selasih 2,81700,,
-education,school,1.4766868,103.6937299,SK Taman Sutera,school,,,,,,,
-education,school,1.4702657,103.8915114,SK Pasir Gudang 4,school,,,,,,,
-education,school,1.4637858,103.9129433,,school,,,,,,,
-education,school,1.4594628,103.9149008,,school,,,,,,,
-education,school,1.4720491,103.8942622,,school,,,,,,,
-education,school,1.3269927,103.8808065,Canossian School,school,1,,Singapore,Sallim Road,387621,,
-education,school,1.3296173,103.7246741,Yuvabharathi International School,school,3,,Singapore,Hu Ching Road,619651,,
-education,school,1.3441242,103.7499357,SHATEC,school,,,,,,,
-education,school,1.4627413,103.7580442,SK Ayer Molek,school,,,,,,,
-education,school,1.4534163,103.6966252,SK Sungai Melayu,school,,,,,,,
-education,school,1.4312549,103.6645722,SK Sikijang,school,,,,,,,
-education,school,1.3750821,103.6277193,SK Pendas Laut,school,,,,,,,
-education,school,1.3598515,103.6125406,SK Tg Kupang,school,,,,,,,
-education,school,1.4677239,103.6910194,SK Sungai Danga,school,,,,,,,
-education,school,1.4666112,103.7382987,Sekolah Rendah Islam Al-Akhyar,school,,,,,,,
-education,school,1.4725292,103.6737679,SK Taman Perling 3,school,,,,,,,
-education,school,1.4709415,103.7540889,SK Ngee Heng,school,,,,,,,
-education,school,1.473159,103.7488935,SK (P) Jalan Yahya Awal,school,,,,,,,
-education,school,1.3567725,103.8777772,Hillside World Academy,school,,,,Hillside Drive,,,
-education,school,1.4783529,103.6714024,SMK Dato' Usman Awang,school,,,,,,,
-education,school,1.3324123,103.8001013,NYGH Boarding School,school,21,,Singapore,Linden Drive,288735,,
-education,school,1.3090335,103.8365876,Ministry Of Education Language Centre (Newton),school,,,,,,,
-education,school,1.4368548,103.8242889,Sir Manasseh Meyer International School,school,3,,Singapore,Jalan Ulu Sembawang,758932,,
+education,school,1.3345342,103.9338827,school,Bedok Green Secondary School,SG,Singapore,Bedok North Avenue 3,469722,育青中学,secondary,360
+education,school,1.2969841,103.7669559,school,Waseda Shibuya Senior High School,,,,,,,
+education,school,1.4012821,103.9091404,school,Punggol Secondary School,SG,Singapore,Edgefield Plains,828870,培道中学,secondary,51
+education,school,1.3111407,103.8917376,school,Chin Lien Bible Seminary,,,,,,,
+education,school,1.3543916,103.8358569,music_school,The Tiny Music Academy,,,,,,,
+education,school,1.3582443,103.889553,school,Xinghua Primary School,SG,Singapore,Hougang Avenue 1,538882,醒华小学,primary,45
+education,school,1.3122262,103.8282597,school,,SG,Singapore,Anderson Road,259978,,,20
+education,school,1.3813586,103.7359182,school,Concord Primary School,SG,Singapore,Choa Chu Kang Avenue 4,689814,克勤小学,primary,3
+education,school,1.3409804,103.9522563,school,Changkat Primary School,SG,Singapore,Simei Street 3,529896,尚育小学,primary,11
+education,school,1.2849333,103.8293543,language_school,LCentral English Enrichment,,,Kim Tian Road,,,,
+education,school,1.4766594,103.7449629,school,Sekolah Menengah Kebangsaan Aminuddin Baki,,Johor Bahru,Jalan Abdul Samad,80100,,,
+education,school,1.3256084,103.8276425,school,St. Joseph's Institution,,Singapore,Malcolm Road,308274,,,38
 education,school,1.3964759,103.7514912,,,,,,,,,
-education,school,1.3973024,103.7501971,,,,,,,,,
-education,school,1.3966213,103.7520121,,,,,,,,,
-education,school,1.4739498,103.6650103,,school,,,,,,,
-education,school,1.3445703,103.7269109,,,,,,,,,
-education,school,1.3465151,103.7257572,,,,,,,,,
-education,school,1.3445903,103.7268085,,,,,,,,,
+education,school,1.3077714,103.9263701,school,Victoria School,SG,Singapore,Siglap Link,448880,维多利亚学校,secondary,2
+education,school,1.3448621,103.840106,school,Raffles Institution,,Singapore,Raffles Institution Lane,575954,,,1
+education,school,1.300019,103.8822605,school,,,,,,,,
+education,school,1.4665374,103.7590134,school,Sekolah Jenis Kebangsaan (C) St. Joseph dan Sekolah Kebangsaan St. Joseph,,Johor Bahru,Jalan Abdul Rahman Andak,80100,若瑟华小和若瑟国小,,
+education,school,1.2863194,103.8279814,school,Stalford Learning Centre,,,,,,,
+education,school,1.3299452,103.805491,school,Raffles Girls' Primary School,,,,,莱佛士女子小学,,
+education,school,1.3582379,103.8705182,school,Peicai Secondary School,SG,Singapore,Serangoon Avenue 4,556094,培才中学,secondary,10
+education,school,1.3069435,103.7786507,school,Dover Court International School,,Singapore,Dover Road,,,,301
+education,school,1.3906548,103.873823,school,Fernvale Primary School,SG,Singapore,Fernvale Lane,797701,丰伟小学,primary,1
+education,school,1.3832582,103.738172,school,Bukit Panjang Government High School,SG,Singapore,Choa Chu Kang Avenue 4,689809,武吉班让政府中学,secondary,7
+education,school,1.3367404,103.7835473,language_school,LCentral English,,,,,,,
+education,school,1.3700602,103.7706073,school,,SG,Singapore,Chestnut Drive,679301,,secondary,58
+education,school,1.3689261,103.8682856,school,Serangoon Garden Secondary School,SG,Singapore,Serangoon North Avenue 1,555889,实勤中学,secondary,21
+education,school,1.3372378,103.7675833,school,Bukit Timah Primary School,SG,Singapore,Lorong Kismis,598112,武吉知马小学,primary,111
+education,school,1.473159,103.7488935,school,SK (P) Jalan Yahya Awal,,,,,,,
+education,school,1.3021185,103.8114617,language_school,Little Mandaríns,,,Loewen Road,,,,
 education,school,1.3466805,103.725955,,,,,,,,,
+education,school,1.3208887,103.8096095,school,St Margaret's Secondary School,SG,Singapore,Farrer Road,259240,圣玛格烈中学,secondary,111
+education,school,1.3534159,103.7520843,school,Hillgrove Secondary School,SG,Singapore,Bukit Batok Street 52,659250,育林中学,secondary,10
+education,school,1.4739498,103.6650103,school,,,,,,,,
+education,school,1.3230137,103.9253618,school,,SG,Singapore,Bedok South Road,469268,,primary,2
+education,school,1.3217455,103.8075545,school,Nanyang Primary School,SG,Singapore,King's Road,268097,南洋小学,primary,52
+education,school,1.4103038,103.9059916,music_school,Yamaha,,,,,,,
+education,school,1.4290777,103.7871711,school,Singapore Sports School,SG,Singapore,Champions Way,737913,,sports,1
+education,school,1.4725292,103.6737679,school,SK Taman Perling 3,,,,,,,
+education,school,1.3487313,103.6937607,school,One World International School,SG,Singapore,Jurong West Street 81,649075,,,21
+education,school,1.3899089,103.8774803,school,Pei Hwa Secondary School,SG,Singapore,Fernvale Link,797702,培华中学,secondary,21
+education,school,1.3347215,103.9109741,school,,SG,Singapore,Jalan Damai,419612,,,20
+education,school,1.3470464,103.9385251,school,Junyuan Primary School,SG,Singapore,Tampines Street 91,528906,俊源小学,primary,2
+education,school,1.4062209,103.9018483,school,Heguru Education Centre,,,,,,,
+education,school,1.3548291,103.8844295,school,DPS International School,,,,,,,
+education,school,1.4342018,103.8332891,school,Yishun Primary School,SG,Singapore,Yishun Ring Road,768679,义顺小学,primary,500
+education,school,1.383993,103.8422034,school,Anderson Primary School,,,,,,,
+education,school,1.3994811,103.9078702,school,Edgefield Primary School,SG,Singapore,Edgefield Plains,828869,育德小学,primary,41
+education,school,1.3021415,103.7731983,parking,,,,,,,,
+education,school,1.3009534,103.8355687,music_school,Beat'Abox Group,,,,,,,
+education,school,1.4728426,103.7649505,school,Sekolah Menengah Kebangsaan Dato Jaafar,,Johor Bahru,Jalan Yahya Al-Datar,80300,,,
+education,school,1.3256384,103.9426229,school,Bedok View Secondary School,SG,Singapore,Bedok South Avenue 3,469293,务德中学,secondary,6
+education,school,1.3203737,103.9127015,language_school,Daehan Korean Language Center,,,,,,,
+education,school,1.3069999,103.9167732,school,CHIJ Katong Convent School,SG,Singapore,Marine Terrace,449150,加东修道院女校,secondary,346
+education,school,1.3616086,103.885969,music_school,Shine Music School,,,Simon Road,,,,
+education,school,1.3599781,103.833158,,,,,,,,,
+education,school,1.4723881,103.7663144,school,Sekolah Menengah Teknik Tanjung Puteri Johor Bahru,,,,,,,
+education,school,1.3963104,103.9118083,school,Greendale Primary School,SG,Singapore,Edgedale Plains,828848,绿苑小学,primary,50
+education,school,1.2980022,103.7918918,,Gate C,,,,,,,
+education,school,1.4025358,103.9134046,music_school,Cristofori Music School,,,,,,,
+education,school,1.3980961,103.8808523,school,Fern Green Primary School,,,,,,,
+education,school,1.3115624,103.7948984,music_school,Academy of Rock,,Singapore,Lorong Mambong,277683,,,24C
+education,school,1.3427489,103.6865962,school,Xing Nan Primary School,SG,Singapore,Jurong West Street 91,649036,醒南小学,,5
+education,school,1.2466333,103.8421784,school,Invictus International School,,,,,,,
+education,school,1.4466771,103.8161861,school,Sembawang Secondary School,SG,Singapore,Sembawang Crescent,757704,胜宝旺中学,secondary,30
+education,school,1.370529,103.9555277,school,Loyang Primary School,SG,Singapore,Pasir Ris Drive 6,516419,洛阳小学,primary,3
+education,school,1.3651998,103.7495481,school,Saint Anthony's Primary School,,,,,,,
+education,school,1.2814207,103.8048862,,,,,,,,,
+education,school,1.3480504,103.7259558,school,Fuhua Secondary School,SG,Singapore,Jurong West Street 41,649410,,,5
+education,school,1.3629641,103.8395468,school,Eunoia Junior College,,Singapore,Sin Ming Avenue,575734,,,601
+education,school,1.4034371,103.7475592,school,Unity Primary School,SG,Singapore,Choa Chu Kang Cresent,688268,协和小学,primary,21
+education,school,1.3027978,103.8403767,school,ACC EduHub,,,,,,,51
+education,school,1.3946055,103.8973326,,Gate 5,,,,,,,
+education,school,1.3190663,103.8545403,school,Northlight School,,Singapore,Towner Road,327830,,,151
+education,school,1.3950776,103.6311747,school,SJK (C) Cheah Fah,,,,,谢华华小,,
+education,school,1.2774091,103.8030268,school,Academy of Singapore Teachers,,Singapore,Malan Road,109433,,,2
+education,school,1.3498845,103.9359601,school,St. Hilda's Secondary School,SG,Singapore,Tampines Street 82,528986,圣希尔达中学,secondary,2
+education,school,1.3314458,103.9417233,school,Anglican High School,SG,Singapore,Upper Changi Road,487012,圣公会中学,secondary,600
+education,school,1.3415357,103.8817256,school,Bartley Secondary School,SG,Singapore,Jalan Bunga Rampai,538403,巴特礼中学,secondary,10
+education,school,1.4013671,103.8978011,school,Punggol Green Primary School,SG,Singapore,Punggol Walk,828772,培林小学,primary,98
+education,school,1.4402857,103.8038626,school,Greenwood Primary School,SG,Singapore,Woodlands Drive 62,737942,学林小学,primary,11
+education,school,1.3125425,103.7552743,school,The Japanese Secondary School,,,,,,,
+education,school,1.3397903,103.6982179,school,Jurong West Primary School,SG,Singapore,Jurong West Street 61,609476,裕廊西小学,primary,30
+education,school,1.3299048,103.9189995,school,NPS International School,,Singapore,Chai Chee Lane,469021,,,10 & 12
+education,school,1.3373728,103.699187,school,Frontier Primary School,,,Jurong West Street 61,648200,先锋小学,primary,20
+education,school,1.3757526,103.9449656,school,Elias Park Primary School,SG,Singapore,Pasir Ris Street 52,828869,伊莱雅园小学,primary,11
+education,school,1.3376515,103.8694361,,,,,,,,,
+education,school,1.2802447,103.8063313,school,ISS International School,,Singapore,Preston Road,109355,,,21
+education,school,1.4101881,103.9059789,language_school,LCentral English,,,,,,,
+education,school,1.3545302,103.9640777,school,The Japanese Primary School,,Singapore,Upper Changi Road North,507657,,,11
+education,school,1.3010033,103.8357575,school,MADDspace,,,,,,,
+education,school,1.437803,103.798072,school,MINDS Woodlands Garden,,,,,,,
+education,school,1.3595243,103.746906,school,Dazhong Primary School,,,Bukit Batok Street 31,659441,大众小学,primary,35
+education,school,1.301911,103.8599433,music_school,Maranatha,,,Kandahar Street,,,,
+education,school,1.3724008,103.949724,language_school,Beijing Language School,,,,,,,
+education,school,1.335969,103.873885,school,Cedar Girls' Secondary School,SG,Singapore,Cedar Avenue,349692,四德女子中学,secondary,1
+education,school,1.2899202,103.855961,school,Hiart,,,,,,,
+education,school,1.3461706,103.7566646,school,Keming Primary School,SG,Singapore,Bukit Batok East Avenue 6,659762,克明小学,primary,90
+education,school,1.3958481,103.8922107,music_school,Kindermusik,,,,,,,
+education,school,1.3850407,103.8910031,school,Palm View Primary School,SG,Singapore,Compassvale Bow,544822,,primary,150
+education,school,1.3386754,103.7762823,school,Pei Hwa Presbyterian Primary School,SG,Singapore,Pei Wah Avenue,597610,培华长老会小学,primary,7
+education,school,1.3771692,103.9383575,school,ParkView Primary School,SG,Singapore,Pasir Ris Drive 1,519524,百惠小学,primary,60
+education,school,1.3602038,103.8326121,,,,,,,,,
 education,school,1.3465403,103.7257926,,,,,,,,,
-education,school,1.3311975,103.8644527,St. Andrew's Village,school,,,,,,,
-education,school,1.3714023,103.866786,Lycée Français de Singapour,school,3000,,,Ang Mo Kio Avenue 3,569928,,
-education,school,1.3950776,103.6311747,SJK (C) Cheah Fah,school,,,,,,,谢华华小
+education,school,1.300019,103.8822605,school,Dunman High School,,,,,,,
+education,school,1.3441242,103.7499357,school,SHATEC,,,,,,,
+education,school,1.4190418,103.8300267,school,Peiying Primary School,SG,,Yishun Ring Road,768687,培英小学,primary,651
+education,school,1.3063117,103.9052421,school,People's Up,,Singapore,East Coast Road,428833,,,143
+education,school,1.376948,103.8941881,school,Punggol Primary School,SG,Singapore,Hougang Avenue 8,538787,榜鹅小学,primary,61
+education,school,1.3037337,103.7761324,,,,,,,,,
+education,school,1.3461102,103.7899422,school,Singapore Korean International School,SG,Singapore,Bukit Tinggi Road,289759,,,71
+education,school,1.3351041,103.8413355,school,Saint Joseph's Institution International,,Singapore,Thomson Road,298191,,,490
+education,school,1.3304504,103.6834422,school,SAFTI Military Institute,,,,,,,
+education,school,1.4782093,103.7763103,school,Pusat Tuisyen Redang Bestari,,,,,,,
+education,school,1.333447,103.8502117,school,Computhink,,,,,,,
+education,school,1.2934283,103.7668945,school,Eis International Pre-School,,,West Coast Road,,,,
+education,school,1.2650858,103.8204705,school,I Can Read,,,,,,,
+education,school,1.3595924,103.8696135,school,Zhonghua Primary School,SG,Singapore,Serangoon Avenue 4,556095,中华小学,primary,12
+education,school,1.4286862,103.8295547,school,Yishun Secondary School,SG,Singapore,Yishun Street 71,768516,义顺中学,secondary,4
+education,school,1.4709415,103.7540889,school,SK Ngee Heng,,,,,,,
+education,school,1.3379464,103.8556587,school,Pei Chun Public School,SG,Singapore,Lorong 7 Toa Payoh,319320,公立培群学校,primary,16
+education,school,1.406257,103.9017928,music_school,Edvox Music School,,,,,,,
+education,school,1.4783529,103.6714024,school,SMK Dato' Usman Awang,,,,,,,
+education,school,1.313552,103.7724824,school,"School of Science and Technology, Singapore",SG,Singapore,Technology Drive,138572,新科技中学,secondary,1
+education,school,1.3592131,103.7675703,school,Jan & Elly,,,,,,,
+education,school,1.4419554,103.7929442,school,Evergreen Secondary School,SG,Singapore,Woodlands Street 83,738489,永青中学,secondary,11
+education,school,1.4168878,103.9021706,music_school,Joy Waltz Academy,,,,,,,
+education,school,1.4449023,103.802665,school,Admiralty Secondary School,SG,Singapore,Woodlands Crescent,737916,美雅中学,secondary,31
+education,school,1.3530305,103.7209334,school,Hua Yi Secondary School,SG,Singapore,Jurong West Street 42,649371,华义中学,secondary,60
+education,school,1.3463881,103.7513818,school,Bukit View Secondary School,SG,Singapore,Bukit Batok Street 21,659633,百德中学,secondary,16
+education,school,1.4772817,103.7723896,school,Sekolah Menengah Kebangsaan Taman Pelangi,,Johor Bahru,Jalan Ungu,80400,,,
+education,school,1.4592234,103.9373028,school,SMK Tanjung Puteri Resort,,,,,,,
+education,school,1.3854236,103.901937,music_school,Christofori Music School,,,,,歌德音乐学校,,
+education,school,1.4627413,103.7580442,school,SK Ayer Molek,,,,,,,
+education,school,1.3748811,103.9009564,school,Serangoon Secondary School,SG,Singapore,Upper Serangoon View,534237,实仁中学,secondary,11
+education,school,1.3008362,103.8357407,music_school,O School,,,,,,,
+education,school,1.3281745,103.9207485,school,Ping Yi Secondary School,SG,Singapore,Chai Chee Street,468980,平仪中学,secondary,61
+education,school,1.4669651,103.7413135,school,Sekolah Menengah Kebangsaan Sultanah Engku Tun Aminah,,Johor Bahru,Jalan Thompson,80100,,,
+education,school,1.3913895,103.8865811,school,Anchor Green Primary School,SG,Singapore,Anchorvale Drive,544969,安泰小学,primary,31
+education,school,1.3195253,103.9243393,school,Opera Estate Primary School,SG,Singapore,Fidelio Street,458436,奥匹拉小学,primary,48
+education,school,1.3723396,103.9496487,music_school,Music Delight School,,,,,,,
+education,school,1.2970535,103.8149002,school,Avondale Grammar School,,,Tanglin Road,247972,,,304
+education,school,1.3491628,103.8860847,school,Paya Lebar Methodist Girls' Secondary School,SG,Singapore,Lor Ah Soo,536742,巴耶礼峇美以美女校(中学),secondary,296
+education,school,1.3820945,103.7548466,school,Former South View Primary School,SG,Singapore,Teck Whye Crescent,688945,南山小学,primary,38
+education,school,1.3132087,103.7561065,school,Qifa Primary School,SG,Singapore,West Coast Avenue,128104,启发小学,primary,50
+education,school,1.3717566,103.847908,school,Artlette,,,,,,art,
+education,school,1.4250196,103.8497614,school,XCL World Academy,,Singapore,Yishun Street 42,769039,,,2
+education,school,1.3421391,103.8690631,school,Singapore Power Training Institute,,,,,,,
+education,school,1.3670727,103.8284614,school,Peirce Secondary School,SG,Singapore,Sin Ming Walk,575566,培雅中学,secondary,10
+education,school,1.342551,103.9531612,music_school,Cristofori Music School,,,,,,,
+education,school,1.4526074,103.7930829,school,,,,,,,,
+education,school,1.4790386,103.9578269,school,Sekolah Menengah Kota Masai 2,,,,,,,
+education,school,1.2871356,103.8450001,music_school,Sho Music Studio,,,,,,,
+education,school,1.3481086,103.9519021,,,,,,,,entrance,
+education,school,1.29134,103.8513796,music_school,The Voice Whisperer,,,,,,,
+education,school,1.3063152,103.8907693,school,Chung Cheng High School (Main),SG,Singapore,Goodman Road,439012,中正中学(总校),secondary,50
+education,school,1.3145714,103.8588163,language_school,Uma Pulavar Tamil Language Centre,,,Beatty Road,,,,
+education,school,1.2864121,103.814743,school,Class Room 1,,,,,,,
+education,school,1.361002,103.8334198,school,Ai Tong School,,,Bright Hill Dr,579646,,,100
+education,school,1.4077057,103.898409,school,Valour Primary School,,Singapore,Punggol Central,828728,,,49
+education,school,1.3361628,103.9204516,school,Damai Primary School,SG,Singapore,Bedok Reservoir Crescent,479226,达迈小学,primary,52
+education,school,1.3886095,103.7589649,school,West Spring Secondary School,SG,Singapore,Senja Road,677737,伟源中学,secondary,61
+education,school,1.4659781,103.7565922,school,Sekolah Sri Johor Bahru,,Johor Bahru,Jalan Abdul Rahman Andak,80100,,,
+education,school,1.2884514,103.8233704,school,Gan Eng Seng School,SG,Singapore,Henderson Road,159561,颜永成学校,secondary,1
+education,school,1.3837361,103.8424146,school,Presbyterian High School,SG,Singapore,Ang Mo Kio Avenue 6,569845,长老会中学,secondary,5209
+education,school,1.3155295,103.76385,school,Clementi Primary School,SG,Singapore,Clementi Avenue 3,129903,锦明小学,primary,8
+education,school,1.3041077,103.8564858,school,Stamford Primary School,SG,Singapore,Victoria Lane,198423,史丹福小学,primary,1
+education,school,1.3473411,103.6823534,school,Air Traffic Management Research Institute,,,Nanyang Drive,637460,,,65
+education,school,1.3499713,103.9449659,school,Tampines Primary School,SG,Singapore,Tampines Street 12,529426,淡滨尼小学,primary,250
+education,school,1.3156096,103.7625647,school,Clementi Town Secondary School,SG,Singapore,Clementi Avenue 3,129904,锦文中学,secondary,10
+education,school,1.354193,103.9332771,school,Junyuan Secondary School,SG,Singapore,Tampines Street 84,528933,俊源中学,secondary,11
+education,school,1.3701753,103.8838696,music_school,Drum Prodigy Singapore,,,,,,,
+education,school,1.3408339,103.7183786,school,Yuan Ching Secondary School,SG,Singapore,Yuan Ching Road,618654,毅道中学,secondary,103
+education,school,1.3017791,103.7993728,school,,SG,Singapore,Queensway,149059,,secondary,121
+education,school,1.3212434,103.8261795,school,Singapore Chinese Girls' School,SG,Singapore,Dunearn Road,309437,新加坡女子学校,primary;secondary,190
+education,school,1.2842802,103.816058,school,Acetek baking school,,,,,,,
+education,school,1.3920133,103.6382757,,,,,,,,,
+education,school,1.3841899,103.752731,school,Chua Chu Kang Secondary School,SG,Singapore,Teck Whye Crescent,688845,蔡厝港中学,secondary,3
+education,school,1.2930954,103.8141091,school,Queenstown Secondary School,SG,Singapore,Strathmore Road,148800,女皇镇中学,secondary,1
+education,school,1.3794925,103.9382862,school,Siglap Secondary School,SG,Singapore,Pasir Ris Drive 10,519385,实乞纳中学,secondary,10
+education,school,1.3714023,103.866786,school,Lycée Français de Singapour,,,Ang Mo Kio Avenue 3,569928,,,3000
+education,school,1.2764731,103.8393182,school,Cantonment Primary School,SG,Singapore,Cantonment Close,088256,康达小学,primary,1
+education,school,1.308493,103.7982149,school,Anglo-Chinese School (International),SG,Singapore,Jalan Hitam Manis,278475,,,61
+education,school,1.4312789,103.7767697,school,Fuchun Secondary School,,,,,,,
+education,school,1.2957549,103.7836142,school,Faculty of Dentistry,,,,,,,
+education,school,1.3499913,103.8614125,school,St Gabriel's Primary School,SG,Singapore,Lorong Chuan,556742,圣加俾尔小学,primary,220
+education,school,1.3231682,103.8645559,school,Bendemeer Primary School,SG,Singapore,Bendemeer Road,339948,明智小学,primary,91
+education,school,1.3932384,103.8756876,school,Sengkang Green Primary School,SG,Singapore,Fernvale Road,797636,康林小学,primary,15
+education,school,1.3211468,103.7602916,school,,,,,,,,
+education,school,1.419845,103.8366129,school,Rainbow Centre - Yishun Park School,,Singapore,Yishun Street 61,768548,,,15
+education,school,1.4675188,103.7377502,school,Sekolah Kebangsaan Nong Chik,,Johor Bahru,Jalan Nong Chik,80100,,,
+education,school,1.3964928,103.9115737,school,Greendale Secondary School,SG,Singapore,Edgedale Plains,828866,绿苑中学,secondary,51
+education,school,1.3051448,103.8575694,school,Madrassah Aljunied Al Islamiah,,,,,,,
+education,school,1.3510904,103.7293981,school,Jurongville Secondary School,SG,Singapore,Jurong East Avenue 1,609790,裕廊景中学,secondary,202
+education,school,1.3445703,103.7269109,,,,,,,,,
+education,school,1.3729402,103.8884078,school,Monfort Secondary School,SG,Singapore,Hougang Avenue 8,538785,蒙福中学,secondary,50
+education,school,1.3009302,103.7685359,school,The Japanese Primary School,SG,Singapore,Clementi Road,129782,,,95
+education,school,1.3062346,103.8899755,school,EtonHouse International School,,,,,,,
+education,school,1.4594628,103.9149008,school,,,,,,,,
+education,school,1.3286488,103.8022703,school,Hwa Chong International School,,Singapore,Bukit Timah Road,269783,,,663
+education,school,1.2803337,103.8414605,school,Focus Music,SG,Singapore,Keong Saik Road,089146,,,41
+education,school,1.3301383,103.8009952,school,Nanyang Girls' High School,SG,Singapore,Linden Drive,288683,南洋女子中学校,secondary,2
+education,school,1.2795681,103.8007944,school,SP Jain Center of Management,,,,,,,
+education,school,1.4333944,103.797101,school,Woodlands Ring Primary School,SG,Singapore,Woodlands Ring Road,738240,辅廉小学,primary,11
+education,school,1.3939901,103.9089626,school,Mee Toh School,SG,Singapore,Edgedale Plains,828867,弥陀学校,primary,21
+education,school,1.3168469,103.7673037,school,Pei Tong Primary School,SG,Singapore,Clementi Avenue 5,129857,培童小学,primary,15
+education,school,1.2964558,103.7941745,school,Centre Stage School of the Arts,,,,,,,
+education,school,1.3361628,103.9204516,school,AWWA School @ Bedok,SG,Singapore,Bedok Reservoir Crescent,479225,,primary,50
+education,school,1.3461092,103.8465071,,,,,,,,,
+education,school,1.3242311,103.9512555,school,Bedok South Secondary School,SG,Singapore,Jalan Langgar Bedok,468585,尚义中学,secondary,1
+education,school,1.3928661,103.8937999,music_school,Cristofori,,,,,,,
+education,school,1.3598897,103.8333729,,,,,,,,,
+education,school,1.4534163,103.6966252,school,SK Sungai Melayu,,,,,,,
+education,school,1.2863777,103.814669,school,Class Room 3,,,,,,,
+education,school,1.4105342,103.9059666,language_school,Tien Hsia Language School,,,,,天下语文学校,,
+education,school,1.3157457,103.9204224,school,Global Indian International School,,,,,,,
+education,school,1.3943096,103.7435283,school,De La Salle School,SG,Singapore,Choa Chu Kang Street 52,689285,德喇撒学校,primary,11
+education,school,1.3530131,103.8338711,music_school,Ensemble Music,,,,,,,
+education,school,1.2864126,103.8146692,school,Class Room 2,,,,,,,
+education,school,1.3953254,103.89058,school,Springdale Primary School,SG,Singapore,Anchorvale Link,544799,康德小学,primary,71
+education,school,1.2908107,103.8572061,music_school,The Music Platform,,,,,,,
+education,school,1.3621947,103.8824986,school,Dimensions,,,,,,,
+education,school,1.3536531,103.9613589,school,East Spring Primary School,SG,Singapore,Tampines Street 33,529258,东源小学,primary,31
+education,school,1.2964584,103.8073341,school,Queenstown Primary School,SG,Singapore,Margaret Drive,149303,女皇镇小学,primary,310
+education,school,1.2963015,103.7930136,school,Tanglin Trust School,,Singapore,Portsdown Road,139299,,,95
+education,school,1.3368348,103.8681612,school,Stamford American International School,,,,,,,
+education,school,1.3767595,103.7517167,school,ITE College West,,,,,,,
+education,school,1.3905546,103.8748439,school,MINDS Fernvale Gardens School,SG,Singapore,Fernvale Road,797635,,,7
+education,school,1.3836353,103.7592492,school,West View Primary School,SG,Singapore,Senja Road,677742,维新小学,primary,31
+education,school,1.3166571,103.9181045,school,Bethesda Kindergarten,,,Frankel Avenue,,,,
+education,school,1.3835691,103.8952896,school,North Vista Primary School,SG,Singapore,Compassvale Link,544974,远景小学,primary,20
+education,school,1.3474501,103.8766795,school,St. Gabriel's Secondary School,SG,Singapore,Serangoon Avenue 1,556140,圣加俾尔中学,secondary,24
+education,school,1.3395669,103.687548,school,Juying Primary School,SG,Singapore,Jurong West Street 91,649037,聚英小学,,31
+education,school,1.3405811,103.8775934,school,Maris Stella High School,,Singapore,Mount Vernon Road,368051,,,25
+education,school,1.301032,103.7840846,school,Fairfield Methodist Primary School,SG,Singapore,Dover Road,139648,花菲卫理小学,primary,100
+education,school,1.3037821,103.9029959,school,Art Zone,,,,,,,
+education,school,1.3692654,103.7655765,school,Assumption English School,,,,,,,
+education,school,1.3567725,103.8777772,school,Hillside World Academy,,,Hillside Drive,,,,
+education,school,1.3518432,103.9512338,school,Yumin Primary School,SG,Singapore,Tampines Street 21,529393,育民小学,primary,3
+education,school,1.3080574,103.8294697,school,,,,,,,,
+education,school,1.3451841,103.8511417,school,Guangyang Secondary School,SG,Singapore,Bishan Street 12,579807,光洋中学,secondary,8
+education,school,1.352923,103.8361818,school,J Carter Centre,,,,,,,
+education,school,1.3263558,103.8809261,school,Canossa Convent Primary School,,,,,,,
+education,school,1.3657096,103.772314,school,German European School Singapore (Dairy Farm Campus),,Singapore,Dairy Farm Lane,677621,,,2
+education,school,1.3913608,103.8901381,language_school,HCL Education Centre,,,,,,,
+education,school,1.3601317,103.8545309,school,Pathlight School Autism Resource Centre (Singapore),,Singapore,Ang Mo Kio Avenue 10,569739,,,5
+education,school,1.3866719,103.897869,,,,,,,,,
+education,school,1.3313155,103.7235867,school,Jurong Secondary School,SG,Singapore,Yuan Ching Road,618652,裕廊中学,secondary,31
+education,school,1.3217098,103.8411149,school,,SG,Singapore,Thomson Road,,,,299
+education,school,1.3414806,103.7390902,school,Shuqun Secondary School,SG,Singapore,Jurong East Street 21,609604,树群中学,secondary,450
+education,school,1.4364005,103.828968,school,Ahmad Ibrahim Secondary School,SG,Singapore,Yishun Avenue 6,768928,伊欣中学,secondary,751
+education,school,1.4798971,103.745935,school,SMK Sultan Ismail,,Johor Bahru,Jalan Abdul Samad,80100,,,
+education,school,1.342169,103.7026301,school,Boon Lay Secondary School,SG,Singapore,Jurong West Street 65,648354,文礼中学,secondary,11
+education,school,1.303544,103.7982942,school,,,,,,,,
+education,school,1.3701122,103.8683186,school,Lycée Français de Singapour,,,Ang Mo Kio Avenue 3,569928,,,3000
+education,school,1.3473451,103.7178306,school,Rulang Primary School,SG,Singapore,Jurong West Street 52,649295,孺廊小学,primary,6
+education,school,1.3495755,103.7330215,school,Jurong Primary School,SG,Singapore,Jurong East Street 32,609476,裕廊小学,primary,320
+education,school,1.4186444,103.9055533,school,Northshore Primary School,,Singapore,Northshore Drive,828671,,,30
+education,school,1.2822628,103.8180784,school,Eager Beaver Schoolhouse @ Bukit Merah Central,SG,Singapore,Bukit Merah Central,159838,,,3500A
+education,school,1.3305972,103.9313527,school,Fengshan Primary School,SG,Singapore,Bedok North Road,469680,凤山小学,primary,307
+education,school,1.3651491,103.8577532,school,Pathlight School Campus 2,SG,Singapore,Ang Mo Kio Street 44,569250,,,2
+education,school,1.479036,103.9557523,school,,,,,,,,
+education,school,1.4077256,103.8979307,school,Yusof Ishak Secondary School,,Singapore,Sumang Walk,828676,,,8
+education,school,1.4766868,103.6937299,school,SK Taman Sutera,,,,,,,
+education,school,1.3445903,103.7268085,,,,,,,,,
+education,school,1.2774613,103.8092779,school,Blangah Rise Primary School,SG,Singapore,Telok Blangah Heights,109100,布兰雅坡小学,primary,91
+education,school,1.3728954,103.768882,school,Bukit Panjang Primary School,SG,Singapore,Cashew Road,679676,武吉班让小学,primary,109
+education,school,1.3024208,103.862368,school,Code Bright,,,,,,,
+education,school,1.3769397,103.9352461,school,Meridian Primary School,SG,Singapore,Pasir Ris Street 71,518798,美廉小学,primary,20
+education,school,1.3373631,103.719728,school,Pro-Teach Education,,,,,,,
+education,school,1.3927492,103.8941737,language_school,Beijing Language School,,,,,北京语文学校,,
+education,school,1.3564241,103.8418256,school,Whitley Secondary School,SG,Singapore,Bishan Street 24,579747,惠厉中学,secondary,30
+education,school,1.3061702,103.9055252,school,Hess Education Centre,,,East Coast Road,,,,
+education,school,1.3646291,103.7440287,school,Dunearn Secondary School,SG,Singapore,Bukit Batok West Avenue 2,659204,德能中学,secondary,21
+education,school,1.3655034,103.8520981,school,Deyi Secondary School,SG,Singapore,Ang Mo Kio Street 42,569277,德义中学,secondary,1
+education,school,1.2859951,103.8143326,school,Gan Eng Seng Primary School,SG,Singapore,Redhill Close,158901,颜永成小学,primary,100
+education,school,1.3078858,103.8299243,school,,,,,,,,
+education,school,1.3445444,103.7427043,school,Crest Secondary School,SG,Singapore,Jurong East Street 24,609561,裕峰中学,secondary,561
+education,school,1.3362715,103.9205383,,,,,,,,,
+education,school,1.377157,103.8355955,school,Anderson Primary School,SG,Singapore,Ang Mo Kio Avenue 2,569948,安德逊小学,primary,6
+education,school,1.4361657,103.9323897,school,Sekolah Agama Kg Pasir Putih,,,,,,,
+education,school,1.3260246,103.8437024,school,Balestier Hill Primary School,SG,Singapore,Balestier Road,329927,博理小学,primary,565
+education,school,1.3416834,103.8435188,school,Raffles Girls' School (Secondary),,Singapore,Braddell Rise,318871,莱佛士女中,,2
+education,school,1.3080627,103.8879061,school,Broadrick Secondary School,SG,Singapore,Dakota Crescent,399935,务立中学,secondary,61
+education,school,1.4368548,103.8242889,school,Sir Manasseh Meyer International School,,Singapore,Jalan Ulu Sembawang,758932,,,3
+education,school,1.3056166,103.7641323,school,Grace Orchard School,SG,Singapore,West Coast Road,127443,,primary,170
+education,school,1.4677117,103.7795006,,,,,,,,,
+education,school,1.3409791,103.8552603,school,First Toa Payoh Primary School,SG,Singapore,Lorong 8 Toa Payoh,319252,大智小学,primary,7
+education,school,1.3383655,103.9260587,school,Damai Secondary School,SG,Singapore,Bedok Reservoir Road,479229,康柏中学,secondary,4800
+education,school,1.3244793,103.8700178,school,Singapore Examinations and Assessment Board,SG,Singapore,Geylang Bahru Lane,339626,,,3
+education,school,1.3691499,103.9506026,school,Coral Primary School,SG,Singapore,Pasir Ris Street 51,518902,云海小学,primary,20
+education,school,1.4167637,103.902145,school,Play Facto School,,,,,,,
+education,school,1.348775,103.87399,school,Dyslexia Association of Singapore Serangoon Learning Centre,,,,,,,
+education,school,1.3668406,103.766981,school,CHIJ (Our Lady Queen of Peace) Primary School,SG,Singapore,Chestnut Drive,679287,圣婴女校(和平之后),primary,4
+education,school,1.3918731,103.8901311,school,Nan Chiau Primary School,SG,Singapore,Anchorvale Link,545080,南侨小学,primary,50
+education,school,1.3296173,103.7246741,school,Yuvabharathi International School,,Singapore,Hu Ching Road,619651,,,3
+education,school,1.3464705,103.7529283,school,Bukit View Primary School,SG,Singapore,Bukit Batok Street 21,659634,百德小学,primary,18
+education,school,1.3973024,103.7501971,school,Yew Tee Primary School,SG,Singapore,Choa Chu Kang Street 64,689100,育智小学,primary,10
+education,school,1.4361311,103.8033928,school,Spectra Secondary School,SG,Singapore,Woodlands Drive 64,737758,云锦中学,secondary,1
+education,school,1.3535902,103.9408267,music_school,Cristofori,,,,,,,
+education,school,1.3027359,103.7841053,school,Fairfield Methodist Secondary School,SG,Singapore,Dover Road,139649,花菲卫理中学,secondary,102
+education,school,1.3937494,103.8984918,school,Compassvale Primary School,SG,Singapore,Compassvale Street,545091,康柏小学,primary,21
+education,school,1.4781817,103.6500299,school,,,,,,,,
+education,school,1.3382442,103.8410278,school,Lighthouse School,,Singapore,Toa Payoh Rise,298106,,,51
+education,school,1.3324123,103.8001013,school,NYGH Boarding School,,Singapore,Linden Drive,288735,,,21
+education,school,1.348937,103.8586168,school,Australian International School Singapore,SG,Singapore,Lorong Chuan,556818,,,1
+education,school,1.285989,103.8192834,school,Henderson Secondary School,SG,Singapore,Henderson Road,159544,达善中学,secondary,100
+education,school,1.3609208,103.9483365,school,Tampines North Primary School,SG,Singapore,Tampines Avenue 9,529565,淡滨尼北小学,primary,30
+education,school,1.4475751,103.801,school,Riverside Primary School,SG,Singapore,Woodlands Crescent,737803,立德小学,primary,110
+education,school,1.3095774,103.8404043,school,Anglo-Chinese School (Junior),SG,Singapore,Winstedt Road,227988,英华学校(附小),primary,16
+education,school,1.3858296,103.8978909,school,Seng Kang Secondary School,SG,Singapore,Compassvale Lane,545090,成康中学,secondary,10
+education,school,1.3996015,103.9141814,school,,,,,,,,
+education,school,1.3045753,103.9036103,music_school,Dandelion School of Music,,,,,,,
+education,school,1.3881805,103.7645618,school,Zhenghua Secondary School,SG,Singapore,Senja Road,677741,正华中学,secondary,91
+education,school,1.2885059,103.8050912,school,Kent Ridge Tutors / Global Art,,,,,,,B1-38/39
+education,school,1.3048454,103.9040924,school,Art Zillions,,,,,,,
+education,school,1.3475195,103.7680631,school,Child Development Centre – Bukit Batok,,,Bukit Batok East Avenue 6,659759,,,21
+education,school,1.4395267,103.8397855,school,Chongfu Primary School,SG,Singapore,Yishun Avenue 6,768959,崇福学校,primary,170
+education,school,1.4274168,103.8452563,school,Huamin Primary School,SG,Singapore,Yishun Avenue 11,768857,华民小学,primary,21
+education,school,1.366422,103.9610821,school,White Sands Primary School,SG,Singapore,Pasir Ris Street 11,519075,白沙小学,primary,2
+education,school,1.3023683,103.7732731,parking,,,,,,,,
+education,school,1.3773397,103.9579974,school,Jeet's School,,,,,,,
+education,school,1.3170267,103.7677923,,,,,,,,,
+education,school,1.3387528,103.7930804,music_school,Drum Tutor,,,,,,,
+education,school,1.3488955,103.8690495,school,Zhonghua Secondary School,SG,Singapore,Serangoon Avenue 3,556123,中华中学,secondary,13
+education,school,1.3342932,103.7827605,school,Methodist Girls' School,SG,Singapore,Blackmore Drive,599986,美以美女校,primary;secondary,11
+education,school,1.3939285,103.6361924,school,Sunway International School,,Medini,Jalan Persiaran Medini 3,79250,双威国际学校,,
+education,school,1.3911671,103.9021142,school,CHIJ St Joseph's Convent,SG,Singapore,Seng Kang East Way,548595,圣婴女中(圣若瑟),secondary,62
+education,school,1.3041935,103.9017324,music_school,@Libitum,,,,,,,
+education,school,1.4121648,103.898731,school,Punggol Cove Primary School,,,,,,,
+education,school,1.4395592,103.8243895,school,Star Learners Childcare Centre,,,Sembawang Place,758440,,,587
+education,school,1.4410037,103.7738395,school,Woodlands Secondary School,SG,Singapore,Marsiling Road,739111,辅仁中学,secondary,11
+education,school,1.3268016,103.9130161,school,Minds - Towner Gardens School,,,,,,,
+education,school,1.3324968,103.8416809,school,CHIJ (Toa Payoh) Secondary School,SG,Singapore,Lorong 1 Toa Payoh,319764,圣婴女子中学(大巴窑),secondary,626
+education,school,1.2927098,103.7671732,school,Genesis School,,,West Coast Road,,,,
+education,school,1.3094105,103.8962896,school,Tanjong Katong Secondary School,SG,Singapore,Haig Road,438796,丹绒加东中学,secondary,130
+education,school,1.3433418,103.7410319,school,Yuhua Primary School,SG,Singapore,Jurong East Street 24,609558,裕华小学,primary,158
+education,school,1.4647611,103.7386313,school,Maktab Sultan Abu Bakar,,Johor Bahru,Jalan Sungai Chat,80100,,,
+education,school,1.3214328,103.8797793,school,Nexus International School (Singapore),,Singapore,Aljunied Walk,387293,,,1
+education,school,1.2980541,103.8156462,school,Avondale Grammar School,,,Tanglin Road,247979,,,318
+education,school,1.3216532,103.856712,school,Hong Wen School,SG,Singapore,Towner Road,327829,宏文学校,primary,30
+education,school,1.2862969,103.8281161,language_school,Star River Language School,,,,,星河语文学校,,
+education,school,1.3173805,103.8909501,school,Madrasah Wak Tanjong Al Islamiah,,,,,,,
+education,school,1.3383243,103.7171074,school,Lakeside Primary School,SG,Singapore,Corporation Walk,618310,湖滨小学,primary,161
+education,school,1.3248179,103.9382695,school,,SG,Singapore,New Upper Changi Road,467353,,,860
+education,school,1.3718056,103.8479615,music_school,My Drum School,,,,,,,
+education,school,1.340225,103.7045236,music_school,Yamaha Music School,,,,,,,
 education,school,1.3165855,103.8737802,,,,,,,,,
-education,school,1.4484009,103.6432171,Invictus International School,school,3,,Puteri Johor,Jalan Persiaran Selatan,79100,MY,
-education,school,1.281972,103.8088936,North London Collegiate School (NLCS Singapore),school,130,,Singapore,Depot Road,109708,,
-education,school,1.3996015,103.9141814,,school,,,,,,,
+education,school,1.3692395,103.8488935,music_school,Aureus Academy,,,,,,,
+education,school,1.3895817,103.874082,school,Fernvale Primary School,,,Fernvale Lane,797701,,,1
+education,school,1.4348711,103.7741032,school,Marsiling Primary School,SG,Singapore,Woodlands Centre Road,738927,马西岭小学,primary,31
+education,school,1.312715,103.7857683,school,,,,,,,,
+education,school,1.4332268,103.8387679,school,Xishan Primary School,SG,Singapore,Yishun Street 21,768611,西山小学,primary,8
+education,school,1.3724574,103.8978605,school,CHIJ (Our Lady of the Nativity) Primary School,SG,Singapore,Upper Serangoon Road,534793,圣婴女校(圣母圣诞),primary,1257
+education,school,1.2916943,103.8234911,school,Alexandra Primary School,SG,Singapore,Prince Charles Crescent,159016,雅德小学,primary,2A
+education,school,1.334161,103.9339499,school,Red Swastika School,SG,Singapore,Bedok North Avenue 3,469719,卍慈学校,primary,350
+education,school,1.3893219,103.8985862,school,Seng Kang Primary School,SG,Singapore,Compassvale Walk,545166,成康小学,primary,21
+education,school,1.3048653,103.7979765,school,Big Bubble Dive Centre,,,,,,,
+education,school,1.3461973,103.8601054,,Gate No. 1,,,,,,,
+education,school,1.3023266,103.8768746,music_school,Yamaha,,,,,,,
+education,school,1.2983254,103.7929814,,,,,,,,,
+education,school,1.353669,103.7270623,school,Hong Kah Secondary School,SG,Singapore,Jurong West Street 42,649370,丰嘉中学,secondary,931
+education,school,1.3053932,103.8995628,school,Tanjong Katong Primary School,SG,Singapore,Seraya Road,437259,丹绒加东小学,primary,10
+education,school,1.3496567,103.7397711,school,Bukit Batok Secondary School,SG,Singapore,Bukit Batok West Avenue 8,658962,武吉巴督中学,secondary,50
+education,school,1.3717988,103.9623145,school,Pasir Ris Primary School,SG,Singapore,Pasir Ris Street 21,518968,思励小学,primary,5
+education,school,1.3718124,103.8479264,language_school,Wang Learning Centre Pte Ltd,,,,,汪老师学园,,
+education,school,1.3048523,103.8973044,school,Canadian International School,,,Tanjong Katong Road,,,,
+education,school,1.3236949,103.8813826,school,MacPherson Primary School,SG,Singapore,Mattar Road,387724,柏盛小学,primary,2
+education,school,1.336727,103.7836366,school,Happy Art Loft,,,,,,,
+education,school,1.3097274,103.8374915,language_school,MOE Language Centre (Newton),,Singapore,Cairnhill Road,229722,,,136
+education,school,1.2470486,103.8423226,school,Quayside Isle Preparatory School,,,,,,,
+education,school,1.3290017,103.8021954,school,Hwa Chong Institution,,Singapore,Bukit Timah Road,269734,,,661
+education,school,1.3031305,103.8732806,music_school,The Musical Fairy,,,,,,,
+education,school,1.4796144,103.7431694,school,Sekolah Jenis Kebangsaan (C) Foon Yew 2,,,,,宽柔华小（二）校,,
+education,school,1.3432342,103.7123028,school,Boon Lay Garden Primary School,SG,Singapore,Boon Lay Drive,649930,文园小学,primary,20
+education,school,1.4792079,103.7477448,school,Sekolah Jenis Kebangsaan (T) Jalan Yahya Awal,,,,,,,
+education,school,1.3193425,103.7447024,school,Commonwealth Secondary School,SG,Singapore,West Coast Road,608784,立才中学,secondary,698
+education,school,1.3729795,103.7690856,,,,,,,,,
+education,school,1.4103158,103.9059361,school,Artary Academy of Children's Art,,,,,,,
+education,school,1.41712,103.8377564,school,Orchid Park Secondary School,SG,Singapore,Yishun Street 81,768454,兰景中学,secondary,10
+education,school,1.4009174,103.7453516,school,Unity Secondary School,SG,Singapore,Choa Chu Kang Street 62,689143,协和中学,secondary,20
+education,school,1.3051958,103.9048856,music_school,Kindermusik,,,,,,,
+education,school,1.3900183,103.7418781,school,Kranji Secondary School,SG,Singapore,Choa Chu Kang Street 51,689333,科兰芝中学,secondary,61
+education,school,1.3916874,103.8949888,music_school,Sonare Music School,,,,,,,
+education,school,1.4290187,103.791704,school,Innova Primary School,SG,Singapore,Woodlands Drive 17,737888,星烁小学,primary,80
+education,school,1.3500698,103.875052,school,SparkleTots Pre-school,,,Serangoon Central,550417,,,417
+education,school,1.4417767,103.7872193,school,Qihua Primary School,SG,Singapore,Woodlands Street 81,738525,启化小学,primary,5
+education,school,1.3445609,103.7269653,,,,,,,,,
+education,school,1.3144933,103.8949479,music_school,Aureus Academy,,,,,,,
+education,school,1.3039642,103.8463239,school,St. Margaret's Primary School,SG,Singapore,Wilkie Road,228091,圣玛格烈小学,primary,99
+education,school,1.4512686,103.8148432,school,Canberra Primary School,SG,Singapore,Admiralty Drive,757714,康培小学,primary,21
+education,school,1.3783567,103.8847207,school,Yio Chu Kang Primary School,SG,Singapore,Hougang Street 51,538720,,primary,1
+education,school,1.3163183,103.8741704,,,,,,,,,
+education,school,1.3678315,103.7498303,school,,,,,,,,
+education,school,1.3465371,103.8495946,school,Guangyang Primary School,SG,Singapore,Bishan Street 12,579806,光洋小学,primary,6
+education,school,1.3850465,103.9024054,language_school,Hua Cheng,,,,,,,
+education,school,1.4456634,103.7741376,school,Siling Secondary School,SG,Singapore,Marsiling Lane,739148,士林中学,secondary,11
+education,school,1.3657901,103.8502341,school,Teck Ghee Primary School,SG,Singapore,Ang Mo Kio Street 32,569299,德义小学,primary,1
+education,school,1.3020214,103.8623508,music_school,Teacher Ping School Of Music,,,,,,,
+education,school,1.4282894,103.8452278,school,North View Secondary School,SG,Singapore,Yishun Ring Road,768680,德贤中学,secondary,530
+education,school,1.3499524,103.85074,language_school,Tien Hsiah Language School,,,,,天下语文学校,,
+education,school,1.3324968,103.8416809,school,CHIJ (Toa Payoh) Primary School,SG,Singapore,Lorong 1 Toa Payoh,319765,圣婴女子小学(大巴窑),primary,628
+education,school,1.3115908,103.786376,school,,,,,,,,
+education,school,1.3731823,103.878715,school,AWWA Sch,SG,Singapore,Lor Napiri,547532,,,11
+education,school,1.4665101,103.7571657,school,Sekolah Sri Johor Bahru,,Johor Bahru,Jalan Abdul Rahman Andak,80100,,,
+education,school,1.2963281,103.792939,,Gate D,,,,,,,
+education,school,1.3299048,103.9189995,school,East Coast Primary School,SG,Singapore,Chai Chee Lane,469031,东岸小学,primary,8
+education,school,1.3004242,103.7691246,school,,,,,,,,
+education,school,1.3058759,103.9104901,school,CHIJ (Katong) Primary School,SG,Singapore,Martia Road,424821,圣婴女校(加东),primary,17
+education,school,1.348315,103.9511787,school,Angsana Primary School,SG,Singapore,Tampines Street 22,529366,,primary,3
+education,school,1.2864237,103.8266078,school,HiArt,,,,,,,
+education,school,1.2976133,103.7936335,,Gate B,,,,,,,
+education,school,1.3000677,103.7987907,school,New Town Primary School,SG,Singapore,Tanglin Halt Road,148812,光道小学,primary,300
+education,school,1.3614398,103.9548789,school,Dunman Secondary School,SG,Singapore,Tampines Street 45,529093,徳明中学,secondary,21
+education,school,1.32903,103.8887157,school,,SG,Singapore,Circuit Road,379481,,primary,107
+education,school,1.3598515,103.6125406,school,SK Tg Kupang,,,,,,,
+education,school,1.3359002,103.7013421,school,Jurong West Secondary School,SG,Singapore,Jurong West Street 65,648348,裕廊西中学,secondary,61
+education,school,1.3039904,103.9014773,music_school,Finger Waltz Music & Dance,,,,,,,
+education,school,1.3673838,103.9566813,school,Loyang View Secondary School,SG,Singapore,Pasir Ris Street 11,519073,洛阳中学,secondary,12
+education,school,1.3361757,103.9204619,,,,,,,,,
+education,school,1.3806157,103.7692247,school,Zhenghua Primary School,SG,Singapore,Fajar Road,679002,正华小学,primary,9
+education,school,1.3927372,103.7504815,,,,,,,,,
+education,school,1.3294921,103.8029473,,,,,,,,,
+education,school,1.3445941,103.7267865,,,,,,,,,
+education,school,1.3610988,103.9648364,school,Amar Kids,,,,,,,
+education,school,1.362731,103.7443171,,,,,,,,,
+education,school,1.3943826,103.9128077,music_school,Cristofori Music School,,,,,歌德乐学校,,
+education,school,1.4332012,103.8416396,school,iMatter Learning Centre,,Singapore,18 Yishun Avenue 9 #02-48,768897,,,iMatter Learning Centre
+education,school,1.3163788,103.8942658,school,Ink Learning,,,,,,,
+education,school,1.419845,103.8366129,school,Chung Cheng High School (Yishun),SG,Singapore,Yishun Street 61,768547,中正中学 (义顺),secondary,11
+education,school,1.3973024,103.7501971,,,,,,,,,
+education,school,1.3821113,103.7547987,,,,,,,,,
+education,school,1.4322643,103.7895566,school,Woodgrove Primary School,SG,Singapore,Woodlands Drive 14,738079,林景小学,primary,2
+education,school,1.3496671,103.8539728,school,Kuo Chuan Presbyterian Primary School,SG,Singapore,Bishan Street 13,579793,国专长老会小学,primary,8
+education,school,1.4335016,103.7851598,school,Si Ling Primary School,SG,Singapore,Woodlands Avenue 1,739067,士林小学,primary,61
+education,school,1.369529,103.8401016,school,Ang Mo Kio Primary School,SG,Singapore,Ang Mo Kio Avenue 3,569920,茂乔小学,primary,20
+education,school,1.3179926,103.9450451,school,Temasek Primary School,SG,Singapore,Bedok South Avenue 3,479239,淡马锡小学,primary,501
+education,school,1.4702657,103.8915114,school,SK Pasir Gudang 4,,,,,,,
+education,school,1.4525374,103.8216446,school,Wellington Primary School,SG,Singapore,Wellington Circle,757702,伟林小学,primary,10
+education,school,1.333487,103.9316165,,,,,,,,,
+education,school,1.34844,103.9511787,,,,,,,,entrance,
+education,school,1.3524482,103.7075685,school,Corporation Primary School,SG,Singapore,Jurong West Street 24,648347,徳行小学,primary,31
+education,school,1.3202171,103.9033503,music_school,Jack Singing Training & Musical Centre,,,,,杰奇歌唱培训音乐中心,,
+education,school,1.289267,103.8471267,school,3dsense Media School,,,,,,,
+education,school,1.3190798,103.835119,school,Anglo-Chinese School (Primary),SG,Singapore,Barker Road,309918,英华学校(小学),primary,50
+education,school,1.4247985,103.6161513,school,Raffles American International School,,,Ledang Height,79200,,,
+education,school,1.3421529,103.6881378,,,,,,,,,
+education,school,1.384346,103.7554385,school,Teck Whye Secondary School,SG,Singapore,Teck Whye Crescent,688848,德惠中学,secondary,31
+education,school,1.295213,103.8353584,school,River Valley Primary School,SG,Singapore,River Valley Green,237993,立化小学,primary,2
+education,school,1.3486683,103.7415808,school,Princess Elizabeth Primary School,,,Bukit Batok West Avenue 3,659163,伊丽沙白公主小学,primary,30
+education,school,1.3037337,103.7761324,school,University Town,,,,,,,
+education,school,1.4361916,103.9300579,school,Sekolah Kebangsaan Pasir Putih,,Pasir Gudang,Jalan Pangkalan 13,,,,
+education,school,1.3327045,103.8050361,school,National Junior College,,Singapore,Hillcrest Road,288913,,,37
+education,school,1.3775869,103.8563216,school,ITE College Central,,,Ang Mo Kio Drive,567720,,,2
+education,school,1.2890293,103.822105,school,Ascensia Academy,SG,Singapore,Henderson Crescent,151106,爱信国际学院,,106A
+education,school,1.3866588,103.9037599,school,North Spring Primary School,SG,Singapore,Rivervale Street,545088,北源小学,primary,1
+education,school,1.3155564,103.8815789,school,Sunny Cove LLP Dive School,,,Ajunied Road,,,,
+education,school,1.3703728,103.7673479,school,Assumption Pathway School,SG,Singapore,Cashew Road,679697,圣升明径学校,secondary,30
+education,school,1.4053105,103.9045015,school,Punggol View Primary School,SG,Singapore,Punggol Place,828845,培景小学,primary,9
+education,school,1.3617405,103.7685058,school,Methodist School of Music,,,,,,,
+education,school,1.4723463,103.6725664,school,Sekolah Kebangsaan Taman Perling,,,,,,,
+education,school,1.3749851,103.8888354,school,Montfort Junior School,SG,Singapore,Hougang Avenue 8,538786,蒙福小学,primary,52
+education,school,1.3944545,103.9129587,language_school,Beijing Language School,,,,,北京语文学校,,
+education,school,1.289575,103.8200672,school,Tanglin School,,Singapore,Alexandra Road,159924,,,143
+education,school,1.3409804,103.9522563,school,Changkat Changi Secondary School,SG,Singapore,Simei Street 3,529894,尚育中学,secondary,23
+education,school,1.4192505,103.8300404,school,Naval Base Secondary School,SG,Singapore,Yishun Ring Road,768689,军港中学,secondary,901
+education,school,1.2849937,103.8293522,language_school,CMA Mental Arithmetic Centre,,,Kim Tian Road,,,,
+education,school,1.3373271,103.8484435,school,PSB Academy STEM Campus,,,,,,,
+education,school,1.3760608,103.8510077,school,Anderson Secondary School,SG,Singapore,Ang Mo Kio Street 53,569206,安德逊中学,secondary,10
+education,school,1.3584368,103.9347546,school,Poi Ching School,SG,Singapore,Tampines Street 71,529067,培青学校,primary,21
+education,school,1.2913092,103.8496044,music_school,Drumstruck Studios,,,,,,,
+education,school,1.3546055,103.7533278,school,Lian Hua Primary School,,,Bukit Batok Street 52,659243,联华小学,primary,2
+education,school,1.316038,103.7673291,,Gate D,,,,,,,
+education,school,1.338505,103.7931568,school,The LPN Art School,,,,,,,
+education,school,1.3077267,103.8318682,school,General Assembly,,Singapore,Claymore Hill,,,,8
+education,school,1.3104691,103.7742824,school,New Town Secondary School,SG,Singapore,Dover Road,139657,光伟中学,secondary,1020
+education,school,1.3372378,103.7675833,school,,,,Toh Tuck Terrace,,,,2
+education,school,1.286545,103.811826,school,Bukit Merah Secondary School,SG,Singapore,Lengkok Bahru,159050,红山中学,secondary,10
+education,school,1.326154,103.8438591,,,,,,,,,
+education,school,1.4124481,103.898688,school,Punggol Cove Primary School,,Singapore,Sumang Walk,828674,,,52
+education,school,1.3916211,103.8758799,music_school,Vienna Music School,,,,,,,
+education,school,1.3016693,103.7934627,school,MindChamps PreSchool @ Biopolis,,Singapore,Biopolis Drive,138623,,,3
+education,school,1.4677239,103.6910194,school,SK Sungai Danga,,,,,,,
+education,school,1.4637858,103.9129433,school,,,,,,,,
+education,school,1.3121358,103.8499178,school,Farrer Park Primary School,SG,Singapore,Farrer Park Road,217567,华苑小学,primary,2
+education,school,1.4288873,103.8298505,school,Jiemin Primary School,SG,Singapore,Yishun Street 71,737888,介民小学,primary,2
+education,school,1.3938076,103.7462431,school,Kranji Primary School,SG,Singapore,Choa Chu Kang Street 54,689189,格致小学,primary,11
+education,school,1.3361832,103.7960278,school,Blue House International school,,,Turf Club Road,,,,
+education,school,1.3718639,103.8946934,school,Holy Innocents' High School,SG,Singapore,Upper Serangoon Road,534786,圣婴中学,secondary,1191
+education,school,1.4153075,103.9055594,school,St. Francis Xavier Major Seminary,SG,,Ponggol Seventeenth Avenue,829645,,,199
+education,school,1.2862383,103.8279807,school,Confucius Mandarin Institute,,,,,孔子书院,,
+education,school,1.2844339,103.788732,,,,,,,,,
+education,school,1.4438892,103.7938877,school,Evergreen Primary School,SG,Singapore,Woodlands Circle,738908,永青小学,primary,31
+education,school,1.3984962,103.918646,school,Waterway Primary School,,Singapore,Punggol Drive,828802,,,70
+education,school,1.3150168,103.8945663,music_school,Drum Tutor,,,,,,,
+education,school,1.307426,103.7689117,school,NUS High School of Mathematics and Science,,,,,,,
+education,school,1.4701217,103.7778003,school,Sekolah Menengah Foon Yew,MY,Johor Bahru,Jalan Ibrahim Sultan,80300,宽柔中学,,59
+education,school,1.3532309,103.7006913,school,Westwood Secondary School,SG,Singapore,Jurong West Street 25,648350,维林中学,secondary,11
+education,school,1.3152561,103.9060608,school,Al-Khairiah Islamic School,SG,Singapore,Still Road,423991,,,152
+education,school,1.4659583,103.7578574,school,Sekolah Kebangsaan (P) Bandar Tinggi,,Johor Bahru,Jalan Abdul Rahman Andak,80100,,,
+education,school,1.3966213,103.7520121,,,,,,,,,
+education,school,1.3526437,103.7390893,school,Dulwich College,SG,Singapore,Bukit Batok West Avenue 8,658966,,,71
+education,school,1.2983169,103.793158,,,,,,,,,
+education,school,1.3176739,103.8460419,school,SJIJ,,,Essex Road,,,,
+education,school,1.306256,103.9052226,school,People's Up,SG,Singapore,East Coast Road,428833,,,143
+education,school,1.4364947,103.8395164,school,Northland Secondary School,SG,Singapore,Yishun Street 22,768578,德景中学,secondary,3
+education,school,1.3465151,103.7257572,,,,,,,,,
+education,school,1.3601317,103.8545309,school,Townsville Primary School,SG,Singapore,Ang Mo Kio Avenue 10,569730,城景小学,primary,3
+education,school,1.3511201,103.9516587,school,Chongzheng Primary School,SG,Singapore,Tampines Street 21,529392,崇正小学,primary,1
+education,school,1.3012163,103.8017289,school,Queensway Secondary School,SG,Singapore,Margaret Drive,149295,女皇道中学,secondary,2A
+education,school,1.3040734,103.9014087,music_school,J Music,,,,,,,
+education,school,1.3003699,103.8372966,school,Kumon,,,,,,,
+education,school,1.3400891,103.8388411,school,Marymount Convent School,SG,Singapore,Marymount Road,297754,玛丽蒙女校,primary,20
+education,school,1.2999457,103.8905833,school,Montessori for Children,,,Broadrick Road,,,,
+education,school,1.3800986,103.8490994,school,Nanyang Polytechnic,,Singapore,Ang Mo Kio Avenue 8,569830,,,180
+education,school,1.3436255,103.7077286,school,River Valley High School,,Singapore,Boon Lay Avenue,649961,立化中学,,6
+education,school,1.281972,103.8088936,school,North London Collegiate School (NLCS Singapore),,Singapore,Depot Road,109708,,,130
+education,school,1.3145201,103.8948727,music_school,Fine Momentum,,,,,,,
+education,school,1.2910768,103.8500286,music_school,Cristofori,,,,,,,
+education,school,1.2818761,103.8094273,,,,,,,,,
+education,school,1.4320218,103.8388439,school,Yishun Town Secondary School,SG,Singapore,Yishun Street 21,768610,毅道中学,secondary,6
+education,school,1.4696229,103.891673,school,,,,,,,,
+education,school,1.3054129,103.9103187,school,Tao Nan School,,,,,,,
+education,school,1.3693659,103.8486967,music_school,Cristofori Music School,,,,,,,
+education,school,1.3807132,103.8985017,school,North Vista Secondary School,SG,Singapore,Rivervale Link,545081,德新中学,secondary,11
+education,school,1.3073476,103.9091768,school,Odyssey The Global Preschool,,,Still Road South,,,,
+education,school,1.3035327,103.8593653,school,The Dive Company,,,,,,,
+education,school,1.2998775,103.89298,school,Brighton Montessori,,,Mounbatten Road,,,,
+education,school,1.359889,103.7674888,school,The Learning Boutique,,,,,,,
+education,school,1.4692882,103.9053855,school,Sekolah Menegah Pasir Gudang (1),,,,,,,
+education,school,1.406648,103.8204181,school,Madrasah At-Tahzibiah Al-Islamiah,,,,,,,
+education,school,1.3505389,103.8728256,music_school,The Ballet & Music Company,,,,,,,
+education,school,1.3889987,103.8890204,school,Nan Chiau High School,SG,Singapore,Anchorvale Link,545079,南侨中学,secondary,20
+education,school,1.3734431,103.8736707,school,Rosyth School,SG,Singapore,Serangoon North Avenue 4,555855,乐赛学校,primary,21
+education,school,1.4011643,103.9021897,school,Edgefield Secondary School,SG,Singapore,Punggol Field,828814,,secondary,36
+education,school,1.3477662,103.7207546,school,Shuqun Primary School,SG,Singapore,Jurong West Street 51,649332,树群小学,primary,8
+education,school,1.3991458,103.9134438,school,Horizon Primary School,SG,Singapore,Edgedale Plains,828819,励众小学,primary,61
+education,school,1.3801195,103.9422514,,,,,,,,,
+education,school,1.3093165,103.9138752,school,Nafa Arts Kindergarten,,,,,,,
+education,school,1.3358135,103.8747024,school,Cedar Primary School,SG,Singapore,Cedar Avenue,349700,四德小学,primary,15
+education,school,1.3545823,103.8310871,music_school,Yamaha,,,,,,,
+education,school,1.3750821,103.6277193,school,SK Pendas Laut,,,,,,,
+education,school,1.33786,103.8547622,school,Madrasah Al-Arabiah Al-Islamiah,,,,,,,
+education,school,1.3728033,103.8581221,school,Da Qiao Primary School,SG,Singapore,Ang Mo Kio Street 54,569185,大侨小学,primary,8
+education,school,1.434529,103.8323798,school,Ahmad Ibrahim Primary School,SG,Singapore,Yishun Street 11,768643,依布拉欣小学,primary,10
+education,school,1.3095933,103.9156858,school,Saint Patrick's School,SG,Singapore,East Coast Road,429058,圣伯特理中学,secondary,490
+education,school,1.2914127,103.8569843,music_school,SOMA School of Music and the Arts,,,,,,,
+education,school,1.4059677,103.9021496,language_school,Beijing Language School,,,,,北京语文学校,,
+education,school,1.3551821,103.947774,school,Pasir Ris Secondary School,SG,Singapore,Tampines Street 21,529400,思励中学,secondary,390
+education,school,1.4385328,103.7765182,school,Marsiling Secondary School,SG,Singapore,Marsiling Road,739110,马西岭中学,secondary,12
+education,school,1.3932174,103.6370986,,,,,,,,,
+education,school,1.4275118,103.7753801,school,Singapore American School,,,Woodlands Ave 1,,,,
+education,school,1.3685006,103.94875,school,Meridian Secondary School,SG,Singapore,Pasir Ris Street 51,518901,雲海中学,primary,31
+education,school,1.3075331,103.9070331,school,Staccato Music School,,,,,,,
+education,school,1.4740913,103.9364613,school,SMK Pasir Putih,,Pasir Gudang,Jalan Selasih 2,81700,,,
+education,school,1.4336038,103.6490616,school,Raffles American International School,MY,,Jalan Raffles,79050,,,
+education,school,1.2815483,103.8052548,,,,,,,,,
+education,school,1.3777776,103.74099,school,Chua Chu Kang Primary School,SG,Singapore,Choa Chu Kang Avenue 2,689905,蔡厝港小学,primary,20
+education,school,1.3040597,103.9016351,school,Chess Academy (Singapore),,,,,,,
+education,school,1.3564837,103.9596539,school,East Spring Secondary School,SG,Singapore,Tampines Street 34,529231,东源中学,primary,30
+education,school,1.3061535,103.9049886,school,Raymond Studio,,,,,,,
+education,school,1.3427176,103.9532054,language_school,Hua Cheng,,,,,,,
+education,school,1.357959,103.9483912,school,Gongshang Primary School,SG,Singapore,Tampines Street 42,158901,工商小学,primary,1
+education,school,1.3527203,103.8366724,music_school,Fisherman Music School,,,,,,,
+education,school,1.3113151,103.8868615,,,,,,,,,
+education,school,1.2649537,103.8204957,school,Heguru Method Learning Centre,,,,,,,
+education,school,1.3170589,103.7678866,,Gate A,,,,,,,
+education,school,1.4720491,103.8942622,school,,,,,,,,
+education,school,1.4169341,103.9020743,school,Tree Art,,,,,,,
+education,school,1.3638086,103.7433595,school,,SG,Singapore,Bukit Batok West Avenue 2,659203,,primary,1
+education,school,1.3113018,103.8868058,school,Kong Hwa School,SG,Singapore,Guillemard Road,399772,光华学校,primary,350
+education,school,1.3846021,103.7529051,school,Teck Whye Primary School,SG,Singapore,Teck Whye Walk,688261,德惠小学,primary,11
+education,school,1.4214063,103.8397078,school,Northland Primary School,SG,Singapore,Yishun Avenue 4,769026,新华小学,primary,15
+education,school,1.4372852,103.8003812,school,Woodlands Ring Secondary School,SG,Singapore,Woodlands Ring Road,738239,辅廉中学,secondary,10
+education,school,1.3512594,103.7423295,school,Eden School,SG,Singapore,Bukit Batok West Avenue 3,659168,,,101
+education,school,1.3757711,103.763208,school,Fajar Secondary School,SG,Singapore,Gangsa Road,678972,励进中学,secondary,31
+education,school,1.4542568,103.8132292,school,Canberra Secondary School,SG,Singapore,Sembawang Drive,757699,康培中学,secondary,51
+education,school,1.3058069,103.9170538,school,Ngee Ann Primary School,SG,Singapore,Marine Terrace,449149,义安小学,primary,344
+education,school,1.3024698,103.7719879,music_school,Yong Siew Toh Conservatory of Music,,,,,,,
+education,school,1.3287088,103.9006026,school,Maha Bodhi School,SG,Singapore,Ubi Avenue 1,408931,菩提学校,primary,10
+education,school,1.2966043,103.7936084,,Gate A,,,,,,,
+education,school,1.3105386,103.7570264,school,Tanglin Secondary School,SG,Singapore,West Coast Road,127391,东林中学,secondary,301
+education,school,1.3190138,103.9167892,school,St. Stephen's School,SG,Singapore,Siglap View,455789,聖斯德望学校,primary,20

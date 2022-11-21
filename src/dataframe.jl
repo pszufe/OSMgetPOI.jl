@@ -61,6 +61,31 @@ function create_df(processed_objects::Vector{ProcessedPOI}, df_columns::Vector{S
 end
 
 
+#######################################################################################################
+#Filtering dataframe columns to only include columns that have low number of missing values############
+#######################################################################################################
+
+"""
+    filter_columns_by_threshold(dframe::DataFrame, threshold::Float64 = 0.5)::DataFrame
+
+Main function - it filters columns of the poi dataframe and returns a dataframe with those columns,
+whose fraction of non-missing values exceeds the threshold value
+Arguments:
+- `dframe` - a DataFrame with POIs
+- `threshold` - a minimum fraction of non-missing values in a column 
+"""
+function filter_columns_by_threshold(dframe::DataFrame, threshold::Float64 = 0.5)
+    df = dframe
+    for n in names(df)
+        count_of_non_missing = length(collect(dropmissing(df, n)[!, n]))
+        if count_of_non_missing < threshold*nrow(df)
+            df = select(df, Not(n))
+        end
+    end
+    return df
+end
+
+
 ###########################################################################################
 #Creating a dataframe from all vectors of POIs (output of generate_poi_vectors function)###
 ###########################################################################################
@@ -91,47 +116,49 @@ end
 
 
 """
-    create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}})::DataFrame
+    create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}}, threshold::Float64 = 0.3)::DataFrame
 
 Main function - it returns the dataframe of all POIs of all configured `primary_types` and `subtypes`
 Arguments:
 - `processed_objects_vector` - the vector of processed pois of all types (output of `generate_poi_vectors`)
+- `threshold` - a minimum fraction of non-missing values in a column 
 """
-function create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}})::DataFrame
+function create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}}, threshold::Float64 = 0.3)::DataFrame
     res_df = DataFrame()
     all_columns = columns_in_poi_vector(processed_objects_vector)
     for element in processed_objects_vector
         df = create_df(element, all_columns)
         append!(res_df, df)
     end
-    return res_df
+    filtered_df = filter_columns_by_threshold(res_df, threshold)
+    return filtered_df
 end
 
 
-#######################################################################################################
-#Filtering dataframe columns to only include columns that have low number of missing values############
-#######################################################################################################
+#####################################################################
+#Creating a dataframe from directly from the .osm file###############
+#####################################################################
 
 """
-    filter_columns_by_threshold(dframe::DataFrame, threshold::Float64 = 0.5)::DataFrame
+    create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3; directory::String = "datasets", poi_config::String = "POI_config.json")::DataFrame
 
-Main function - it filters columns of the poi dataframe and returns a dataframe with those columns,
-whose fraction of non-missing values exceeds the threshold value
+Main function - it returns the dataframe of all POIs of all configured `primary_types` and `subtypes` from the .osm file.
+
 Arguments:
-- `dframe` - a DataFrame with POIs
+- `osm_filename` - name of .osm file from which the POIs are processed and generated
+- `directory` - directory where the .osm file is located
+- `poi_config` - a JSON file with configuration of the POIs that are to be generated.
 - `threshold` - a minimum fraction of non-missing values in a column 
 """
-function filter_columns_by_threshold(dframe::DataFrame, threshold::Float64 = 0.5)
-    df = dframe
-    for n in names(df)
-        count_of_non_missing = length(collect(dropmissing(df, n)[!, n]))
-        if count_of_non_missing < threshold*nrow(df)
-            df = select(df, Not(n))
-        end
-    end
-    return df
+function create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3; directory::String = "datasets", poi_config::String = "POI_config.json")::DataFrame
+    processed_poi_vectors = generate_poi_vectors(osm_filename, directory = directory, poi_config = poi_config)
+    poi_df = create_poi_df(processed_poi_vectors, threshold)
+    return poi_df
 end
 
+
+
+#The below function is not used at all - but was not deleted from the package in case it is needed one day
 """
     filter_columns_by_colnames(dframe::DataFrame, colnames::Vector{String} = String[])::DataFrame
 

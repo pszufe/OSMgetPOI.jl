@@ -5,7 +5,7 @@ using JSON3
 ######################################################
 
 """
-    create_poi_metadata(osm_filename::String, json_filename::String, dir::String = "datasets")::Dict{String, Dict{String, String}}
+    create_poi_metadata(osm_filename::String, dir::String, json_filename::String)
 
 Auxilary function - it returns a dictionary of metadata which is used as an argument in several other functions.
 Arguments:
@@ -49,6 +49,5 @@ function create_poi_metadata(osm_filename::String, dir::String, json_filename::S
             res[output_file] = dict_entry
         end
     end
-    
     return res
 end

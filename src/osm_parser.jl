@@ -75,7 +75,6 @@ Auxilary function - it generates a temporary file for further processing and ret
 Arguments:
 - `filename` - name of the temporary file thich is to be generated
 - `metadata` - a metadata generated from function `create_poi_metadata` from `src/poi_metadata.jl` 
-
 """
 function generate_temporary_file(filename::String, metadata::Dict{String, Dict{String, String}})
     file_metadata = get(metadata, filename, missing)
@@ -83,13 +82,14 @@ function generate_temporary_file(filename::String, metadata::Dict{String, Dict{S
     output_filepath = get(file_metadata, "output_filepath", missing)
     input_filepath = get(file_metadata, "input_filepath", missing)
     generate_file = pipeline(`osmfilter $input_filepath $osm_query`, stdout = output_filepath)
-    run(generate_file)
+    process_time = @elapsed run(generate_file) #checking how long it takes to run this function
+    print("Process_time: ", process_time, "\n")
     return output_filepath
 end
 
 
 """
-    osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}}, excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{POIObject}}
+    osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}}, excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Dict{Int, POIObject}}
 
 Auxilary function - parses .osm file and returns a dictionary whose key is a name of a parsed temporary file,
 and value is a vector of parsed POIs. A single POI is represented as a `POIObject` type which is a mutable struct
@@ -97,10 +97,10 @@ with fields defined in `src/types.jl`.
 Arguments:
 - `filename` - the name of the .osm file that the function parses (e.g. beijing.osm)
 - `metadata` - a metadata generated from function create_poi_metadata from `src/poi_metadata.jl`
-- `excluded_keywords` - keywords excluded from parsing 
+- `excluded_keywords` - keywords excluded from parsing
 """
 function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}},
-                    excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Vector{POIObject}}
+                    excluded_keywords::Array{String} = ["text", "bounds"])::Dict{String, Dict{Int, POIObject}}
     
     #generate temporary file
     output_filepath = generate_temporary_file(filename, metadata)
@@ -108,7 +108,7 @@ function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, Strin
     #processing of .osm file
     osm = LightXML.parse_file(output_filepath)
     rootnode = LightXML.root(osm)
-    res = Vector{POIObject}()
+    res = Dict{Int, POIObject}()
 
     for c in child_elements(rootnode)
         name = LightXML.name(c)
@@ -117,7 +117,7 @@ function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, Strin
 
         if name ∉ excluded_keywords && !has_children(c)
             assign_attr_to_poi_object!(poi, attr)
-            push!(res, poi)
+            res[poi.object_id] = poi
 
         elseif name ∉ excluded_keywords && has_children(c)
             assign_attr_to_poi_object!(poi, attr)
@@ -137,7 +137,7 @@ function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, Strin
                     push!(poi.members, attributes)
                 end
             end
-            push!(res, poi)
+            res[poi.object_id] = poi
             
         end
     end
@@ -145,6 +145,6 @@ function osm_to_dict(filename::String, metadata::Dict{String, Dict{String, Strin
     #deleting the temporary file
     run(`rm -f $output_filepath`) 
     
-    return Dict{String, Vector{POIObject}}(filename => res)
+    return Dict{String, Dict{Int, POIObject}}(filename => res)
 
 end

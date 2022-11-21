@@ -10,7 +10,7 @@ end
 Metadata dictionary
 -------------------
 ```@docs
-create_poi_metadata(osm_filename::String, json_filename::String, dir::String = "datasets")
+create_poi_metadata(osm_filename::String, dir::String, json_filename::String)
 ```
 
 Parsing .osm file
@@ -28,12 +28,12 @@ osm_to_dict(filename::String, metadata::Dict{String, Dict{String, String}}, excl
 Vector of POIs
 --------------
 ```@docs
-get_coordinates_of_way(object_data::Vector{POIObject}, way::POIObject)
-get_coordinates(object_data::Vector{POIObject}, element::POIObject)
+get_coordinates_of_way(object_data::Dict{Int, POIObject}, way_id::Int)
+get_coordinates(object_data::Dict{Int, POIObject}, poi_id::Int)
 get_data_vector(metadata::Dict{String, Dict{String, String}})
 get_poi_types(metadata::Dict{String, Dict{String, String}})
-create_poi_dataset(object_data::Dict{String, Vector{POIObject}}, primary_type::String, subtype::String)
-generate_poi_vectors(osm_filename::String, poi_config::String = "POI_config.json")
+create_poi_dataset(object_data_vector::Dict{String, Dict{Int, POIObject}}, primary_type::String, subtype::String)
+generate_poi_vectors(osm_filename::String; directory = "datasets", poi_config::String = "POI_config.json")
 ```
 
 
@@ -49,6 +49,12 @@ Creating a dataframe of all POIs
 ```@docs
 columns_in_poi_vector(processed_objects_vector::Vector{Vector{ProcessedPOI}})
 create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}})
+```
+
+Creating a dataframe of all POIs from .osm file
+-----------------------------------------------
+```@docs
+create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3; directory::String = "datasets", poi_config::String = "POI_config.json")
 ```
 
 Filtering dataframe columns
