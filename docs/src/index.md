@@ -24,6 +24,7 @@ Vector of POIs
 ```@docs
 get_coordinates_of_way(object_data::Dict{Int, POIObject}, way_id::Int)
 get_coordinates(object_data::Dict{Int, POIObject}, poi_id::Int)
+delete_duplicated_elements!(processed_poi_dict::Dict{Int, ProcessedPOI}, poi::POIObject, data::Dict{Int, POIObject})
 create_poi_dataset(object_data::Dict{POITypes.POIType, Dict{Int, POIObject}})
 generate_poi_vectors(osm_filename::String, poitypes::POITypes.POIType...)
 ```

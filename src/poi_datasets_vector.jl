@@ -72,8 +72,9 @@ function get_coordinates(object_data::Dict{Int, POIObject}, poi_id::Int)::Dict{S
     return res
 end
 
+
 """
-    delete_duplicated_elements!(processed_poi_dict::Dict{Int, {ProcessedPOI}}, poi::POIObject, data::Dict{Int, POIObject})
+    delete_duplicated_elements!(processed_poi_dict::Dict{Int, ProcessedPOI}, poi::POIObject, data::Dict{Int, POIObject})
 
 Auxilary function - it mutates processed_poi_dict. Previously, the poi of type POIObject was transformed into 
 ProcessedPOI and added to the processed_poi_dict. If the processed_poi_dict already has elements that are child nodes
@@ -113,6 +114,7 @@ function delete_duplicated_elements!(processed_poi_dict::Dict{Int, ProcessedPOI}
     end
     return processed_poi_dict
 end
+
 
 ###One should think if they want to take the first node to obrain lat-lon (current solution) or maybe calculate an average
 """
