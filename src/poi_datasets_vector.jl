@@ -89,7 +89,6 @@ function delete_duplicated_elements!(processed_poi_dict::Dict{Int, ProcessedPOI}
         for node in poi.nodes
             if node in keys(processed_poi_dict)
                 delete!(processed_poi_dict, node)
-                return processed_poi_dict
             end
         end
     elseif cmp(poi.object_type, "relation") == 0
@@ -98,7 +97,6 @@ function delete_duplicated_elements!(processed_poi_dict::Dict{Int, ProcessedPOI}
                 node = parse(Int, get(member, "ref", 0))
                 if node in keys(processed_poi_dict)
                     delete!(processed_poi_dict, node)
-                    return processed_poi_dict
                 end
             elseif cmp(get(member, "type", missing), "way") == 0
                 way_id = parse(Int, get(member, "ref", 0))
@@ -106,8 +104,10 @@ function delete_duplicated_elements!(processed_poi_dict::Dict{Int, ProcessedPOI}
                 for node in way.nodes
                     if node in keys(processed_poi_dict)
                         delete!(processed_poi_dict, node)
-                        return processed_poi_dict
                     end
+                end
+                if way_id in keys(processed_poi_dict)
+                    delete!(processed_poi_dict, way_id)
                 end
             end
         end
