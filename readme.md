@@ -5,7 +5,7 @@ cd docs
 julia make.jl
 julia -e 'using LiveServer; serve(dir="build")'
 ```
-To use the package you will need to install OSMFilter: https://wiki.openstreetmap.org/wiki/Osmfilter
+To use the package you will need to install OSM Filter: https://wiki.openstreetmap.org/wiki/Osmfilter
 
 ## Basic description of the repository
 The project consists of 2 main parts:
