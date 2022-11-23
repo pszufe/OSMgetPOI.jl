@@ -4,3 +4,6 @@ Singapore.osm
 debug.jl
 test.ipynb
 test_notebook.ipynb
+tutorial.ipynb
+test/
+*.json

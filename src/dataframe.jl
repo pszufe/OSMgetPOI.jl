@@ -7,7 +7,7 @@ using DataFrames
 """
     columns(processed_objects::Vector{ProcessedPOI})::Vector{String}
 
-Auxilary function - it returns a vector of all distinct osm tag keys which are used as colnames of the df.
+Auxilary function - it returns a vector of all distinct osm tag keys which are used as colnames of the dataframe.
 Arguments:
 - `processed_objects` - vector of processed POIs of one type (output of `create_poi_dataset` function)
 """
@@ -20,7 +20,7 @@ function columns(processed_objects::Vector{ProcessedPOI})::Vector{String}
             end
         end
     end
-    column_list = append!(["primary_type", "subtype", "lat", "lon"], column_list)
+    column_list = append!(["type", "lat", "lon"], column_list)
     return column_list
 end
 
@@ -28,9 +28,9 @@ end
 """
     create_df(processed_objects::Vector{ProcessedPOI}, df_columns::Vector{String} = String[])::DataFrame
 
-Auxilary function - it returns the dataframe with processed POIs of one `primary_type` and one `subtype`
+Auxilary function - it returns the dataframe with processed POIs of one POIType
 Arguments:
-- `processed_objects` - vector of processed pois of one type (output of `create_poi_dataset`)
+- `processed_objects` - vector of processed pois of one type 
 - `df_columns` - vector of column names for the dataframe (output of `columns` function) 
 """
 function create_df(processed_objects::Vector{ProcessedPOI}, df_columns::Vector{String} = String[])::DataFrame
@@ -39,13 +39,12 @@ function create_df(processed_objects::Vector{ProcessedPOI}, df_columns::Vector{S
     else
         column_list = df_columns
     end
-    matrix = Vector{Any}(missing, length(column_list))
+    matrix = Vector{Union{String, Int, Float64, Missing}}(missing, length(column_list))
     for element in processed_objects
-        vector = Vector{Any}(missing, length(column_list))
-        vector[1] = element.primary_type
-        vector[2] = element.subtype
-        vector[3] = element.lat
-        vector[4] = element.lon
+        vector = Vector{Union{String, Int, Float64, Missing}}(missing, length(column_list))
+        vector[1] = element.type
+        vector[2] = element.lat
+        vector[3] = element.lon
         tags = element.tags
         for (key, value) in tags
             if key in column_list
@@ -98,19 +97,8 @@ Arguments:
 - `processed_objects_vector` - vector of processed pois of all types (output of generate_poi_vectors)
 """
 function columns_in_poi_vector(processed_objects_vector::Vector{Vector{ProcessedPOI}})::Vector{String}
-    all_columns = String[]
-    for element in processed_objects_vector
-        columns_of_df = columns(element)
-        if length(all_columns) == 0
-            append!(all_columns, columns_of_df)
-        else
-            for column in columns_of_df
-                if column ∉ all_columns
-                    push!(all_columns, column)
-                end
-            end
-        end
-    end
+    vector_of_columns = map(columns, processed_objects_vector)
+    all_columns = unique(vcat(vector_of_columns...))
     return all_columns
 end
 
@@ -118,18 +106,15 @@ end
 """
     create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}}, threshold::Float64 = 0.3)::DataFrame
 
-Main function - it returns the dataframe of all POIs of all configured `primary_types` and `subtypes`
+Main function - it returns the dataframe of all POIs of all configured POITypes
 Arguments:
-- `processed_objects_vector` - the vector of processed pois of all types (output of `generate_poi_vectors`)
-- `threshold` - a minimum fraction of non-missing values in a column 
+- `processed_objects_vector` - the vector of processed pois of all POITypes
+- `threshold` - a minimum fraction of non-missing values in a column
 """
 function create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}}, threshold::Float64 = 0.3)::DataFrame
-    res_df = DataFrame()
     all_columns = columns_in_poi_vector(processed_objects_vector)
-    for element in processed_objects_vector
-        df = create_df(element, all_columns)
-        append!(res_df, df)
-    end
+    dataframes = map(processed_objects -> create_df(processed_objects, all_columns), processed_objects_vector)
+    res_df = vcat(dataframes...)
     filtered_df = filter_columns_by_threshold(res_df, threshold)
     return filtered_df
 end
@@ -140,47 +125,17 @@ end
 #####################################################################
 
 """
-    create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3; directory::String = "datasets", poi_config::String = "POI_config.json")::DataFrame
+    create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3, poitypes::POITypes.POIType...)::DataFrame
 
-Main function - it returns the dataframe of all POIs of all configured `primary_types` and `subtypes` from the .osm file.
+Main function - it returns the dataframe of all POIs of all configured POITypes from the .osm file.
 
 Arguments:
-- `osm_filename` - name of .osm file from which the POIs are processed and generated
-- `directory` - directory where the .osm file is located
-- `poi_config` - a JSON file with configuration of the POIs that are to be generated.
+- `osm_filename` - path to .osm file from which the POIs are processed and generated
 - `threshold` - a minimum fraction of non-missing values in a column 
+- `poitypes` - all POITypes, for which the dataframe should be generated
 """
-function create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3; directory::String = "datasets", poi_config::String = "POI_config.json")::DataFrame
-    processed_poi_vectors = generate_poi_vectors(osm_filename, directory = directory, poi_config = poi_config)
+function create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3, poitypes::POITypes.POIType...)::DataFrame
+    processed_poi_vectors = generate_poi_vectors(osm_filename, poitypes...)
     poi_df = create_poi_df(processed_poi_vectors, threshold)
     return poi_df
 end
-
-
-
-#The below function is not used at all - but was not deleted from the package in case it is needed one day
-"""
-    filter_columns_by_colnames(dframe::DataFrame, colnames::Vector{String} = String[])::DataFrame
-
-Main function - it filters columns of the poi dataframe and returns dataframe with defined colnames
-Arguments:
-- `dframe` - a DataFrame with POIs
-- `colnames` - vector of columns in output dataframe
-"""
-function filter_columns_by_colnames(dframe::DataFrame, colnames::Vector{String} = String[])
-    df = DataFrame()
-    column_names = ["primary_type", "subtype", "lat", "lon"]
-    for name in colnames
-        if !(name in column_names)
-            push!(column_names, name)
-        end
-    end
-    for column in column_names
-        if column in names(dframe)
-            df."new_col" = dframe[!, "$column"]
-            rename!(df, "new_col" => "$column")
-        end
-    end
-    return df
-end
-

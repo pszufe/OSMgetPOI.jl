@@ -1,4 +1,4 @@
-### Documentation
+## Documentation
 To run Documenter.jl documentation locally, please open the OSMgetPOI directory and run the following shell commands:
 ```
 cd docs
@@ -7,33 +7,17 @@ julia -e 'using LiveServer; serve(dir="build")'
 ```
 To use the package you will need to install OSMFilter: https://wiki.openstreetmap.org/wiki/Osmfilter
 
-### Basic description of the repository
-The project consists of 3 main parts:
-- `/datasets` directory:
-    - you can download and save there .osm files from https://download.bbbike.org/osm/bbbike/ for further processing
-    - there is a file `POI_config.json` which you can edit to generate the types of POIs that you're interested in
+## Basic description of the repository
+The project consists of 2 main parts:
 - `/src` directory where the source code is located. The source code contains the following key functions:
     - `create_df_from_osm_file` - it parses the .osm file from function argument and returns a Julia DataFrame with all the processed POIs. The dataframe may be used for further analysis or easily exported into CSV file.
     - other main functions - described in the documentation
- - `tutorial.ipynb` and `demo.ipynb` - jupyter notebooks which show how the package works.
-
-
-### Generating .csv with POIs for Beijing and for Warsaw
-1. Download .osm files for Warsaw and Beijing from https://download.bbbike.org/osm/bbbike/ and save into `/datasets`.
-2. Open jupyter notebook `tutorial.ipynb` and run all of the cells.
-3. The .csv with POIs will be generated in `/output_csv` directory.
-
-
-### Generating POIs for cities other than Beijing and Warsaw
-1. Download .osm file for a selected city from https://download.bbbike.org/osm/bbbike/ and save in `/datasets` directory.
-2. Go to `tutorial.ipynb` and run function `generate_poi_vectors("city_name.osm")` where city_name.osm is the name of your .osm file.
-3. Run the rest of cells from Jupyter Notebook (change variable names). The POIs will be generated in `/output_csv` directory.
-
-### Adding new types and subtypes of POIs for a selected city (e.g. Beijing)
-1. Update the file `POI_config.json` with new POI types. 
-4. Run jupyter notebook `tutorial.ipynb.`
+ - `demo.ipynb` - jupyter notebooks which show how the package works.
 
 #### Proposed POI types and osmfilter queries:
+
+The package supports the POI Types shown the table below. To add your own POITypes, go to `src/POITypes`.
+
 | primary_type 	| subtype 	| query 	|
 |---	|---	|---	|
 | education 	| kindergarden 	| "--keep= \" amenity=kindergarten \"" 	|
