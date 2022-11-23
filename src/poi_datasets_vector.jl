@@ -72,6 +72,47 @@ function get_coordinates(object_data::Dict{Int, POIObject}, poi_id::Int)::Dict{S
     return res
 end
 
+"""
+    delete_duplicated_elements!(processed_poi_dict::Dict{Int, {ProcessedPOI}}, poi::POIObject, data::Dict{Int, POIObject})
+
+Auxilary function - it mutates processed_poi_dict. Previously, the poi of type POIObject was transformed into 
+ProcessedPOI and added to the processed_poi_dict. If the processed_poi_dict already has elements that are child nodes
+of poi, then these child elements are deleted from processed_poi_dict.
+Arguments: 
+- `processed_poi_dict` - a vector of ProcessedPOIs
+- `poi` - a POIObject which we are transorming into ProcessedPOI. 
+- `data` - a POIobject dataset
+"""
+function delete_duplicated_elements!(processed_poi_dict::Dict{Int, ProcessedPOI}, poi::POIObject, data::Dict{Int, POIObject})
+    if cmp(poi.object_type, "way") == 0
+        for node in poi.nodes
+            if node in keys(processed_poi_dict)
+                delete!(processed_poi_dict, node)
+                return processed_poi_dict
+            end
+        end
+    elseif cmp(poi.object_type, "relation") == 0
+        for member in poi.members
+            if cmp(get(member, "type", missing), "node") == 0
+                node = parse(Int, get(member, "ref", 0))
+                if node in keys(processed_poi_dict)
+                    delete!(processed_poi_dict, node)
+                    return processed_poi_dict
+                end
+            elseif cmp(get(member, "type", missing), "way") == 0
+                way_id = parse(Int, get(member, "ref", 0))
+                way = get(data, way_id, missing)
+                for node in way.nodes
+                    if node in keys(processed_poi_dict)
+                        delete!(processed_poi_dict, node)
+                        return processed_poi_dict
+                    end
+                end
+            end
+        end
+    end
+    return processed_poi_dict
+end
 
 ###One should think if they want to take the first node to obrain lat-lon (current solution) or maybe calculate an average
 """
@@ -88,7 +129,7 @@ function create_poi_dataset(object_data::Dict{POITypes.POIType, Dict{Int, POIObj
     poitype = collect(keys(object_data))[1]
     data = get(object_data, poitype, missing)
     
-    res = Vector{ProcessedPOI}()
+    res = Dict{Int, ProcessedPOI}()
     for (poi_id, poi) in data
 
         #if the element (object) has tags 
@@ -101,10 +142,14 @@ function create_poi_dataset(object_data::Dict{POITypes.POIType, Dict{Int, POIObj
             processed_poi.lat = get(coordinates, "lat", 0)
             processed_poi.lon = get(coordinates, "lon", 0)
             if processed_poi.lat != 0 && processed_poi.lon != 0
-                push!(res, processed_poi)
+                res[processed_poi.object_id] = processed_poi
             end
+            
+            delete_duplicated_elements!(res, poi, data) #delete duplicated POIs
+
         end
     end
+    res = collect(values(res))
     return res
 end
 
