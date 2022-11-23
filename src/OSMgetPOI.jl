@@ -11,6 +11,6 @@ module OSMgetPOI
     using DataFrames
     using LightXML
     using JSON3
-    export filter_columns_by_threshold, create_poi_df, create_df_from_osm_file #functions
+    export filter_columns_by_threshold, create_poi_df, get_poi_df #functions
 
 end # module

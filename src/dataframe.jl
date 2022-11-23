@@ -134,7 +134,7 @@ Arguments:
 - `threshold` - a minimum fraction of non-missing values in a column 
 - `poitypes` - all POITypes, for which the dataframe should be generated
 """
-function create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3, poitypes::POITypes.POIType...)::DataFrame
+function get_poi_df(osm_filename::String, threshold::Float64 = 0.3, poitypes::POITypes.POIType...)::DataFrame
     processed_poi_vectors = generate_poi_vectors(osm_filename, poitypes...)
     poi_df = create_poi_df(processed_poi_vectors, threshold)
     return poi_df
