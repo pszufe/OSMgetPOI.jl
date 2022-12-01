@@ -10,7 +10,8 @@ To use the package you will need to install OSM Filter: https://wiki.openstreetm
 ## Basic description of the repository
 The project consists of 2 main parts:
 - `/src` directory where the source code is located. The source code contains the following key functions:
-    - `create_df_from_osm_file` - it parses the .osm file from function argument and returns a Julia DataFrame with all the processed POIs. The dataframe may be used for further analysis or easily exported into CSV file.
+    - `download_bbbike_file` and `download_geofabrik_file` - to download and unzip .osm files
+    - `get_poi_df` - it parses the .osm file from function argument and returns a Julia DataFrame with all the processed POIs. The dataframe may be used for further analysis or easily exported into CSV file.
     - other main functions - described in the documentation
  - `demo.ipynb` - jupyter notebooks which show how the package works.
 
