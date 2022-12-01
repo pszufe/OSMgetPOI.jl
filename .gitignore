@@ -7,3 +7,4 @@ test_notebook.ipynb
 tutorial.ipynb
 test/
 *.json
+*.osm

@@ -5,12 +5,18 @@ module OSMgetPOI
     include("osm_parser.jl")
     include("poi_datasets_vector.jl")
     include("dataframe.jl")
+    include("download.jl")
 
 
     using .POITypes
     using DataFrames
     using LightXML
     using JSON3
-    export filter_columns_by_threshold, create_poi_df, get_poi_df #functions
+    using Downloads
+    using TranscodingStreams
+    using CodecZlib 
+    using LightXML 
+    using CodecBzip2
+    export get_poi_df, download_bbbike_file, download_geofabrik_file #functions
 
 end # module

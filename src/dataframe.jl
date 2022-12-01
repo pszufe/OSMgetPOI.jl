@@ -106,7 +106,7 @@ end
 """
     create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}}, threshold::Float64 = 0.3)::DataFrame
 
-Main function - it returns the dataframe of all POIs of all configured POITypes
+Auxilary function - it returns the dataframe of all POIs of all configured POITypes
 Arguments:
 - `processed_objects_vector` - the vector of processed pois of all POITypes
 - `threshold` - a minimum fraction of non-missing values in a column
