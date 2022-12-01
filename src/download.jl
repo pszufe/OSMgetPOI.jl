@@ -1,8 +1,8 @@
-using Downloads
 using TranscodingStreams
 using CodecZlib 
 using LightXML 
 using CodecBzip2
+using Downloads
 
 function download_bbbike_file(url::String; directory = "datasets", filename::String = "file")
     
