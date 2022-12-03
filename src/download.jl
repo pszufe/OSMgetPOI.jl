@@ -4,6 +4,16 @@ using LightXML
 using CodecBzip2
 using Downloads
 
+
+"""
+    download_bbbike_file(url::String; directory = "datasets", filename::String = "file")
+
+Main function - it downloads a .gz file from bbbike and unzips it.
+Arguments:
+- `url` - url link to the .gz file on bbbike website
+- `directory` - directory to store the unzipped file
+- `filename` - name for the unzipped file. Defaults to "file" (file name is then file.osm)
+"""
 function download_bbbike_file(url::String; directory = "datasets", filename::String = "file")
     
     #download file
@@ -27,6 +37,15 @@ function download_bbbike_file(url::String; directory = "datasets", filename::Str
 end 
 
 
+"""
+    download_geofabrik_file(url::String; directory = "datasets", filename::String = "file")
+
+Main function - it downloads a .bz2 file from geofabrik and unzips it.
+Arguments:
+- `url` - url link to the .bz2 file on geofabrik website
+- `directory` - directory to store the unzipped file
+- `filename` - name for the unzipped file. Defaults to "file" (file name is then file.osm)
+"""
 function download_geofabrik_file(url::String; directory = "datasets", filename::String = "file")
 
     #download file

@@ -7,6 +7,15 @@ DocTestSetup = quote
 end
 ```
 
+
+Downloading files
+-----------------
+```@docs
+download_bbbike_file(url::String; directory = "datasets", filename::String = "file")
+download_geofabrik_file(url::String; directory = "datasets", filename::String = "file")
+```
+
+
 Parsing .osm file
 -----------------
 ```@docs
@@ -41,17 +50,17 @@ Creating a dataframe of all POIs
 --------------------------------
 ```@docs
 columns_in_poi_vector(processed_objects_vector::Vector{Vector{ProcessedPOI}})
-create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}}, threshold::Float64 = 0.3)
+create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}}, threshold::Float64 = 1.0, columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"])
 ```
 
 Creating a dataframe of all POIs from .osm file
 -----------------------------------------------
 ```@docs
-create_df_from_osm_file(osm_filename::String, threshold::Float64 = 0.3, poitypes::POITypes.POIType...)
+get_poi_df(osm_filename::String, threshold::Float64 = 1.0, columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"], poi_types::POITypes.POIType ...)
 ```
 
 Filtering dataframe columns
 ---------------------------
 ```@docs
-filter_columns_by_threshold(dframe::DataFrame, threshold::Float64 = 0.5)
+filter_columns(dframe::DataFrame, threshold::Float64 = 1.0, columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"])
 ```

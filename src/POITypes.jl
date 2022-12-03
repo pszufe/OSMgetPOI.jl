@@ -31,7 +31,7 @@ module POITypes
     const healthcare_pharmacy = POIType("--keep= \" amenity=pharmacy \"", "healthcare_pharmacy")
     const healthcare_hospital = POIType("--keep= \" amenity=hospital \"", "healthcare_hospital")
     
-    #entertainment_cinemaandarts
+    #entertainment
     const entertainment_cinemaandarts = POIType("--keep= \" amenity=cinema =theatre =arts_centre \"", "entertainment_cinemaandarts")
     const entertainment_club = POIType("--keep= \" amenity=nightclub \"", "entertainment_club")
     

@@ -93,12 +93,12 @@ function delete_duplicated_elements!(processed_poi_dict::Dict{Int, ProcessedPOI}
         end
     elseif cmp(poi.object_type, "relation") == 0
         for member in poi.members
-            if cmp(get(member, "type", missing), "node") == 0
+            if cmp(get(member, "poi_type", missing), "node") == 0
                 node = parse(Int, get(member, "ref", 0))
                 if haskey(processed_poi_dict, node)
                     delete!(processed_poi_dict, node)
                 end
-            elseif cmp(get(member, "type", missing), "way") == 0
+            elseif cmp(get(member, "poi_type", missing), "way") == 0
                 way_id = parse(Int, get(member, "ref", 0))
                 way = get(data, way_id, missing)
                 for node in way.nodes
@@ -128,8 +128,8 @@ Arguments:
 function create_poi_dataset(object_data::Dict{POITypes.POIType, Dict{Int, POIObject}})::Vector{ProcessedPOI}
 
     #get the Dict{Int, Vector{POIObject}} generated from osm_to_dict
-    poitype = collect(keys(object_data))[1]
-    data = get(object_data, poitype, missing)
+    poi_type = collect(keys(object_data))[1]
+    data = get(object_data, poi_type, missing)
     
     res = Dict{Int, ProcessedPOI}()
     for (poi_id, poi) in data
@@ -139,7 +139,7 @@ function create_poi_dataset(object_data::Dict{POITypes.POIType, Dict{Int, POIObj
             processed_poi = ProcessedPOI()
             processed_poi.object_id = poi.object_id
             processed_poi.tags = poi.tags
-            processed_poi.type = poitype.name
+            processed_poi.poi_type = poi_type.name
             coordinates = get_coordinates(data, poi_id)
             processed_poi.lat = get(coordinates, "lat", 0)
             processed_poi.lon = get(coordinates, "lon", 0)
@@ -157,18 +157,18 @@ end
 
 
 """
-    generate_poi_vectors(osm_filename::String, poitypes::POITypes.POIType...)::Vector{Vector{ProcessedPOI}}
+    generate_poi_vectors(osm_filename::String, poi_types::POITypes.POIType...)::Vector{Vector{ProcessedPOI}}
 
 High level function - returns the vector of processed poi datasets.
 Each dataset is of a different POIType defined in the function arguments and is represented by a vector of ProcessedPOIs.
 Arguments:
 - `osm_filename` - name of .osm file from which the POIs are processed and generated
-- `poitypes` - all POITypes, for which the dataframe should be generated
+- `poi_types` - all POITypes, for which the dataframe should be generated
 """
-function generate_poi_vectors(osm_filename::String, poitypes::POITypes.POIType...)::Vector{Vector{ProcessedPOI}}
+function generate_poi_vectors(osm_filename::String, poi_types::POITypes.POIType...)::Vector{Vector{ProcessedPOI}}
 
-    object_data_tuple = map(poitype -> osm_to_dict(osm_filename, poitype), poitypes)    #returns ::NTuple{N, Dict{POITypes.POIType, Dict{Int, POIObject}}} where N is number of poitypes
-    processed_poi_tuple = map(create_poi_dataset, object_data_tuple)                    #returns ::NTuple{N, Vector{ProcessedPOI}} where N is number of poitypes
+    object_data_tuple = map(poi_type -> osm_to_dict(osm_filename, poi_type), poi_types)    #returns ::NTuple{N, Dict{POITypes.POIType, Dict{Int, POIObject}}} where N is number of poi_types
+    processed_poi_tuple = map(create_poi_dataset, object_data_tuple)                    #returns ::NTuple{N, Vector{ProcessedPOI}} where N is number of poi_types
     res = collect(processed_poi_tuple)
     
     return res

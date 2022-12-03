@@ -16,7 +16,7 @@ end
 
 
 mutable struct ProcessedPOI
-    type::String
+    poi_type::String
     object_id::Int
     tags::Dict{String, String}
     lat::Float64
