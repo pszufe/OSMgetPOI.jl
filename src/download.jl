@@ -34,6 +34,7 @@ function download_bbbike_file(url::String; directory = "datasets", filename::Str
     #delete zipped file
     rm(filepath)
     print("File saved at ", target_filepath)
+    return target_filepath
 end 
 
 
@@ -66,4 +67,5 @@ function download_geofabrik_file(url::String; directory = "datasets", filename::
     #delete zipped file
     rm(filepath)
     print("File saved at ", target_filepath)
+    return target_filepath
 end 

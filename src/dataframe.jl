@@ -137,7 +137,7 @@ Arguments:
 - `poi_types` - all POITypes, for which the dataframe should be generated
 - `columns` - vector of columns that are to be included in the returned dataframe, regardless of the threshold value
 """
-function get_poi_df(osm_filename::String, threshold::Float64 = 1.0, columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"], poi_types::POITypes.POIType ...)::DataFrame
+function get_poi_df(osm_filename::String, poi_types::POITypes.POIType ...; columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"], threshold::Float64 = 1.0)::DataFrame
     processed_poi_vectors = generate_poi_vectors(osm_filename, poi_types...)
     poi_df = create_poi_df(processed_poi_vectors, threshold, columns)
     return poi_df
