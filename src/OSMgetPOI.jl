@@ -17,6 +17,8 @@ module OSMgetPOI
     using CodecZlib 
     using LightXML 
     using CodecBzip2
+    using Base
+    using HTTP
     export get_poi_df, download_bbbike_file, download_geofabrik_file #functions
 
 end # module
