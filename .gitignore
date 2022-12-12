@@ -9,3 +9,4 @@ test/
 *.json
 *.osm
 todo.txt
+build.log
