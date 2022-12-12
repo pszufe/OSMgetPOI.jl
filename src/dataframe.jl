@@ -78,7 +78,7 @@ function filter_columns(dframe::DataFrame, threshold::Float64 = 1.0, columns::Ve
     df = dframe
     for n in names(df)
         count_of_non_missing = length(collect(dropmissing(df, n)[!, n]))
-        if count_of_non_missing < threshold * nrow(df) && !(n in columns)
+        if count_of_non_missing < threshold * size(df,1) && !(n in columns)
             df = select(df, Not(n))
         end
     end

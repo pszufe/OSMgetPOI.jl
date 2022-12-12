@@ -82,7 +82,7 @@ function generate_temporary_file(osm_filename::String, poi_type::POITypes.POITyp
     input_filepath = osm_filename
     generate_file = pipeline(`osmfilter $input_filepath $osm_query`, stdout = output_filepath)
     process_time = @elapsed run(generate_file) #checking how long it takes to run this function
-    print("OSM filter process time: ", process_time, "\n")
+    #print("OSM filter process time: ", process_time, "\n")
     return output_filepath
 end
 
