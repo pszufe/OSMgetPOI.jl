@@ -127,7 +127,7 @@ end
 #####################################################################
 
 """
-    get_poi_df(osm_filename::String, threshold::Float64 = 1.0, columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"], poi_types::POITypes.POIType ...)::DataFrame
+    get_poi_df(osm_filename::String, poi_types::POITypes.POIType ...; columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"], threshold::Float64 = 1.0)
 
 Main function - it returns the dataframe of all POIs of all configured POITypes from the .osm file.
 

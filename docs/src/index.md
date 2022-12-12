@@ -11,8 +11,8 @@ end
 Downloading files
 -----------------
 ```@docs
-download_bbbike_file(url::String; directory = "datasets", filename::String = "file")
-download_geofabrik_file(url::String; directory = "datasets", filename::String = "file")
+download_bbbike_file(url::String; target_filepath::String = "datasets/file")
+download_geofabrik_file(url::String; target_filepath::String = "datasets/file")
 ```
 
 
@@ -56,7 +56,7 @@ create_poi_df(processed_objects_vector::Vector{Vector{ProcessedPOI}}, threshold:
 Creating a dataframe of all POIs from .osm file
 -----------------------------------------------
 ```@docs
-get_poi_df(osm_filename::String, threshold::Float64 = 1.0, columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"], poi_types::POITypes.POIType ...)
+get_poi_df(osm_filename::String, poi_types::POITypes.POIType ...; columns::Vector{String} = ["addr:housenumber", "addr:street", "addr:postcode", "addr:country"], threshold::Float64 = 1.0)
 ```
 
 Filtering dataframe columns
