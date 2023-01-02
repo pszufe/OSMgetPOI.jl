@@ -146,7 +146,11 @@ function osm_to_dict(osm_filename::String, poi_type::POITypes.POIType, excluded_
     end
     
     #deleting the temporary file
-    run(`rm -f $output_filepath`)
+    if Sys.isapple() || Sys.islinux()
+        run(`rm -f $output_filepath`)
+    elseif Sys.iswindows()
+        run(`del -f $output_filepath`)
+    end
     
     return Dict{POITypes.POIType, Dict{Int, POIObject}}(poi_type => res)
 
