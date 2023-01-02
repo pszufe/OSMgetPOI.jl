@@ -1,18 +1,28 @@
-## Documentation
-To run Documenter.jl documentation locally, please open the OSMgetPOI directory and run the following shell commands:
+## Installation
+If you are using macOS, you will need to install brew before installing the OSMgetPOI. You can install it at https://brew.sh/ or run the following line of code in your terminal:
 ```
-cd docs
-julia make.jl
-julia -e 'using LiveServer; serve(dir="build")'
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-Building the package may take a while - the package needs to install the OSM Filter: https://wiki.openstreetmap.org/wiki/Osmfilter
+   
+To launch the OSMgetPOI package with Julia v1.7: 
+1. Clone the repository or download it locally.
+2. Launch Julia in the OSMgetPOI directory.
+3. Run the following commands in Julia.
+```
+using Pkg
+Pkg.activate(pwd())
+Pkg.build()
+using OSMgetPOI
+```
+Building the package may take a while - the package needs to install the OSM Filter: https://wiki.openstreetmap.org/wiki/Osmfilter.
+
 
 ## Basic information
 The project consists of 2 main parts:
 - `/src` directory where the source code is located. The source code contains the following key functions:
     - `download_bbbike_file` and `download_geofabrik_file` - they download and unzip .osm files
     - `get_poi_df` - it parses the .osm file from function argument and returns a Julia DataFrame with all the processed POIs. The dataframe may be used for further analysis or easily exported into CSV file.
- - `demo.ipynb` - jupyter notebooks which show how the package works.
+ - `demo.ipynb` - jupyter notebook which shows how the package works.
 
 #### Proposed POI types and osmfilter queries:
 
@@ -49,6 +59,4 @@ The package supports the POI Types shown the table below. To add your own POITyp
 ## Remarks
 This research was funded in whole or in part by [National Science Centre,  Poland][2021/41/B/HS4/03349]. For the software’s  documentation for the purpose of Open Access, the author has applied a CC-BY public copyright licence to any Author Accepted Manuscript (AAM) version arising from this submission.  
   
-This Julia package is created by:
-- Marcin Zurek, Master student @SGH Warsaw School of Economics (github.com/mkloe)
-- Przemyslaw Szufel, Assistant Professor @SGH Warsaw School of Economics (github.com/pszufe)
+This Julia package is created by: Marcin Zurek, Master student @SGH Warsaw School of Economics (github.com/mkloe) under supervision of [Przemysław Szufel](https://szufel.pl).

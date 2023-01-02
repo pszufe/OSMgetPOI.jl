@@ -1,15 +1,19 @@
 using HTTP
 
-if Sys.iswindows()
-    download("http://m.m.i24.cc/osmfilter.exe", "deps/osmfilter.exe")
-    run(`chmod +x deps/osmfilter.exe`)
-    run(`deps/osmfilter.exe`)
+target_dir = pwd()
+if basename(target_dir) != "deps"
+    target_dir = joinpath(target_dir, "deps")
 end
 
-if Sys.islinux()
-    download("http://m.m.i24.cc/osmfilter32", "deps/osmfilter32")
-    run(`chmod +x deps/osmfilter32`)
-    run(`deps/osmfilter32`)
+if Sys.iswindows()
+    download("http://m.m.i24.cc/osmfilter.exe", joinpath(target_dir,"osmfilter.exe"))
+    run(`$(joinpath(target_dir,"osmfilter.exe"))`)
+end
+
+if Sys.islinux()  # download 64 bit version
+    download("http://m.m.i24.cc/osmfilter64", joinpath(target_dir,"osmfilter"))
+    run(`chmod +x $(joinpath(target_dir,"osmfilter"))`)
+    run(`$(joinpath(target_dir,"osmfilter"))`)
 end
 
 if Sys.isapple()
@@ -22,7 +26,7 @@ if Sys.isapple()
             run(`/usr/bin/env bash -c "curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh | /usr/bin/env bash"`)
             run(`brew install osmfilter`)
         catch e2
-            print("Please install brew on your mac to build this Julia package")
+            print("Please visit https://brew.sh/, install brew on your mac and try again building this Julia package.")
         end
     end
 end
