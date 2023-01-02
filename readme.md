@@ -14,8 +14,7 @@ Pkg.activate(pwd())
 Pkg.build()
 using OSMgetPOI
 ```
-Building the package may take a while - the package needs to install the OSM Filter: https://wiki.openstreetmap.org/wiki/Osmfilter.
-
+Note! Executing the command `Pkg.build()` will trigger downloading of the [OSMfilter](https://wiki.openstreetmap.org/wiki/Osmfilter).
 
 ## Basic information
 The project consists of 2 main parts:
