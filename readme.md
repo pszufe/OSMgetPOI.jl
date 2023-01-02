@@ -4,7 +4,7 @@ If you are using MacOS, you will need to install brew before installing the OSMg
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
    
-To launch the OSMgetPOI package with Julia v1.7 on Windows, Linux and MacOS: 
+To launch and load the OSMgetPOI module with Julia v1.7 on Windows, Linux and MacOS: 
 1. Clone the repository or download it locally.
 2. Launch Julia in the OSMgetPOI directory.
 3. Run the following commands in Julia.
