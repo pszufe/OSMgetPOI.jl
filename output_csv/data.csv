@@ -51,7 +51,7 @@ education_school,1.4290187,103.791704,80,SG,Woodlands Drive 17,737888
 education_school,1.3476733,103.717794,,,,
 education_school,1.3686157,103.9621542,15,SG,Pasir Ris Street 21,518969
 education_school,1.3430617,103.7590131,11,SG,Bukit Batok Street 25,658712
-education_school,1.3906548,103.873823,1,SG,Fernvale Lane,797701
+education_school,1.3906661,103.8738215,1,SG,Fernvale Lane,797701
 education_school,1.3832582,103.738172,7,SG,Choa Chu Kang Avenue 4,689809
 education_school,1.3500698,103.875052,417,,Serangoon Central,550417
 education_school,1.4417767,103.7872193,5,SG,Woodlands Street 81,738525
@@ -110,7 +110,7 @@ education_school,1.3461092,103.8465071,,,,
 education_school,1.3115908,103.786376,,,,
 education_school,1.3290687,103.8483752,,,,
 education_school,1.3242311,103.9512555,1,SG,Jalan Langgar Bedok,468585
-education_school,1.3731823,103.878715,11,SG,Lor Napiri,547532
+education_school,1.3733661,103.8786571,11,SG,Lor Napiri,547532
 education_school,1.4665101,103.7571657,,,Jalan Abdul Rahman Andak,80100
 education_school,1.3928661,103.8937999,,,,
 education_school,1.2963281,103.792939,,,,
@@ -134,7 +134,7 @@ education_school,1.3943096,103.7435283,11,SG,Choa Chu Kang Street 52,689285
 education_school,1.2976133,103.7936335,,,,
 education_school,1.3000677,103.7987907,300,SG,Tanglin Halt Road,148812
 education_school,1.3530131,103.8338711,,,,
-education_school,1.3899089,103.8774803,21,SG,Fernvale Link,797702
+education_school,1.3899104,103.8775137,21,SG,Fernvale Link,797702
 education_school,1.3614398,103.9548789,21,SG,Tampines Street 45,529093
 education_school,1.32903,103.8887157,107,SG,Circuit Road,379481
 education_school,1.3045674,103.81195,19,,Harding Road,
@@ -162,7 +162,7 @@ education_school,1.3651998,103.7495481,3,SG,Bukit Batok Street 34,659322
 education_school,1.4062209,103.9018483,,,,
 education_school,1.3368348,103.8681612,,,,
 education_school,1.3767595,103.7517167,,,,
-education_school,1.3905546,103.8748439,7,SG,Fernvale Road,797635
+education_school,1.3905669,103.874848,7,SG,Fernvale Road,797635
 education_school,1.3836353,103.7592492,31,SG,Senja Road,677742
 education_school,1.3548291,103.8844295,,,,
 education_school,1.3166571,103.9181045,,,Frankel Avenue,
@@ -239,7 +239,6 @@ education_school,1.3162542,103.937887,5,,Sennett Road,466781
 education_school,1.3693787,103.8365763,2,SG,Ang Mo Kio Street 21,569384
 education_school,1.3685489,103.8417081,6,SG,Ang Mo Kio Street 22,569362
 education_school,1.3486683,103.7415808,30,,Bukit Batok West Avenue 3,659163
-education_school,1.3037337,103.7761324,,,,
 education_school,1.3601317,103.8545309,5,,Ang Mo Kio Avenue 10,569739
 education_school,1.39343,103.903738,80,SG,Rivervale Drive,545092
 education_school,1.4361916,103.9300579,,,Jalan Pangkalan 13,
@@ -414,7 +413,7 @@ education_school,1.307426,103.7689117,,,,
 education_school,1.3165855,103.8737802,1208,SG,Upper Boon Keng Road,387312
 education_school,1.3296173,103.7246741,3,,Hu Ching Road,619651
 education_school,1.3958481,103.8922107,,,,
-education_school,1.3850407,103.8910031,150,SG,Compassvale Bow,544822
+education_school,1.3850272,103.8909902,150,SG,Compassvale Bow,544822
 education_school,1.3386754,103.7762823,7,SG,Pei Wah Avenue,597610
 education_school,1.3790448,103.8430007,3063,SG,Ang Mo Kio Avenue 5,569868
 education_school,1.3771692,103.9383575,60,SG,Pasir Ris Drive 1,519524
@@ -590,7 +589,7 @@ education_school,1.3491628,103.8860847,296,SG,Lor Ah Soo,536742
 education_school,1.4699881,103.9410624,,,,81700
 education_school,1.3728033,103.8581221,8,SG,Ang Mo Kio Street 54,569185
 education_school,1.4647611,103.7386313,,,Jalan Sungai Chat,80100
-education_school,1.3122627,103.9016518,51,SG,Koon Seng Road,427072
+education_school,1.312269,103.9016668,51,SG,Koon Seng Road,427072
 education_school,1.3214328,103.8797793,1,,Aljunied Walk,387293
 education_school,1.3820945,103.7548466,38,SG,Teck Whye Crescent,688945
 education_school,1.3132087,103.7561065,50,SG,West Coast Avenue,128104
@@ -736,7 +735,7 @@ education_school,1.3231682,103.8645559,91,SG,Bendemeer Road,339948
 education_school,1.3190138,103.9167892,20,SG,Siglap View,455789
 transport_busstop,1.4133976,103.6609111,,,,
 transport_busstop,1.2625704,103.8210599,,,,
-transport_busstop,1.3836035,103.8927494,,,Sengkang Central,545061
+transport_busstop,1.3832768,103.8928379,,,Sengkang Central,545061
 transport_busstop,1.2982313,103.8496411,31,,Bencoolen Street,189658
 transport_busstop,1.3485428,103.6811253,,,,
 transport_busstop,1.3385504,103.7058124,,,,
@@ -865,7 +864,6 @@ transport_busstop,1.4629737,103.7646343,,,,
 transport_busstop,1.302392,103.874423,,,,
 transport_busstop,1.2628182,103.8205143,,,,
 transport_busstop,1.3273599,103.8827553,60,,Merpati Road,
-transport_busstop,1.382934,103.8929258,,,,
 transport_busstop,1.3186363,103.8921881,,,,
 transport_busstop,1.3892176,103.9874404,,,,
 transport_busstop,1.2811717,103.8448139,,,,
@@ -1027,7 +1025,7 @@ transport_busstop,1.3289111,103.8358177,,,,
 transport_busstop,1.3120385,103.837221,,,,
 transport_busstop,1.2572088,103.811429,,,,
 transport_busstop,1.3114669,103.8713388,,,,
-transport_busstop,1.4632592,103.7649023,,,,
+transport_busstop,1.4632803,103.7648345,,,,
 transport_busstop,1.2539153,103.8194525,,,,
 transport_busstop,1.3784994,103.7628833,,SG,,
 transport_busstop,1.4693668,103.6866859,,,,
@@ -1063,6 +1061,7 @@ transport_busstop,1.3490572,103.7495906,10,,Bukit Batok Central,659958
 transport_busstop,1.3610209,103.9918185,,,,
 transport_busstop,1.3734193,104.0062022,,,,
 transport_busstop,1.4361402,103.7843054,,,,
+transport_busstop,1.2928864,103.8326468,,,,
 transport_busstop,1.3919037,103.8762794,10,,Fernvale Road,797698
 transport_busstop,1.25143,103.8185436,,SG,,
 transport_busstop,1.3421495,103.9609545,690,,Upper Changi Road East,
@@ -1127,6 +1126,7 @@ cuisine_restaurant,1.3911091,103.8761135,33,,Sengkang West Avenue,797653
 cuisine_restaurant,1.315933,103.8576666,,,Race Course Road,
 cuisine_restaurant,1.3023368,103.8763362,,,,
 cuisine_restaurant,1.2930399,103.8572655,,,,
+cuisine_restaurant,1.3050546,103.9033248,,,,
 cuisine_restaurant,1.4310111,103.8282168,,,,
 cuisine_restaurant,1.2884575,103.849229,,,,
 cuisine_restaurant,1.278328,103.8438981,63,SG,Tanjong Pagar Road,088484
@@ -1312,6 +1312,7 @@ cuisine_restaurant,1.3633811,103.8657643,,,Serangoon Garden Way,
 cuisine_restaurant,1.3058888,103.8293823,581,,Orchard Road,238883
 cuisine_restaurant,1.3921661,103.8949259,,,,
 cuisine_restaurant,1.2979605,103.8571079,,,,
+cuisine_restaurant,1.2791317,103.8433991,,,,
 cuisine_restaurant,1.3934169,103.9177197,,,,
 cuisine_restaurant,1.3674052,103.8395715,,,,
 cuisine_restaurant,1.2757437,103.8495323,,,,
@@ -1319,6 +1320,7 @@ cuisine_restaurant,1.2893451,103.8155797,,,,
 cuisine_restaurant,1.3148081,103.894839,,,,
 cuisine_restaurant,1.3658708,103.7502344,,,,
 cuisine_restaurant,1.4778574,103.7675273,,,,
+cuisine_restaurant,1.3330211,103.6494248,,,,
 cuisine_restaurant,1.3074499,103.85827,,,,
 cuisine_restaurant,1.3694904,103.8489951,,,,
 cuisine_restaurant,1.2936708,103.859488,,,,
@@ -1514,6 +1516,7 @@ cuisine_restaurant,1.2930053,103.8588437,,,,
 cuisine_restaurant,1.2643356,103.8203415,,,,
 cuisine_restaurant,1.2940193,103.7847262,,,,
 cuisine_restaurant,1.3533421,103.9543382,,,,
+cuisine_restaurant,1.3326776,103.678567,,,,
 cuisine_restaurant,1.4539388,103.7776831,,,,
 cuisine_restaurant,1.2645488,103.82009,,,,
 cuisine_restaurant,1.3013588,103.9128947,1000,SG,East Coast Parkway,449876
@@ -1690,6 +1693,7 @@ cuisine_restaurant,1.4695773,103.617445,,,,
 cuisine_restaurant,1.3576092,103.7506387,,,,
 cuisine_restaurant,1.2748788,103.7953668,,,Pasir Panjang Road,
 cuisine_restaurant,1.416418,103.902118,,,,
+cuisine_restaurant,1.3211421,103.66131,,,,
 cuisine_restaurant,1.3599806,103.9894274,,,,
 cuisine_restaurant,1.3076847,103.8578359,,,Syed Alwi Road,
 cuisine_restaurant,1.3008105,103.8516751,200,,Middle Road,188980
@@ -1781,6 +1785,7 @@ cuisine_restaurant,1.3134256,103.8531551,,,Worchester Road,
 cuisine_restaurant,1.3343251,103.6433119,26,SG,Tuas Avenue 7,
 cuisine_restaurant,1.3080263,103.8526338,3,,Belilios Road,219924
 cuisine_restaurant,1.2981394,103.8564147,18,,Liang Seah Street,189039
+cuisine_restaurant,1.2781398,103.844478,,,,
 cuisine_restaurant,1.3067696,103.7884371,1,SG,Vista Exchange Green,150162
 cuisine_restaurant,1.286482,103.804596,120,,Jalan Bukit Merah,150120
 cuisine_restaurant,1.2648062,103.8204787,,,,
@@ -1799,6 +1804,7 @@ cuisine_restaurant,1.3008715,103.8518649,,,,
 cuisine_restaurant,1.279631,103.8472561,21,SG,McCallum Street,069047
 cuisine_restaurant,1.3190832,103.8632249,,,,
 cuisine_restaurant,1.385183,103.9013526,,,,
+cuisine_restaurant,1.2789768,103.8450349,,,,
 cuisine_restaurant,1.3226175,103.8137249,10,,Jalan Serene #01-04,258748
 cuisine_restaurant,1.3539518,103.7185013,,,,
 cuisine_restaurant,1.4234404,103.8409027,,,Yishun Avenue 4,
@@ -1947,7 +1953,7 @@ cuisine_restaurant,1.3044199,103.7818084,,,,
 cuisine_restaurant,1.354601,103.8303447,,,,
 cuisine_restaurant,1.3010404,103.8356234,,,,
 cuisine_restaurant,1.3449084,103.6798638,,,,
-cuisine_restaurant,1.4634062,103.7623325,,,Jalan Wong Ah Fook,
+cuisine_restaurant,1.463362,103.7622574,,,Jalan Wong Ah Fook,
 cuisine_restaurant,1.2894092,103.8562016,,,,
 cuisine_restaurant,1.3132001,103.8825804,,,,
 cuisine_restaurant,1.2802691,103.8532418,,,,
@@ -1961,6 +1967,7 @@ cuisine_restaurant,1.3721355,103.845696,,,Ang Mo Kio,
 cuisine_restaurant,1.2873363,103.8313906,,,Jalan Bukit Ho Swee,
 cuisine_restaurant,1.3404245,103.706438,,,,
 cuisine_restaurant,1.3780771,103.8493526,,,,
+cuisine_restaurant,1.2796497,103.8433409,,,,
 cuisine_restaurant,1.3055021,103.8528995,111,,Dunlop Street,209423
 cuisine_restaurant,1.3029709,103.8507047,,,,
 cuisine_restaurant,1.2891409,103.8465754,,,,
@@ -2002,6 +2009,7 @@ cuisine_restaurant,1.425447,103.8444995,,,,
 cuisine_restaurant,1.3916707,103.8795453,,,,
 cuisine_restaurant,1.3239999,103.8652175,,,,
 cuisine_restaurant,1.2803423,103.8479608,13,SG,Stanley Street,068732
+cuisine_restaurant,1.2778315,103.844408,,,,
 cuisine_restaurant,1.3071208,103.9064243,,,,428897
 cuisine_restaurant,1.3162524,103.8533901,,,Rangoon Road,
 cuisine_restaurant,1.2930154,103.8586877,,,,
@@ -2260,10 +2268,11 @@ cuisine_restaurant,1.2647805,103.8211328,,,,
 cuisine_restaurant,1.2998495,103.855584,,,,
 cuisine_restaurant,1.3146219,103.8930908,,,,
 cuisine_restaurant,1.2755226,103.8435592,165,SG,Tanjong Pagar Road,088539
+cuisine_restaurant,1.279281,103.8429041,,,,
 cuisine_restaurant,1.3978698,103.8732644,248,,Jalan Kayu,
 cuisine_restaurant,1.3809719,103.8409463,,,,
 cuisine_restaurant,1.3840326,103.9744801,64,,Loyang Way,
-cuisine_restaurant,1.3055213,103.9041169,,,,
+cuisine_restaurant,1.3055213,103.9041169,91,,East Coast Road,428791
 cuisine_restaurant,1.2872082,103.8513023,,,,
 cuisine_restaurant,1.3883342,103.987625,,,,
 cuisine_restaurant,1.3012518,103.8380205,,,,
@@ -2390,12 +2399,14 @@ cuisine_restaurant,1.3720854,103.8937885,,,,
 cuisine_restaurant,1.3123129,103.8606758,,,,
 cuisine_restaurant,1.3079723,103.8853963,,,,
 cuisine_restaurant,1.3207663,103.7473471,,,,
+cuisine_restaurant,1.3117801,103.8632974,,,,
 cuisine_restaurant,1.2928945,103.8593074,,,,
 cuisine_restaurant,1.3588854,103.8441686,284,,Bishan Street 22,570284
 cuisine_restaurant,1.3113699,103.8570718,,,,
 cuisine_restaurant,1.2831203,103.8533783,,,,
 cuisine_restaurant,1.3211032,103.8527268,,,Balestier Road,
 cuisine_restaurant,1.302793,103.8341779,,,,
+cuisine_restaurant,1.278279,103.8438824,65,SG,Tanjong Pagar Road,
 cuisine_restaurant,1.2564517,103.8200773,,,,
 cuisine_restaurant,1.351262,103.933926,,,Tampines Street 83,
 cuisine_restaurant,1.2807548,103.8504081,,,,
@@ -2435,6 +2446,7 @@ cuisine_restaurant,1.3114857,103.7946807,23,,Lorong Mambong,
 cuisine_restaurant,1.3008124,103.9059681,,,,
 cuisine_restaurant,1.3465248,103.6807566,,,,
 cuisine_restaurant,1.3820941,103.9478979,201,,Pasir Ris Road,519147
+cuisine_restaurant,1.3295399,103.6521968,,,,
 cuisine_restaurant,1.3502031,103.8482765,,,,
 cuisine_restaurant,1.3407743,103.7744453,,,Jalan Seh Chuan,
 cuisine_restaurant,1.4502058,103.7961927,,,Woodlands Industrial Park E7,
@@ -2601,7 +2613,7 @@ cuisine_restaurant,1.3545466,103.8302516,,,,
 cuisine_restaurant,1.2803147,103.8475419,161,SG,Telok Ayer Street,068615
 cuisine_restaurant,1.3711136,103.8634077,,,,
 cuisine_restaurant,1.3343667,103.889365,,,,
-cuisine_restaurant,1.3075058,103.9074853,,,East Coast Road,
+cuisine_restaurant,1.3075058,103.9074853,224,,East Coast Road,
 cuisine_restaurant,1.354548,103.8313863,,,,
 cuisine_restaurant,1.3808568,103.8792515,982,,Buangkok Crescent,530982
 cuisine_restaurant,1.2803706,103.848961,,,,
@@ -2698,6 +2710,7 @@ cuisine_restaurant,1.3109539,103.788146,20,SG,Ghim Moh Road,270020
 cuisine_restaurant,1.3028749,103.9069004,,,,
 cuisine_restaurant,1.3495845,103.7502871,,,,
 cuisine_restaurant,1.2929079,103.8591992,,,,
+cuisine_restaurant,1.3044353,103.9021744,,,,
 cuisine_restaurant,1.2918733,103.8595928,,,,
 cuisine_restaurant,1.3376525,103.7528265,44,SG,Toh Guan Road East,
 cuisine_restaurant,1.3060911,103.82865,,,,
@@ -2705,6 +2718,7 @@ cuisine_restaurant,1.3425348,103.7752463,11,SG,Cheong Chin Nam Road,599736
 cuisine_restaurant,1.363704,103.7646657,,,,
 cuisine_restaurant,1.333715,103.8509045,,,,
 cuisine_restaurant,1.3205506,103.7566145,,,,
+cuisine_restaurant,1.3216104,103.6566789,,,,
 cuisine_restaurant,1.2878838,103.8487405,,,,
 cuisine_restaurant,1.2968007,103.8995809,,,,
 cuisine_restaurant,1.3122291,103.8395664,,,,
@@ -2782,6 +2796,7 @@ cuisine_restaurant,1.3641017,103.865182,76,,Serangoon Garden Way,
 cuisine_restaurant,1.4797507,103.6837589,,,,
 cuisine_restaurant,1.4792095,103.6496289,,,,
 cuisine_restaurant,1.2914331,103.8497667,,,,
+cuisine_restaurant,1.2782723,103.8443246,,,,
 cuisine_restaurant,1.3923312,103.89497,1,,Sengkang Square,545078
 cuisine_restaurant,1.2995701,103.7979572,,,,
 cuisine_restaurant,1.2776582,103.8428471,,,,
@@ -2938,6 +2953,7 @@ cuisine_restaurant,1.406868,103.901879,,,,
 cuisine_restaurant,1.3105383,103.9462428,1300,SG,East Coast Parkway,468964
 cuisine_restaurant,1.4595025,103.7632337,,,,
 cuisine_restaurant,1.3041311,103.8321841,2,,Orchard Turn,238801
+cuisine_restaurant,1.2893736,103.8561955,,,,
 cuisine_restaurant,1.2725497,103.6374527,,,,
 cuisine_restaurant,1.2987024,103.8525706,,,Queen Street,
 cuisine_restaurant,1.2806023,103.7868907,32,,South Buona Vista Road,118161
@@ -3250,6 +3266,7 @@ cuisine_restaurant,1.2825229,103.8303558,,,Yong Siak Street,
 cuisine_restaurant,1.4354493,103.8029588,,,,
 cuisine_restaurant,1.2900318,103.816986,12,,Alexandra View,158736
 cuisine_restaurant,1.3802125,103.7640618,,,,
+cuisine_restaurant,1.345829,103.8715575,,,,
 cuisine_restaurant,1.2833026,103.8582884,,,,
 cuisine_restaurant,1.3024368,103.8769555,,,,
 cuisine_restaurant,1.3915056,103.8759637,,,,
@@ -3497,6 +3514,7 @@ cuisine_restaurant,1.3082201,103.8621111,,,,
 cuisine_restaurant,1.3501719,103.8730747,,,,
 cuisine_restaurant,1.288279,103.8474607,29,SG,Carpenter Street,059923
 cuisine_restaurant,1.332736,103.8788824,,,Upper Ajunied Road,
+cuisine_restaurant,1.3156562,103.8962235,12,,Haig Road,
 cuisine_restaurant,1.2795418,103.8467113,7,,Maxwell Road,069111
 cuisine_restaurant,1.3408943,103.9619651,"#01-204, 8",,Somapah Road,487372
 cuisine_restaurant,1.3343568,103.7390516,,,,
@@ -3549,6 +3567,7 @@ cuisine_restaurant,1.3125548,103.8782335,,,Geylang Road,
 cuisine_restaurant,1.2893541,103.8466892,,,,
 cuisine_restaurant,1.3921992,103.8952922,1,,Sengkang Square,545078
 cuisine_restaurant,1.3270478,103.9188583,,,,
+cuisine_restaurant,1.3076077,103.8582056,#01-06,,,
 cuisine_restaurant,1.3722787,103.9496864,,,,
 cuisine_restaurant,1.3167465,103.8982156,,,,
 cuisine_restaurant,1.3006388,103.8597548,,,Arab Street,
@@ -3636,6 +3655,7 @@ cuisine_restaurant,1.3521439,103.944623,,,,
 cuisine_restaurant,1.33205,103.882785,,,MacPherson Road,
 cuisine_restaurant,1.3122158,103.8766338,,,,
 cuisine_restaurant,1.4251431,103.8445258,,,,
+cuisine_restaurant,1.2778335,103.8442364,,,,
 cuisine_restaurant,1.3073322,103.9038458,,,Joo Chiat Road,
 cuisine_restaurant,1.3921865,103.8947774,1,,Sengkang Square,545078
 cuisine_restaurant,1.3510408,103.8486681,,,,
@@ -3737,6 +3757,7 @@ cuisine_restaurant,1.2649858,103.8218,VivoCity B1-38,,Harbourfront Walk,098585
 cuisine_restaurant,1.323468,103.9233602,,,,
 cuisine_restaurant,1.3421299,103.7764518,,,,
 cuisine_restaurant,1.3122215,103.8600475,24,,Foch Road,209263
+cuisine_restaurant,1.4622393,103.7639835,,,,
 cuisine_restaurant,1.3782988,103.763241,,,,
 cuisine_restaurant,1.3107934,103.8528665,,,,
 cuisine_restaurant,1.2796396,103.8398952,,,,
@@ -3793,8 +3814,9 @@ cuisine_restaurant,1.3938918,103.9132568,,,,
 cuisine_restaurant,1.3351252,103.776159,,,,
 cuisine_restaurant,1.4700429,103.6208327,,,,
 cuisine_restaurant,1.3086631,103.9114973,,,,
-cuisine_restaurant,1.3617291,103.9900775,,,,
+cuisine_restaurant,1.2779747,103.8442742,,,,
 cuisine_restaurant,1.4068746,103.9028643,,,,
+cuisine_restaurant,1.3617291,103.9900775,,,,
 cuisine_restaurant,1.3075213,103.8335553,,,,
 cuisine_restaurant,1.3095806,103.9018624,,,Onan Road,
 cuisine_restaurant,1.461315,103.744853,,,,
@@ -4036,6 +4058,7 @@ cuisine_restaurant,1.3200201,103.8434728,,,,
 cuisine_restaurant,1.3084051,103.8622273,,,,
 cuisine_restaurant,1.3628934,103.8883374,1022,,Upper Serangoon Road,534760
 cuisine_restaurant,1.3128384,103.9247833,907,SG,East Coast Road,459107
+cuisine_restaurant,1.3890699,103.988457,2,,Changi Village Road,500002
 cuisine_restaurant,1.3097481,103.8553942,,,Syed Alwi Road,
 cuisine_restaurant,1.3001238,103.8559594,,,,
 cuisine_restaurant,1.2799704,103.8432917,,,,
@@ -4062,6 +4085,7 @@ cuisine_restaurant,1.3092091,103.7811442,,,,
 cuisine_restaurant,1.3149438,103.8949366,,,,
 cuisine_restaurant,1.3114149,103.8561473,,,,
 cuisine_restaurant,1.3133311,103.7632207,,,Clementi Avenue 3,
+cuisine_restaurant,1.2781078,103.8442918,,,,
 cuisine_restaurant,1.3510873,103.8486158,,,,
 cuisine_restaurant,1.333145,103.7434464,50,,Jurong Gateway Road,608549
 cuisine_restaurant,1.3041405,103.787121,3,,Rochester Park,139214
@@ -4129,6 +4153,7 @@ cuisine_restaurant,1.3913013,103.8761499,,,,
 cuisine_restaurant,1.3133518,103.8602813,,,,
 cuisine_restaurant,1.3373631,103.6975103,,,,
 cuisine_restaurant,1.3354956,103.9639317,,,,
+cuisine_restaurant,1.3116101,103.8630845,,,,
 cuisine_restaurant,1.3016065,103.9053948,,,,
 cuisine_restaurant,1.2788617,103.8438036,66,SG,Tanjong Pagar Road,088487
 cuisine_restaurant,1.4787091,103.7663378,,,,
@@ -4159,6 +4184,7 @@ cuisine_restaurant,1.3972808,103.8728057,273,,Jalan Kayu,
 cuisine_restaurant,1.2888591,103.8454229,20,,Merchant Road,178882
 cuisine_restaurant,1.3130239,103.8605569,,,,
 cuisine_restaurant,1.3119156,103.8632965,2,SG,Kallang Avenue,339407
+cuisine_restaurant,1.27925,103.8428564,,,,
 cuisine_restaurant,1.2817326,103.8476898,,,Boon Tat Street,
 cuisine_restaurant,1.2436123,103.8290396,,,,
 cuisine_restaurant,1.2820504,103.8447323,8,SG,Smith Street,058922
@@ -4167,7 +4193,7 @@ cuisine_restaurant,1.2875769,103.8485252,,,,
 cuisine_restaurant,1.2794739,103.8416436,6,SG,Keong Saik Road,089114
 cuisine_restaurant,1.4415331,103.8238588,,,,
 cuisine_restaurant,1.3111358,103.8592218,,,Jalan Besar,
-cuisine_restaurant,1.4634329,103.7622701,,,,
+cuisine_restaurant,1.4633243,103.7622862,,,,
 cuisine_restaurant,1.2782263,103.8438656,67,SG,Tanjong Pagar Road,088488
 cuisine_restaurant,1.2638784,103.8204579,,,,
 cuisine_restaurant,1.311971,103.8759592,,,Geylang Road,
@@ -4228,6 +4254,7 @@ cuisine_restaurant,1.3097159,103.9020824,,,,
 cuisine_restaurant,1.3507457,103.8718247,,,,
 cuisine_restaurant,1.2964202,103.7802918,,,,
 cuisine_restaurant,1.3264674,103.8443323,,,Balestier Road,
+cuisine_restaurant,1.4493447,103.8227586,,,,
 cuisine_restaurant,1.3733978,103.9494502,,,,
 cuisine_restaurant,1.306174,103.8909353,,,,
 cuisine_restaurant,1.2798732,103.8476753,3,SG,Stanley Street,
@@ -4268,6 +4295,7 @@ cuisine_restaurant,1.2909162,103.8579625,,,,
 cuisine_restaurant,1.3146382,103.8945456,,,,
 cuisine_restaurant,1.3257481,103.8497223,412,,Balestier Road,329805
 cuisine_restaurant,1.3268252,103.8465593,20,,Ah Hood Road,329984
+cuisine_restaurant,1.2779909,103.8431517,,,Duxton Road,
 cuisine_restaurant,1.2798518,103.8419649,12,SG,Jiak Chuan Road,089265
 cuisine_restaurant,1.3087991,103.9027322,,,Joo Chiat Road,
 cuisine_restaurant,1.3348165,103.7952683,,,,
@@ -4305,6 +4333,7 @@ cuisine_restaurant,1.324616,103.9299709,,,,
 cuisine_restaurant,1.3159165,103.8668384,26A,,Kallang Place,
 cuisine_restaurant,1.3189555,103.9110484,,,Changi Road,
 cuisine_restaurant,1.2912432,103.8582487,6,SG,Raffles Boulevard,039594
+cuisine_restaurant,1.2779133,103.8431146,61,,Duxton Road,
 cuisine_restaurant,1.3108384,103.8565917,,,,
 cuisine_restaurant,1.2861761,103.8541849,1,,Fullerton Road,049213
 cuisine_restaurant,1.3198047,103.8437199,,,,
@@ -4378,6 +4407,7 @@ cuisine_restaurant,1.3199223,103.8437961,,,,
 cuisine_restaurant,1.2955162,103.8583219,,,,
 cuisine_restaurant,1.3230405,103.9127477,,,,
 cuisine_restaurant,1.3051194,103.9049221,,,,
+cuisine_restaurant,1.309745,103.9020169,,,,
 cuisine_restaurant,1.2875089,103.8051593,,,,
 cuisine_restaurant,1.2747147,103.8437219,,,,
 cuisine_restaurant,1.3141419,103.9195764,,,Frankel Avenue,
@@ -4405,6 +4435,7 @@ cuisine_restaurant,1.2808187,103.8421005,39,,Kreta Ayer Road,089002
 cuisine_restaurant,1.2763219,103.8356102,79,SG,Kampong Bahru Road,169377
 cuisine_restaurant,1.2470611,103.8421012,,,,
 cuisine_restaurant,1.3027091,103.8347966,,,,
+cuisine_restaurant,1.2775464,103.8431971,3,SG,Craig Road,
 cuisine_restaurant,1.4451255,103.6002403,,,,
 cuisine_restaurant,1.3469031,103.6800377,,,,
 cuisine_restaurant,1.4726005,103.6740154,,,,
@@ -4412,7 +4443,7 @@ cuisine_restaurant,1.3534782,103.943372,,,,
 cuisine_restaurant,1.2938475,103.8593334,,,,
 cuisine_restaurant,1.2975217,103.8496312,,,,
 cuisine_restaurant,1.3128114,103.9246076,907,SG,East Coast Road,459107
-cuisine_restaurant,1.3890834,103.9780346,200,,Netheravon Road,
+cuisine_restaurant,1.389125,103.9779059,200,,Netheravon Road,
 cuisine_restaurant,1.2916589,103.8496755,,,,
 cuisine_restaurant,1.4038583,103.793522,,,,
 cuisine_restaurant,1.3505083,103.8489859,,,,
@@ -4437,6 +4468,7 @@ cuisine_restaurant,1.3240762,103.8141232,,,,
 cuisine_restaurant,1.3543654,103.8301526,,,,
 cuisine_restaurant,1.3343063,103.7430765,,,,
 cuisine_restaurant,1.3896623,103.8927994,,,,
+cuisine_restaurant,1.2780658,103.8442787,,,,
 cuisine_restaurant,1.3770367,103.7645097,,,,
 cuisine_restaurant,1.3853983,103.7450113,,,,
 cuisine_restaurant,1.3069995,103.8954191,,,,
@@ -4485,6 +4517,7 @@ cuisine_restaurant,1.283942,103.8473889,,,,
 cuisine_restaurant,1.3049559,103.85229,13,,Dalhousie Lane,209682
 cuisine_restaurant,1.3183471,103.8436827,,,,
 cuisine_restaurant,1.3422465,103.7761691,144,SG,Upper Bukit Timah Road,588177
+cuisine_restaurant,1.3148936,103.8984038,,,,
 cuisine_restaurant,1.3296354,103.6812592,,,,
 cuisine_restaurant,1.2917077,103.8494989,,,,
 cuisine_restaurant,1.3723034,103.9498682,,,,
@@ -4550,6 +4583,7 @@ cuisine_restaurant,1.3797294,103.887702,,,,
 cuisine_restaurant,1.2982226,103.8561624,,,,
 cuisine_restaurant,1.2746183,103.8437051,,,,
 cuisine_restaurant,1.3061106,103.8318689,1,,Scotts Road,228208
+cuisine_restaurant,1.2747583,103.7908656,,,,
 cuisine_restaurant,1.2960226,103.8542164,,,,
 cuisine_restaurant,1.3109098,103.794894,,,,
 cuisine_restaurant,1.3424608,103.9532523,,,,
@@ -4595,7 +4629,6 @@ cuisine_restaurant,1.3337143,103.7958687,,,,
 cuisine_restaurant,1.3339748,103.9647893,,,,
 cuisine_restaurant,1.340476,103.8465359,,,,
 cuisine_restaurant,1.3912154,103.8758837,,,,
-cuisine_restaurant,1.3219164,103.8500894,,,,
 cuisine_restaurant,1.3267839,103.8438153,1 #01-09,,Jalan Dusun,
 cuisine_restaurant,1.2808194,103.8232944,,,,
 cuisine_restaurant,1.3081431,103.8511883,,,,
@@ -4622,6 +4655,7 @@ cuisine_restaurant,1.2841464,103.8590779,,,,
 cuisine_restaurant,1.2875604,103.8492867,,,,
 cuisine_restaurant,1.2634924,103.8207546,,,,
 cuisine_restaurant,1.350235,103.8731127,,,,
+cuisine_restaurant,1.2777769,103.8442175,,,,
 cuisine_restaurant,1.3142988,103.8575178,,,Serangoon Road,
 cuisine_restaurant,1.4417453,103.8314326,,,,
 cuisine_restaurant,1.2822242,103.8420243,283,,,
@@ -4670,6 +4704,7 @@ cuisine_restaurant,1.282286,103.8476737,,,,
 cuisine_restaurant,1.2834006,103.8488154,,,,
 cuisine_restaurant,1.4402485,103.8011513,,,,
 cuisine_restaurant,1.3237608,103.9236963,,,,
+cuisine_restaurant,1.2777282,103.8442143,,,,
 cuisine_restaurant,1.2844978,103.8498627,,,,
 cuisine_restaurant,1.4022344,103.9012381,,,,
 cuisine_restaurant,1.4714334,103.7365424,36A,,Jalan Kolam Ayer,80200
@@ -4700,6 +4735,7 @@ cuisine_restaurant,1.2760656,103.8456709,,,,
 cuisine_restaurant,1.3115949,103.7948582,24A,,Lorong Mambong,277683
 cuisine_restaurant,1.3589571,103.7520798,,,,
 cuisine_restaurant,1.2866797,103.8422941,,,,
+cuisine_restaurant,1.3875087,103.7609508,,,,
 cuisine_restaurant,1.2806688,103.85015,18,SG,Raffles Quay,048582
 cuisine_restaurant,1.2649725,103.8200025,,,,
 cuisine_restaurant,1.3092434,103.8537388,,,,
@@ -4709,7 +4745,7 @@ cuisine_restaurant,1.4059093,103.9022968,,,,
 cuisine_restaurant,1.4030412,103.9131705,,,,
 cuisine_restaurant,1.3009805,103.8359134,,,,
 cuisine_restaurant,1.4761482,103.7419658,,,Jalan Abdul Samad,80100
-cuisine_restaurant,1.3074794,103.9074411,,,East Coast Road,
+cuisine_restaurant,1.3074794,103.9074411,222,,East Coast Road,
 cuisine_restaurant,1.4584857,103.8370834,,,,
 cuisine_restaurant,1.2755274,103.7956062,100,,Pasir Panjang Road,118518
 cuisine_restaurant,1.373567,103.9515012,,,,
@@ -4780,8 +4816,9 @@ cuisine_restaurant,1.315844,103.8046429,19,,Leedon Heights,266227
 cuisine_restaurant,1.3120106,103.9222123,,,East Coast Road,
 cuisine_restaurant,1.3317621,103.8433205,,,,
 cuisine_restaurant,1.3065868,103.8282448,1,,Tanglin Road,247905
-cuisine_restaurant,1.3022813,103.8402209,39 & 41,,Cuppage Road,229462
+cuisine_restaurant,1.2794089,103.8423632,,,,
 cuisine_restaurant,1.2833765,103.8460726,,,South Bridge Road,
+cuisine_restaurant,1.3022813,103.8402209,39 & 41,,Cuppage Road,229462
 cuisine_restaurant,1.2640789,103.8126059,2,,Keppel Bay Vista,098382
 cuisine_restaurant,1.3066221,103.7871798,10A,,Rochester Park,139258
 cuisine_restaurant,1.2907462,103.8519927,1,SG,St Andrew's Road,178957
@@ -4795,6 +4832,7 @@ cuisine_restaurant,1.287499,103.8487558,,,,
 cuisine_restaurant,1.2793579,103.8436701,44,SG,Tanjong Pagar Road,088465
 cuisine_restaurant,1.4078558,103.7574694,,,,
 cuisine_restaurant,1.2740068,103.8427196,,,,
+cuisine_restaurant,1.4621763,103.7640117,,,,
 cuisine_restaurant,1.440455,103.8391798,289,,,
 cuisine_restaurant,1.2871381,103.8346101,,,,
 cuisine_restaurant,1.257258,103.820563,,,,
@@ -4875,6 +4913,7 @@ cuisine_restaurant,1.3043243,103.8544114,,,,
 cuisine_restaurant,1.3308349,103.8546267,,,,
 cuisine_restaurant,1.4180449,103.9012316,,,,
 cuisine_restaurant,1.2758072,103.7914871,121,,Pasir Panjang Road,118543
+cuisine_restaurant,1.3213504,103.8527099,221,,Balestier Road,
 cuisine_restaurant,1.3113405,103.8745673,161,,Lorong 3 Geylang,
 cuisine_restaurant,1.2935547,103.8534831,#B1-38,,Raffles City,179103
 cuisine_restaurant,1.3150956,103.8947217,,,,
@@ -4921,6 +4960,7 @@ cuisine_restaurant,1.2908091,103.8575241,,,,
 cuisine_restaurant,1.3423546,103.9531135,,,,
 cuisine_restaurant,1.3083611,103.7622894,,,Taman Mas Merah,
 cuisine_restaurant,1.2809898,103.8456662,24,SG,Ann Siang Road,069689
+cuisine_restaurant,1.2776342,103.8441918,,,,
 cuisine_restaurant,1.403653,103.7904212,80,,"Mandai Lake Road, River Safari",729826
 cuisine_restaurant,1.3096448,103.854375,,,,
 cuisine_restaurant,1.3058904,103.8506812,,,,
@@ -4990,6 +5030,7 @@ cuisine_restaurant,1.2843435,103.8498255,,,Phillip Street,
 cuisine_restaurant,1.3088833,103.8513626,,,,
 cuisine_restaurant,1.3227899,103.9220562,750A,SG,Chai Chee Road,469001
 cuisine_restaurant,1.2802118,103.8474868,,,,
+cuisine_restaurant,1.2783163,103.8445113,,,,
 cuisine_restaurant,1.35011,103.8730533,,,,
 cuisine_restaurant,1.2932496,103.8564305,,,,
 cuisine_restaurant,1.391285,103.8763064,,,,
@@ -5039,6 +5080,7 @@ cuisine_restaurant,1.3426286,103.9528352,,,,
 cuisine_restaurant,1.33259,103.847618,,,,
 cuisine_restaurant,1.3087972,103.8573346,,,Jalan Besar,
 cuisine_restaurant,1.2915355,103.8553137,,,,
+cuisine_restaurant,1.3269353,103.9330113,,,,
 cuisine_restaurant,1.301117,103.8494527,,,,
 cuisine_restaurant,1.3474357,103.7120693,,,,
 cuisine_restaurant,1.3493948,103.8483127,,,,
@@ -5459,7 +5501,7 @@ cuisine_restaurant,1.3994469,103.8179249,928,SG,Upper Thomson Road,
 cuisine_restaurant,1.3072235,103.8580853,,,Townshend Road,
 cuisine_restaurant,1.3081007,103.8858041,,,,
 cuisine_restaurant,1.4715688,103.6544764,,,,
-cuisine_restaurant,1.3055681,103.90419,,,East Coast Road,
+cuisine_restaurant,1.3055419,103.9041549,93,,East Coast Road,
 cuisine_restaurant,1.2767997,103.8452233,,,,
 cuisine_restaurant,1.3092868,103.8557553,,,Syed Alwi Road,
 cuisine_restaurant,1.2863746,103.8542368,,,,
@@ -5568,6 +5610,7 @@ cuisine_restaurant,1.3426956,103.9527253,,,,
 cuisine_restaurant,1.2999437,103.8448848,,,,
 cuisine_restaurant,1.3008124,103.9059681,,,,
 cuisine_restaurant,1.3067557,103.8578571,,,,
+cuisine_restaurant,1.2791757,103.8449532,,,,
 cuisine_restaurant,1.3316053,103.80756,,,,
 cuisine_restaurant,1.2983647,103.7891231,,,,
 cuisine_restaurant,1.3083958,103.7845209,,,,271029
@@ -5592,6 +5635,7 @@ cuisine_restaurant,1.3583469,103.874772,100,,Yio Chu Kang Road,
 cuisine_restaurant,1.3148575,103.8949039,,,,
 cuisine_restaurant,1.2649958,103.8214606,,,,
 cuisine_restaurant,1.3015251,103.85962,,,,
+cuisine_restaurant,1.3088321,103.9027081,,,,
 cuisine_restaurant,1.3071905,103.7931399,43,,Holland Drive,270043
 cuisine_restaurant,1.3191781,103.9124325,,,Changi Road,
 cuisine_restaurant,1.4497552,103.791504,,,Woodlands Industrial Park E5,
@@ -5615,7 +5659,6 @@ cuisine_restaurant,1.2981221,103.8388258,107,,Killiney Road,
 cuisine_restaurant,1.3098487,103.8552882,,,Syed Alwi Road,
 cuisine_restaurant,1.3723286,103.8935641,,,,
 cuisine_restaurant,1.3005658,103.8389156,277,,Orchard Road,238858
-cuisine_restaurant,1.3002714,103.8526169,,,,
 cuisine_restaurant,1.3912297,103.8760082,,,,
 cuisine_restaurant,1.3507636,103.8717451,,,,
 cuisine_restaurant,1.317406,103.87878,,,Sims Drive,380046
@@ -5818,6 +5861,7 @@ cuisine_restaurant,1.2825624,103.8455752,,,South Bridge Road,
 cuisine_restaurant,1.3403169,103.7066105,,,,
 cuisine_restaurant,1.3053166,103.8602515,,,,
 cuisine_restaurant,1.3463664,103.7415893,,,,
+cuisine_restaurant,1.2780576,103.8431865,,,,
 cuisine_restaurant,1.4169055,103.9019767,,,,
 cuisine_restaurant,1.3467716,103.7549926,,,,
 cuisine_restaurant,1.2650223,103.8200245,,,,
@@ -5890,7 +5934,7 @@ cuisine_restaurant,1.2879358,103.843121,,,Havelock Road,
 cuisine_restaurant,1.2786537,103.8488053,,,,
 cuisine_restaurant,1.3018624,103.8606405,2,,Pahang Street,
 cuisine_restaurant,1.3359718,103.8890467,"18,Tai Se 01-30",,,539775
-cuisine_restaurant,1.3104526,103.9017547,,,,
+cuisine_restaurant,1.3104526,103.9017547,263,,Joo Chiat Road,427517
 cuisine_restaurant,1.2880493,103.8494786,,,,
 cuisine_restaurant,1.2940827,103.7847122,,,,
 cuisine_restaurant,1.2811314,103.8100182,108,SG,Depot Road,100108
@@ -5898,6 +5942,7 @@ cuisine_restaurant,1.3042234,103.8100325,11,SG,Dempsey Road,249673
 cuisine_restaurant,1.3378365,103.7936433,,,,
 cuisine_restaurant,1.2934938,103.7847221,,,,
 cuisine_restaurant,1.3010667,103.8383559,,,,
+cuisine_restaurant,1.2774185,103.8441696,,,,
 cuisine_restaurant,1.3059308,103.9047412,,,East Coast Road,
 cuisine_restaurant,1.3782777,103.7631123,,,,
 cuisine_restaurant,1.2566705,103.8201546,,,,
@@ -5921,7 +5966,7 @@ cuisine_restaurant,1.2858396,103.8499658,1,SG,South Canal Road,048508
 cuisine_restaurant,1.3563737,103.9893637,,,,
 cuisine_restaurant,1.3209387,103.8417845,,,,
 cuisine_restaurant,1.3072891,103.8567126,,,,
-cuisine_restaurant,1.3133774,103.8605152,,,,
+cuisine_restaurant,1.3133774,103.8605152,380,,Jalan Besar,
 cuisine_restaurant,1.3118506,103.7944342,38,,Lorong Mambong,
 cuisine_restaurant,1.2899587,103.8458766,,,,
 cuisine_restaurant,1.3058126,103.810034,17A,SG,Dempsey Road,249676
@@ -6011,6 +6056,7 @@ cuisine_restaurant,1.2843881,103.8451764,32,,Upper Cross Street,
 cuisine_restaurant,1.3305797,103.7949923,,,,
 cuisine_restaurant,1.3481438,103.7589921,,,,
 cuisine_restaurant,1.3502758,103.7190997,,,,
+cuisine_restaurant,1.2794393,103.8423908,,,,
 cuisine_restaurant,1.300725,103.8591655,,,Haji Lane,
 cuisine_restaurant,1.4164238,103.6575321,,,,
 cuisine_restaurant,1.4245528,103.6167035,,,,
@@ -6035,6 +6081,7 @@ cuisine_restaurant,1.4074131,103.8679816,,,,
 cuisine_restaurant,1.3089125,103.8562227,,,Syed Alwi Road,
 cuisine_restaurant,1.284427,103.8466869,,,,
 cuisine_restaurant,1.3128194,103.9240251,891,SG,East Coast Road,
+cuisine_restaurant,1.2791102,103.8450411,,,,
 cuisine_restaurant,1.3319152,103.6379817,29,,Tuas West Avenue,638427
 cuisine_restaurant,1.3399244,103.7741442,19,,Jalan Jurong Kechil,
 cuisine_restaurant,1.3216572,103.8457819,,,,
@@ -6042,7 +6089,7 @@ cuisine_restaurant,1.3026342,103.8652708,,,,
 cuisine_restaurant,1.3006121,103.8591825,,,Haji Lane,
 cuisine_restaurant,1.3718488,103.8936296,,,,
 cuisine_restaurant,1.3243688,103.9289015,,,,
-cuisine_restaurant,1.3104873,103.9017283,,,Joo Chiat Road,
+cuisine_restaurant,1.3104873,103.9017283,261,,Joo Chiat Road,
 cuisine_restaurant,1.2835591,103.8484517,,,,
 cuisine_restaurant,1.2847738,103.8502341,,,,
 cuisine_restaurant,1.3289022,103.8698983,,,,
@@ -6195,7 +6242,6 @@ cuisine_restaurant,1.2791052,103.8465162,7,SG,Maxwell Road,069111
 cuisine_restaurant,1.2760828,103.7931855,,,,
 cuisine_restaurant,1.2994809,103.8473809,,,,
 cuisine_restaurant,1.3339577,103.9622734,,,,
-cuisine_restaurant,1.3056707,103.9043355,,,East Coast Road,
 cuisine_restaurant,1.3296576,103.9183325,,,,
 cuisine_restaurant,1.3005693,103.8520359,190,,Middle Road,188979
 cuisine_restaurant,1.2823341,103.8459811,42,SG,Club Street,
@@ -6305,6 +6351,7 @@ cuisine_restaurant,1.3202765,103.8449787,8,,Sinaran Drive,307470
 cuisine_restaurant,1.4720295,103.7645626,,,,
 cuisine_restaurant,1.3285238,103.9351361,,,,
 cuisine_restaurant,1.4414688,103.8236973,,,,
+cuisine_restaurant,1.2773798,103.8441689,,,,
 cuisine_restaurant,1.3325237,103.885071,554,,MacPherson Road,368230
 cuisine_restaurant,1.2765526,103.8460667,,,,
 cuisine_restaurant,1.2959941,103.854895,,,,
@@ -6373,7 +6420,7 @@ cuisine_restaurant,1.3311723,103.9019142,,,Ubi Avenue 2,
 cuisine_restaurant,1.3258475,103.8742249,,,,
 cuisine_restaurant,1.3035023,103.7924495,,,,
 cuisine_restaurant,1.3029469,103.8591214,,,North Bridge Road,
-cuisine_restaurant,1.3863603,103.8934109,,,,
+cuisine_restaurant,1.3863295,103.8933336,,,,
 cuisine_restaurant,1.3776248,103.772728,,,,
 cuisine_restaurant,1.3069152,103.7886102,,,,
 cuisine_restaurant,1.2899305,103.817205,12,,Alexandra View,158736
@@ -6509,6 +6556,7 @@ cuisine_restaurant,1.36194,103.8516363,,,,
 cuisine_restaurant,1.3924194,103.8948403,,,,
 cuisine_restaurant,1.371668,103.8291932,16,SG,Jalan Leban,
 cuisine_restaurant,1.3047747,103.90416,,,,
+cuisine_restaurant,1.305435,103.9039777,,,East Coast Road,
 cuisine_restaurant,1.3923524,103.8952659,1,,Sengkang Square,545078
 cuisine_restaurant,1.3119842,103.8393295,,,,
 cuisine_restaurant,1.2885152,103.805055,01-09/10,,,
@@ -6698,6 +6746,7 @@ cuisine_restaurant,1.3545656,103.8313644,,,,
 cuisine_restaurant,1.3005138,103.8593309,,,,
 cuisine_restaurant,1.2987101,103.8393672,73,SG,Killiney Road,
 cuisine_restaurant,1.3118196,103.7952745,277,,Holland Avenue,278994
+cuisine_restaurant,1.2784542,103.8433849,,,Duxton Road,
 cuisine_restaurant,1.3097286,103.8544343,,,,
 cuisine_restaurant,1.3047324,103.8539443,,,,
 cuisine_restaurant,1.3690933,103.8476574,,,,
