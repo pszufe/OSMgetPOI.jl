@@ -1,10 +1,10 @@
 ## Installation
-If you are using macOS, you will need to install brew before installing the OSMgetPOI. You can install it at https://brew.sh/ or run the following line of code in your terminal:
+If you are using MacOS, you will need to install brew before installing the OSMgetPOI. You can install it at https://brew.sh/ or run the following line of code in your terminal:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
    
-To launch the OSMgetPOI package with Julia v1.7: 
+To launch the OSMgetPOI package with Julia v1.7 on Windows, Linux and MacOS: 
 1. Clone the repository or download it locally.
 2. Launch Julia in the OSMgetPOI directory.
 3. Run the following commands in Julia.
