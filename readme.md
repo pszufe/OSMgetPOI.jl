@@ -17,7 +17,6 @@ julia> using OSMgetPOI
 julia> osm_file = download_bbbike_file("https://download.bbbike.org/osm/bbbike/Victoria/Victoria.osm.gz"; target_filepath = tempname())
 Downloading file...
 File downloaded. Unzipping file...
-File saved at C:\Users\pszuf\AppData\Local\Temp\jl_rYB8fwPyjo.osm"C:\\Users\\pszuf\\AppData\\Local\\Temp\\jl_rYB8fwPyjo.osm"
 
 julia> data = get_poi_df(osm_file, OSMgetPOI.POITypes.education_school, OSMgetPOI.POITypes.transport_busstop, OSMgetPOI.POITypes.cuisine_restaurant)
 625×7 DataFrame
