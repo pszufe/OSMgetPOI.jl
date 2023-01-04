@@ -87,7 +87,7 @@ function generate_temporary_file(osm_filename::String, poi_type::POITypes.POITyp
         generate_file = pipeline(`$osmfiler_path $input_filepath $osm_query`, stdout = output_filepath)
     elseif Sys.islinux()
         osmfiler_path = "."*joinpath(pathof(OSMgetPOI),"..","..","deps","osmfilter")
-        generate_file = pipeline(`.$osmfiler_path $input_filepath $osm_query`, stdout = output_filepath)
+        generate_file = pipeline(`$osmfiler_path $input_filepath $osm_query`, stdout = output_filepath)
     end
     process_time = @elapsed run(generate_file) #checking how long it takes to run this function
     #print("OSM filter process time: ", process_time, "\n")
