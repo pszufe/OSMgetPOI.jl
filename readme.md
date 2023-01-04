@@ -7,7 +7,7 @@ If you are using MacOS, you will need to install brew before installing the OSMg
 To launch and load the OSMgetPOI module with Julia v1.7 or Julia 1.8.3 on Windows, Linux and MacOS: 
 ```
 using Pkg
-Pkg.add("https://github.com/mkloe/OSMgetPOI")
+Pkg.add("https://github.com/mkloe/OSMgetPOI.jl")
 ```
 **Note that post installation build will trigger downloading of the [OSMfilter](https://wiki.openstreetmap.org/wiki/Osmfilter) binary file.**
 
