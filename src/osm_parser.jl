@@ -82,7 +82,7 @@ function generate_temporary_file(osm_filename::String, poi_type::POITypes.POITyp
     input_filepath = osm_filename
     if Sys.isapple() 
         generate_file = pipeline(`osmfilter $input_filepath $osm_query`, stdout = output_filepath)
-    elseif Sys.iswindows() || Sys.islinux()
+    elseif Sys.iswindows() 
         osmfiler_path = joinpath(pathof(OSMgetPOI),"..","..","deps","osmfilter")
         generate_file = pipeline(`$osmfiler_path $input_filepath $osm_query`, stdout = output_filepath)
     elseif Sys.islinux()
