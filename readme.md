@@ -4,18 +4,34 @@ If you are using MacOS, you will need to install brew before installing the OSMg
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
    
-To launch and load the OSMgetPOI module with Julia v1.7 on Windows, Linux and MacOS: 
-1. Clone the repository or download it locally.
-2. Launch Julia in the OSMgetPOI directory.
-3. Run the following commands in Julia.
+To launch and load the OSMgetPOI module with Julia v1.7 or Julia 1.8.3 on Windows, Linux and MacOS: 
 ```
 using Pkg
-Pkg.activate(pwd())
-Pkg.build()
-using OSMgetPOI
+Pkg.add("https://github.com/mkloe/OSMgetPOI")
 ```
-**Executing the command** `Pkg.build()` **will trigger downloading of the [OSMfilter](https://wiki.openstreetmap.org/wiki/Osmfilter) binary file.**
+**Note that post installation build will trigger downloading of the [OSMfilter](https://wiki.openstreetmap.org/wiki/Osmfilter) binary file.**
 
+## Quick start:
+```
+julia> using OSMgetPOI
+julia> osm_file = download_bbbike_file("https://download.bbbike.org/osm/bbbike/Victoria/Victoria.osm.gz"; target_filepath = tempname())
+Downloading file...
+File downloaded. Unzipping file...
+File saved at C:\Users\pszuf\AppData\Local\Temp\jl_rYB8fwPyjo.osm"C:\\Users\\pszuf\\AppData\\Local\\Temp\\jl_rYB8fwPyjo.osm"
+
+julia> data = get_poi_df(osm_file, OSMgetPOI.POITypes.education_school, OSMgetPOI.POITypes.transport_busstop, OSMgetPOI.POITypes.cuisine_restaurant)
+625×7 DataFrame
+ Row │ poi_type            lat      lon       addr:street         addr:housenumber  addr:postcode  addr:country
+     │ Any                 Any      Any       Any                 Any               Any            Any
+─────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────
+   1 │ education_school    48.4716  -123.321  Gordon Head Road    3970              missing        missing
+   2 │ education_school    48.4272  -123.359  missing             missing           missing        missing
+   3 │ education_school    48.4632  -123.408  Burnside Road West  957               missing        missing
+  ⋮  │         ⋮              ⋮        ⋮              ⋮                  ⋮                ⋮             ⋮
+ 623 │ cuisine_restaurant  48.4244  -123.369  Langley Street      1005              missing        missing
+ 624 │ cuisine_restaurant  48.45    -123.426  Admirals Road       1517              V9A 2P8        missing
+ 625 │ cuisine_restaurant  48.4286  -123.368  missing             missing           missing        missing
+```
 ## Basic information
 The project consists of 2 main parts:
 - `/src` directory where the source code is located. The source code contains the following key functions:
