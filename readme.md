@@ -1,5 +1,5 @@
 ## Installation
-If you are using MacOS, you will need to install Homebrew before installing the OSMgetPOI. You can install it at https://brew.sh/ or run the following line of code in your terminal:
+If you are using MacOS, you will need to install Homebrew before installing the OSMgetPOI. You can find instrusctions at https://brew.sh/ or just run the following line of code in your terminal:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
