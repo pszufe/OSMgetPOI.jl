@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/653876730.svg)](https://zenodo.org/badge/latestdoi/653876730)
+
+
 ## Installation
 If you are using MacOS, you will need to install Homebrew before installing the OSMgetPOI. You can find instrusctions at https://brew.sh/ or just run the following line of code in your terminal:
 ```
