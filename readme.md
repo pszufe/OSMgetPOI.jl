@@ -73,4 +73,5 @@ The package supports the POI Types shown the table below. To add your own POITyp
 ## Remarks
 This research was funded in whole or in part by [National Science Centre,  Poland][2021/41/B/HS4/03349]. For the software’s  documentation for the purpose of Open Access, the author has applied a CC-BY public copyright licence to any Author Accepted Manuscript (AAM) version arising from this submission.  
   
-This Julia package is created by: Marcin Zurek, Master student @SGH Warsaw School of Economics (github.com/mkloe) under supervision of [Przemysław Szufel](https://szufel.pl).
+This Julia package is created by: Marcin Zurek @SGH Warsaw School of Economics (github.com/mkloe). The original repository repository was at https://github.com/mkloe/OSMgetPOI.jl.
+
